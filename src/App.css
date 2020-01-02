@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 30vh;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+  color: white;
+}
+
+.content {
+  float: right ;
+  width: 80% ;
+}
+.navbar {
+  float: right;
+  width: 20%;
+}

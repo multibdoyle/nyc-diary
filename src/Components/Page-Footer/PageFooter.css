@@ -1,0 +1,8 @@
+.page-footer {
+    background-color:white;
+    padding: 25px;
+    min-height: 5vh;
+    flex-direction: column;
+    color: black;
+    font-size:10px
+  }

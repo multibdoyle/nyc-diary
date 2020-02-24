@@ -22,40 +22,43 @@ import NavBar from './Components/NavBar/NavBar'
 import AppBar from '@material-ui/core/AppBar';
 import ButtonAppBar from './Components/AppBar/AppBar'
 import Drawer from '@material-ui/core/Drawer';
+import GetinTouch from './Components/Posts/GetinTouch';
+import AboutMe from './Components/Posts/AboutMe'
+import PageFooter from './Components/Page-Footer/PageFooter'
 // or
 //import { Drawer } from '@material-ui/core';
 
-const AppBarIcon= () => (
-  <AppBar
-    title="Title"
-    iconClassNameRight="muidocs-icon-navigation-expand-more"
-  />
-);
+
+
+
+const MenuLink = ({ to, name }) => {
+  return (
+    <div className="navButtonContainer">
+      <Link to={to}>
+        <button type="button" className="navButtonBody">
+          {name}
+        </button>
+      </Link>
+    </div>
+  )
+}
+
 
 
 export default function App(props) {
-  console.log('hello')
   return (
     <Router>
-        <div class="column">
-      <div class="row">
     <div className="App">
-      <header className='App-header'>
        <PageHeader></PageHeader>
-       </header>
-    </div>
-    </div> </div> <div class="navbar">
-<h1>Important Links I Care Deeply About</h1>
-<ul>
-  <div>The Journey Church</div>
-  <div>My Instagram</div>
-</ul>
-</div>
+  </div> 
     <Switch>
 <Route exact path="/" component={PageBody} />
 <Route path="/cookies" component={CookiesPost} />
 <Route path='/genetics' component={GeneticsPost} />
+<Route path='/about-me' component={AboutMe} />
+<Route path ='/get-in-touch' component={GetinTouch} />
 </Switch>
+<PageFooter></PageFooter>
 </Router>
-  );
+  );  
   }

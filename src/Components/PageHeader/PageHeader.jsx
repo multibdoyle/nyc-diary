@@ -1,44 +1,62 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TransparentFunnyLogo from '../../assets/TransparentFunnyLogo.png';
-import { createMuiTheme, ThemeProvider, withTheme  } from '@material-ui/core/styles';
-import MenuAppBar from '../AppBar/MenuAppBar'
-import MenuDrawer from '../AppBar/MenuDrawer'
-//import './PageHeader.css'
-import theming from '../../themes';
 import './PageHeader.css'
+
 import { Nav, Navbar, NavItem } from "react-bootstrap"
 import { Link, withRouter } from 'react-router-dom';
 
 
-const MenuLink = ({ to, name }) => {
+
+export default function BDZPageHeader() {
   return (
-    <div className="navButtonContainer">
-      <Link to={to}>
-        <button type="button" className="navButtonBody">
-          {name}
-        </button>
-      </Link>
-    </div>
-  )
-}
+  <Navbar className='Nav' >
+<h1 id='Title' style={{
+                margin: 1,
+                top: 2,
+                right: 0,
+             bottom:20,
+                left: 0,
+                position: 'fixed', 
+       
+             
+            }}><Link to='/' >Questions</Link></h1>
+<div className='social-media' >
+<NavItem style={{
+                margin: 1,
+                top: 2,
+                right: 40,
+             bottom:20,
+                left: 'auto',
+                position: 'fixed',
+            }}>
+<Nav.Link href='https://github.com/multibdoyle/'><img src={require("../../github_logo.png")} class="img-thumbnail" alt='logo' width='25px' float='right'></img></Nav.Link>
+</NavItem>
+<NavItem style={{
+                margin: 1,
+                top: 4,
+                right: 90,
+             bottom:20,
+                left: 'auto',
+                position: 'fixed',
+            }}>
+<a href='https://www.linkedin.com/in/brendan-doyle-403ba028'><img src={require("../../linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px' float='right'></img></a>
+</NavItem>
+<NavItem style={{
+                margin: 1,
+                top: 4,
+                right: 60,
+             bottom:20,
+                left: 'auto',
+                position: 'fixed',
+            }}>
+<a href='https://www.instagram.com/multibdoyle/'><img src={require("../../instagram_logo.png")} class="img-thumbnail" alt='instagramlogo' width='25px' float='right'></img></a>
+</NavItem>
+</div>
+ </Navbar >
 
-
-class PageHeader extends React.Component 
-{ render() {
-    return (
-<div classname='page-header'>
-<h1><Link to='/' style={{ textDecoration: 'none' , color: 'black'}}>Take it EZ, BDZ</Link></h1>
-  <h2>< Link to='/' style={{ textDecoration: 'none' , color: 'black'}} name='Home'> Home </Link> + <Link to='/about-me' style={{ textDecoration: 'none', color: 'black' }} name='about-me'> About Me</Link> + <Link to='/get-in-touch' style={{ textDecoration: 'none', color: 'black' }} name='get-in-touch'>Get in Touch</Link></h2>
-  </div>
 )
 }
-}
 
-
-//<ul>
- // <div>< Link to='/' name='Home'> Home </Link> </div>
-//<div> <Link to='/about-me' name="about-me" >About Me</Link></div>
- // <div><Link to='/get-in-touch'>Get in Touch</Link></div>
-//</ul>
-export default PageHeader;
+//<img src={require("../../skeleton_praying.png")} className="Logo" alt='logo'/>
+//style={{ textDecoration: 'none' , color: 'black'}}

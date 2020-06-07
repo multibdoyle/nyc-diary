@@ -1,0 +1,20 @@
+
+   div {
+
+    background-color: rgb(231, 231, 231);
+   }
+   
+   a{
+    font-size:14px;
+        color: black;
+    text-decoration: none;
+        }
+   
+
+        div.img{
+            border: 1px solid #ddd; /* Gray border */
+            border-radius: 12   px;  /* Rounded border */
+            padding: 1.8    px; /* Some padding */
+         /*   width: 150px; /* Set a small width */
+        
+        }

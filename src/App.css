@@ -1,14 +1,9 @@
-.App {
-  text-align: center;
+div.App
+{
+background-color:   rgb(231, 231, 231);
 }
+.Navbar {
 
-
-
-.content {
-  float: right ;
-  width: 80% ;
-}
-.navbar {
-  float: right;
-  width: 20%;
+    display:grid;
+    grid-template-columns: 4fr auto 4fr;
 }

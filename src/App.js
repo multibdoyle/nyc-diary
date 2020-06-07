@@ -8,23 +8,20 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { ThemeProvider, withTheme } from '@material-ui/styles';
 import { withStyles } from '@material-ui/core/styles'; 
-import ResponsiveDrawer from './Components/ResponsiveDrawer/ResponsiveDrawer'
 import { createMuiTheme } from '@material-ui/core/styles';
 import { red, purple } from '@material-ui/core/colors';
-import PageHeader from './Components/PageHeader/PageHeader'
+//import BDZPageHeader from './Components/PageHeader/PageHeader'
 import PageBody from './Components/PageBody/PageBody'
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import CookiesPost from './Components/Posts/CookiesPost'
+import BigFatCookiePost from './Components/Posts/BigFatCookiePost'
 import GeneticsPost from './Components/Posts/GeneticsPost'
-import SearchBar from './Components/SearchBar/SearchBar'
-import MenuAppBar from './Components/AppBar/MenuAppBar'
-import NavBar from './Components/NavBar/NavBar'
-import AppBar from '@material-ui/core/AppBar';
-import ButtonAppBar from './Components/AppBar/AppBar'
-import Drawer from '@material-ui/core/Drawer';
 import GetinTouch from './Components/Posts/GetinTouch';
 import AboutMe from './Components/Posts/AboutMe'
 import PageFooter from './Components/Page-Footer/PageFooter'
+import { Nav, Navbar, NavItem } from "react-bootstrap"
+
+
 // or
 //import { Drawer } from '@material-ui/core';
 
@@ -49,11 +46,41 @@ export default function App(props) {
   return (
     <Router>
     <div className="App">
-       <PageHeader></PageHeader>
-  </div> 
+    <Navbar classname='header' style={{position: 'relative', top: -30}}>
+            <NavItem classname='title' >  <Link to='/' ><h1 style={{position: 'relative', top: 20,fontSize:35, fontFamily: 'Didot'}} align='center'
+>A New York City Diary</h1> </Link>
+            </NavItem>
+            <NavItem className='social-media'  style={{
+                position: 'relative',
+               left:1000, top:-45,       
+            }}>
+<Nav.Link href='https://github.com/multibdoyle/'><img src={require("./github_logo.png")} class="img-thumbnail" alt='logo' width='25px' float='right' style={{
+                position: 'relative',
+               left:-10,       
+            }}></img></Nav.Link>
+<Nav.Link href='https://www.linkedin.com/in/brendan-doyle-403ba028' ><img src={require("./linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px' float='right' style={{
+                position: 'relative',
+               left:-4,  
+               top:-2     
+            }}></img></Nav.Link>
+</NavItem>
+            </Navbar>
+            <Navbar>
+            <div classname='skeleton-photo' align='center'  >
+            <Link to='/' ><img  style={{
+                position: 'relative',
+              top: -75    , 
+                padding:10    
+            }}
+            src={require("./skeleton_praying.png")} class="img-thumbnail" alt='logo' width='45 px' float='right' ></img></Link>
+
+</div>
+ </Navbar>
+
+  </div>
     <Switch>
 <Route exact path="/" component={PageBody} />
-<Route path="/cookies" component={CookiesPost} />
+<Route path="/cookies" component={BigFatCookiePost} />
 <Route path='/genetics' component={GeneticsPost} />
 <Route path='/about-me' component={AboutMe} />
 <Route path ='/get-in-touch' component={GetinTouch} />
@@ -61,4 +88,13 @@ export default function App(props) {
 <PageFooter></PageFooter>
 </Router>
   );  
-  }
+  }   
+  
+  //<header className='Header'>
+ // <nav className='Nav'>
+//<a ><Link to='/' style={{ textDecoration: 'none' , color: 'black'}}>BDZ In the City</Link></a>
+//<a href='https://github.com/multibdoyle/'>GitHub Logo</a>
+//<a href='https://github.com/multibdoyle/'>LinkedIn Logo</a>
+//<a href='https://github.com/multibdoyle/'>Instagram Logo</a>
+// </nav>
+// </header>

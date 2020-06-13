@@ -1,0 +1,31 @@
+holding document
+<div className='social-media' >
+<NavItem style={{
+                margin: 1,
+                top:-28,
+                right: 0,
+         
+                left: 1050,
+             position: 'relative'
+             
+            }}>
+<Nav.Link href='https://github.com/multibdoyle/'><img src={require("./github_logo.png")} class="img-thumbnail" alt='logo' width='25px' float='right'></img></Nav.Link>
+</NavItem>
+<NavItem style={{
+                margin: 1,
+                top: -59.5,
+                right: 0,
+         
+                left: 1080,
+                position: 'relative',
+            }}>
+<Nav.Link href='https://www.linkedin.com/in/brendan-doyle-403ba028'><img src={require("./linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px' float='right'></img></Nav.Link>
+</NavItem>
+<NavItem style={{
+                margin: 1,
+                top: -89.5    ,
+                right: 0,
+           
+                left: 1108  ,
+                position: 'relative',
+            }}>

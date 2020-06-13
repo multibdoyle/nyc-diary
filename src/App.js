@@ -19,6 +19,7 @@ import GeneticsPost from './Components/Posts/GeneticsPost'
 import GetinTouch from './Components/Posts/GetinTouch';
 import AboutMe from './Components/Posts/AboutMe'
 import PageFooter from './Components/Page-Footer/PageFooter'
+import IntroPost from './Components/Posts/IntroPost'
 import { Nav, Navbar, NavItem } from "react-bootstrap"
 
 
@@ -80,7 +81,7 @@ export default function App(props) {
   </div>
     <Switch>
 <Route exact path="/" component={PageBody} />
-<Route path="/cookies" component={BigFatCookiePost} />
+<Route path="/intro" component={IntroPost} />
 <Route path='/genetics' component={GeneticsPost} />
 <Route path='/about-me' component={AboutMe} />
 <Route path ='/get-in-touch' component={GetinTouch} />

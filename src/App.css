@@ -1,9 +1,31 @@
 div.App
 {
 background-color:   rgb(231, 231, 231);
+width: 100%;
+height: 100%;
 }
 .Navbar {
 
     display:grid;
     grid-template-columns: 4fr auto 4fr;
+    
+
+   
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
 }

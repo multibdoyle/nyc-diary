@@ -53,13 +53,13 @@ export default function App(props) {
             </NavItem>
             <NavItem className='social-media'  style={{
                 position: 'relative',
-               left:1000, top:-45,       
+               left:800, top:-45,       
             }}>
-<Nav.Link href='https://github.com/multibdoyle/'><img src={require("./github_logo.png")} class="img-thumbnail" alt='logo' width='25px' float='right' style={{
+<Nav.Link href='https://github.com/multibdoyle/' target="_blank"><img src={require("./github_logo.png")} class="img-thumbnail" alt='logo' width='25px' float='right' style={{
                 position: 'relative',
                left:-10,       
             }}></img></Nav.Link>
-<Nav.Link href='https://www.linkedin.com/in/brendan-doyle-403ba028' ><img src={require("./linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px' float='right' style={{
+<Nav.Link href='https://www.linkedin.com/in/brendan-doyle-403ba028' target="_blank"><img src={require("./linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px' float='right' style={{
                 position: 'relative',
                left:-4,  
                top:-2     
@@ -73,7 +73,8 @@ export default function App(props) {
               top: -75    , 
                 padding:10    
             }}
-            src={require("./skeleton_praying.png")} class="img-thumbnail" alt='logo' width='45 px' float='right' ></img></Link>
+            src={require("./skeleton_praying.png")} class="img-thumbnail" alt='logo' width='45 px'
+             float='right' ></img></Link>
 
 </div>
  </Navbar>

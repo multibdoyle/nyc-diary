@@ -21,14 +21,16 @@ import AboutMe from './Components/Posts/AboutMe'
 import PageFooter from './Components/Page-Footer/PageFooter'
 import IntroPost from './Components/Posts/IntroPost'
 import { Nav, Navbar, NavItem } from "react-bootstrap"
+import ReactGA from 'react-ga';
 
 
 // or
 //import { Drawer } from '@material-ui/core';
 
-
-
-
+function initializeReactGA() {
+  ReactGA.initialize('UA-169387969-1');
+  ReactGA.pageview('/homepage');
+}
 const MenuLink = ({ to, name }) => {
   return (
     <div className="navButtonContainer">

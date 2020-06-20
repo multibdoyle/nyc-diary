@@ -22,15 +22,12 @@ import PageFooter from './Components/Page-Footer/PageFooter'
 import IntroPost from './Components/Posts/IntroPost'
 import { Nav, Navbar, NavItem } from "react-bootstrap"
 import ReactGA from 'react-ga';
+import GA from './GoogleAnalytics'
 
 
 // or
 //import { Drawer } from '@material-ui/core';
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-169387969-1');
-  ReactGA.pageview('/');
-}
 const MenuLink = ({ to, name }) => {
   return (
     <div className="navButtonContainer">
@@ -48,6 +45,7 @@ const MenuLink = ({ to, name }) => {
 export default function App(props) {
   return (
     <Router>
+       { GA.init() && <GA.RouteTracker /> }
     <div className="App">
     <Navbar classname='header' style={{position: 'relative', top: -30}}>
             <NavItem classname='title' >  <Link to='/' ><h1 style={{position: 'relative', top: 20,fontSize:35, fontFamily: 'Didot'}} align='center'

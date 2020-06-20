@@ -10,6 +10,7 @@ import PageHeader from './Components/PageHeader/PageHeader'
 import { createMuiTheme, ThemeProvider, withTheme  } from '@material-ui/core/styles';
 //import './PageHeader.css'
 import theme from './themes';
+import GA from './GoogleAnalytics'
 
 ReactDOM.render(  <ThemeProvider> <App> </App> </ThemeProvider>, document.getElementById('root'));
 

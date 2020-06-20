@@ -21,14 +21,16 @@ import AboutMe from './Components/Posts/AboutMe'
 import PageFooter from './Components/Page-Footer/PageFooter'
 import IntroPost from './Components/Posts/IntroPost'
 import { Nav, Navbar, NavItem } from "react-bootstrap"
+import ReactGA from 'react-ga';
 
 
 // or
 //import { Drawer } from '@material-ui/core';
 
-
-
-
+function initializeReactGA() {
+  ReactGA.initialize('UA-169387969-1');
+  ReactGA.pageview('/');
+}
 const MenuLink = ({ to, name }) => {
   return (
     <div className="navButtonContainer">
@@ -57,11 +59,11 @@ export default function App(props) {
             }}>
 <Nav.Link href='https://github.com/multibdoyle/' target="_blank"><img src={require("./github_logo.png")} class="img-thumbnail" alt='logo' width='25px' float='right' style={{
                 position: 'relative',
-               left:-10,       
+               left:78,       
             }}></img></Nav.Link>
 <Nav.Link href='https://www.linkedin.com/in/brendan-doyle-403ba028' target="_blank"><img src={require("./linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px' float='right' style={{
                 position: 'relative',
-               left:-4,  
+               left:80,  
                top:-2     
             }}></img></Nav.Link>
 </NavItem>

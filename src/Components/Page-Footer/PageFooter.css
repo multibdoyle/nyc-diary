@@ -1,8 +1,31 @@
-.page-footer {
-    background-color:rgb(231, 231, 231);
-    padding: 25px;
-    min-height: 5vh;
+.footer {
+  display: grid; 
+  background-color:rgb(231, 231, 231);
+  padding: 25px;
+ grid-template-columns: repeat(2, 1fr);
+    min-height: 1vh;
     flex-direction: column;
     color: black;
-    font-size:10px
+    font-size:10px; 
+    margin-bottom:0;
   }
+
+
+
+
+  .social{
+    grid-column-start:2;
+    display: grid; 
+    background-color:rgb(231, 231, 231);
+    padding: 25px;
+    grid-template-columns: repeat(12,30px);
+    min-height: 1vh;
+    flex-direction: column;
+    color: black;
+    font-size:10px}
+    .github
+    {
+grid-column-start:11;
+grid-column-end:12
+
+    }

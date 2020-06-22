@@ -46,32 +46,19 @@ export default function App(props) {
   return (
     <Router>
        { GA.init() && <GA.RouteTracker /> }
-    <div className="App">
+    <div class="App">
     <Navbar classname='header' style={{position: 'relative', top: -30}}>
-            <NavItem classname='title' >  <Link to='/' ><h1 style={{position: 'relative', top: 20,fontSize:35, fontFamily: 'Didot'}} align='center'
+            <NavItem classname='title' >  <Link to='/' ><h1 style={{position: 'relative', top: 10,fontSize:35, fontFamily: 'Didot'}} align='center'
 >A New York City Diary</h1> </Link>
             </NavItem>
-            <NavItem className='social-media'  style={{
-                position: 'relative',
-               left:800, top:-45,       
-            }}>
-<Nav.Link href='https://github.com/multibdoyle/' target="_blank"><img src={require("./github_logo.png")} class="img-thumbnail" alt='logo' width='25px' float='right' style={{
-                position: 'relative',
-               left:78,       
-            }}></img></Nav.Link>
-<Nav.Link href='https://www.linkedin.com/in/brendan-doyle-403ba028' target="_blank"><img src={require("./linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px' float='right' style={{
-                position: 'relative',
-               left:80,  
-               top:-2     
-            }}></img></Nav.Link>
-</NavItem>
+           
             </Navbar>
             <Navbar>
             <div classname='skeleton-photo' align='center'  >
             <Link to='/' ><img  style={{
                 position: 'relative',
-              top: -75    , 
-                padding:10    
+              top: -70    , 
+                    padding:25
             }}
             src={require("./skeleton_praying.png")} class="img-thumbnail" alt='logo' width='45 px'
              float='right' ></img></Link>

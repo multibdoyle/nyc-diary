@@ -17,7 +17,7 @@ class IntroPost extends React.Component
             }}>
         <body >
        
-        <img style={{borderRadius:12}} src='https://c0.wallpaperflare.com/preview/727/197/160/fidi-oculus-world-trade-center-mall-thumbnail.jpg' alt='cookies' height='200' width='350' class='center'></img>
+        <img style={{borderRadius:12, position:'relative'}} src='https://c0.wallpaperflare.com/preview/727/197/160/fidi-oculus-world-trade-center-mall-thumbnail.jpg' alt='cookies' height='200' width='350' class='center' ></img>
    
         <h6 style={{fontSize:14}}> Sunday, June 14th, 2020</h6>
       <h2>Why I'm Here</h2>

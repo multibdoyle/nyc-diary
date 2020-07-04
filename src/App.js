@@ -16,6 +16,7 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import CookiesPost from './Components/Posts/CookiesPost'
 import BigFatCookiePost from './Components/Posts/BigFatCookiePost'
 import GeneticsPost from './Components/Posts/GeneticsPost'
+import GhostKitchensPost from './Components/Posts/GhostKitchens'
 import GetinTouch from './Components/Posts/GetinTouch';
 import AboutMe from './Components/Posts/AboutMe'
 import PageFooter from './Components/Page-Footer/PageFooter'
@@ -70,7 +71,8 @@ export default function App(props) {
     <Switch>
 <Route exact path="/" component={PageBody} />
 <Route path="/intro" component={IntroPost} />
-<Route path='/genetics' component={GeneticsPost} />
+<Route path='/ghost-kitchens' component={GhostKitchensPost} />
+
 <Route path='/about-me' component={AboutMe} />
 <Route path ='/get-in-touch' component={GetinTouch} />
 </Switch>

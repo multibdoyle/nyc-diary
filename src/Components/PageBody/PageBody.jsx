@@ -16,29 +16,36 @@ class PageBody extends React.Component
 <h1 align='center'></h1>
 
     <div>
-    
-     <a><Link to='/cookies'><h3 style={{fontFamily:'Archer', fontSize:25}}>The 14 Best Cookies Below 14th Street</h3></Link></a> 
-      <body>
-        <img id='cookie_photo'  src={require("../../levain_cookies_1.jpg")} class="img-thumbnail" alt='cookies' 
-        style={{ width:'250px',position:'relative',  borderRadius:5,}}></img>
+    <a><Link to='/ghost-kitchens'><h3 style={{fontFamily:'Archer', fontSize:25}}>Enter the Ghost Kitchens</h3></Link></a> 
+   <h5> Saturday, July 4th, 2020</h5>
+    <body>
+      <filter id='ghosts'>
+       <img class='img-fluid' id='swedish-chef' src='https://live.staticflickr.com/84/235702343_2d7c71a86f_b.jpg' 
+class="img-thumbnail" alt='intro' 
+/* eslint no-restricted-globals:0 */
+       style={{width:'16.5%',height: '16.5$', position:'relative',  borderRadius:5,contrast:'200%' }}></img>
+       </filter>
+       </body>
+     <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/ghost-kitchens'>Wherein I explore the otherwordly realm of virtual restaurants.</Link></div></a>
+   </div>
+
+     <a><Link to='/intro'><h3 style={{fontFamily:'Archer', fontSize:25}}>Why Am I Here?</h3></Link></a> 
+    <h5> Sunday, June 14th, 2020</h5>
+     <body>
+        <img class='img-fluid' id='cookie_photo' src='https://c0.wallpaperflare.com/preview/727/197/160/fidi-oculus-world-trade-center-mall-thumbnail.jpg' 
+ class="img-thumbnail" alt='intro' 
+        style={{ width:'300px',position:'relative',  borderRadius:5,}}></img>
         </body>
-      <a> <h4 style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/cookies'>What I talk about when I talk about cookies.</Link></h4></a>
+      <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/intro'>It's a new dawn, it's a new day, it's a new light.</Link></div></a>
     </div>
-    <div style={{position: 'relative', top:25}}>
-    <h3 style={{fontFamily:'Archer'}}>How Genetics Will Influence the Olympics</h3>
-      <img src={require("../../Kipchoge.jpg")} class="img-thumbnail" alt='olympics' style={{
-           
-                width:'250px',
-               position: 'relative',
-               borderRadius:5 ,
-               border:10, 
-              borderColor: 'black'
-            }}
-           ></img>
-      <li style={{fontFamily:'Archer',fontSize:18}}><Link to='/genetics'>Read more</Link></li>
+
+
+    <div>
+    
+   
       <Router>
       </Router>
-</div>
+
 </div>
 </div>
 )

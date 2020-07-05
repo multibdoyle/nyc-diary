@@ -11,10 +11,23 @@ import { Link, withRouter } from 'react-router-dom';
 class PageFooter extends React.Component 
 { render() {
     return (
-<footer class="page-footer">
-    <div>
-        <div classname='footer-content'>Nothing here copyrighted but if you steal bruh I'ma find u</div> 
-    </div>
+<footer class="footer">
+      
+<div class='social'>
+   <div class='github' href='https://github.com/multibdoyle/' target="_blank"><img src={require("../../github_logo.png")} class="img-thumbnail" alt='logo' width='25px' 
+   style={{ position:'relative',
+   top: -2.1    
+}}
+   
+   ></img></div>
+<div class='linkedin' href='https://www.linkedin.com/in/brendan-doyle-403ba028' target="_blank"><img src={require("../../linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px'
+style={{
+    position:'relative',
+
+}}
+></img></div>
+
+</div>
 </footer>
 )
 }

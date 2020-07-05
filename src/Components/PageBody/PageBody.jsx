@@ -20,7 +20,7 @@ class PageBody extends React.Component
    <h5> Saturday, July 4th, 2020</h5>
     <body>
       <filter id='ghosts'>
-       <img class='img-responsive' id='swedish-chef' src='https://live.staticflickr.com/84/235702343_2d7c71a86f_b.jpg' 
+       <img class='img-fluid' id='swedish-chef' src='https://live.staticflickr.com/84/235702343_2d7c71a86f_b.jpg' 
 class="img-thumbnail" alt='intro' 
 /* eslint no-restricted-globals:0 */
        style={{ width:'17%',height: '17%', position:'relative',  borderRadius:5,contrast:'200%' }}></img>
@@ -32,7 +32,7 @@ class="img-thumbnail" alt='intro'
      <a><Link to='/intro'><h3 style={{fontFamily:'Archer', fontSize:25}}>Why Am I Here?</h3></Link></a> 
     <h5> Sunday, June 14th, 2020</h5>
      <body>
-        <img class='img-responsive' id='cookie_photo' src='https://c0.wallpaperflare.com/preview/727/197/160/fidi-oculus-world-trade-center-mall-thumbnail.jpg' 
+        <img class='img-fluid' id='cookie_photo' src='https://c0.wallpaperflare.com/preview/727/197/160/fidi-oculus-world-trade-center-mall-thumbnail.jpg' 
  class="img-thumbnail" alt='intro' 
         style={{ width:'300px',position:'relative',  borderRadius:5,}}></img>
         </body>

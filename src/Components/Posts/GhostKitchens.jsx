@@ -19,7 +19,7 @@ class GhostKitchensPost extends React.Component
          }}>
      <body >
     
-     <img style={{borderRadius:12, position:'relative'}} src='https://live.staticflickr.com/84/235702343_2d7c71a86f_b.jpg'  alt='chef' height='20%' width='20%' class='center' ></img>
+     <img class='img-fluid' style={{borderRadius:12, position:'relative'}} src='https://live.staticflickr.com/84/235702343_2d7c71a86f_b.jpg'  alt='chef' height='20%' width='20%' class='center' ></img>
 
      <h6 style={{fontSize:14}}> Saturday, July 4th 2020</h6>
    <h2>Ghost Kitchens, Volume 1: Meet the Ghosts</h2>
@@ -34,10 +34,7 @@ class GhostKitchensPost extends React.Component
   <p>Exhibit A: Free Bird, a ‘restaurant’ I found on UberEats relatively late one recent Saturday night when I was craving chicken wings. </p>
   <p>Mind you, I wasn’t looking for common flash-fried wings shoveled on top of fries, which seemed to be the most popular option at 9:30 p.m. on this particular night. I was about to watch a movie; I wanted a meal with a semblance of class. </p>
   <p>Free Bird right away caught my eye with a hero image of multi-colored wings - ranging from frosted white to angry red to pickled green. Clicking further, I was impressed to see Truffle Mac and Cheese and Seven Spiced Edamame on the menu, in addition to mixed wing sets.  </p>
-  <p>I still have to perfect the art of food snaps, and I also lack the patience to take photos of my food before eating - but, take a gander at this menu shot of the Blue Cheese White Truffle babies:</p>
-  <img style={{borderRadius:12, position:'relative'}} src='https://d1ralsognjng37.cloudfront.net/0abbb5e8-069f-4b2a-8d5a-3e1e3a7df6d3.jpeg' alt='wings' height='20%' width='20%' class='center' ></img>
-
-  <p>That’s a fairly true-to-life depiction of the wings I actually ordered, which were crispy, juicy and coated with a blue-cheese-white-truffle goodness I never knew I needed. </p>
+  <p>I took the opportunity to veer away from traditional buffalo, and got myself an 8-pack of blue cheese white truffle wings, a highlighted menu item which arrived crisp, juicy, and coated with that blue-cheese-white-truffle goodness I never knew I needed. </p>
   <p>But that’s not all - Free Bird was stacked with desserts. To my delight, they actually had dessert ‘partners’ - Cookies by Crumb, Cakes by Amai Modern Cakes, in addition to what looked like their own ‘Dessert Creations in a Jar.’ My cup runneth over. </p>
   <p>At least one of these dessert partners - <a href='https://www.seamless.com/menu/crumb-cookie-74-5th-ave-new-york/2033827' target='blank' style={{color:'blue',fontSize:16}}> Crumb Cookie</a> - is another strictly virtual restaurant which has frequently popped up in my late-night quarantine sweet searches. </p>
   <p>Having already tried Crumb at least once (I’ll vouch their Oatmeal Apricot Cranberry cookie is very, very good), I instead opted for two of the more exotic options: a slice of Japanese cheesecake, and a chocolate lava cake. </p>

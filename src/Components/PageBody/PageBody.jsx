@@ -23,7 +23,7 @@ class PageBody extends React.Component
        <img class='img-fluid' id='swedish-chef' src='https://live.staticflickr.com/84/235702343_2d7c71a86f_b.jpg' 
 class="img-thumbnail" alt='intro' 
 /* eslint no-restricted-globals:0 */
-       style={{ width:'17%',height: '17%', position:'relative',  borderRadius:5,contrast:'200%' }}></img>
+       style={{width:'16.5%',height: '16.5$', position:'relative',  borderRadius:5,contrast:'200%' }}></img>
        </filter>
        </body>
      <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/ghost-kitchens'>Wherein I explore the otherwordly realm of virtual restaurants.</Link></div></a>

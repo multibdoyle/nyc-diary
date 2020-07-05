@@ -21,6 +21,7 @@ import GetinTouch from './Components/Posts/GetinTouch';
 import AboutMe from './Components/Posts/AboutMe'
 import PageFooter from './Components/Page-Footer/PageFooter'
 import IntroPost from './Components/Posts/IntroPost'
+import ScrollIntoView from './Components/ScrollIntoView/ScrollIntoView'
 import { Nav, Navbar, NavItem } from "react-bootstrap"
 import ReactGA from 'react-ga';
 import GA from './GoogleAnalytics'
@@ -45,7 +46,7 @@ const MenuLink = ({ to, name }) => {
 
 export default function App(props) {
   return (
-    <Router>
+    <Router   >
        { GA.init() && <GA.RouteTracker /> }
     <div class="App">
     <Navbar classname='header' style={{position: 'relative', top: -30}}>

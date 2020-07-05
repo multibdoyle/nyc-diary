@@ -71,6 +71,9 @@ export default function App(props) {
   </div>
     <Switch>
 <Route exact path="/" component={PageBody} />
+<Route exact path="/index.html" component={PageBody} />
+<Route path="/cookies" component={BigFatCookiePost} />
+<Route path='/genetics' component={GeneticsPost} />
 <Route path="/intro" component={IntroPost} />
 <Route path='/ghost-kitchens' component={GhostKitchensPost} />
 

@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import './IntroPost.css'
 import { blue } from '@material-ui/core/colors';
+import ScrollIntoView from  './../ScrollIntoView/ScrollIntoView'
 
 class IntroPost extends React.Component 
 { render() {
     return (
 
+        <ScrollIntoView>
     <div style={{
                // margin: 1,
                position: 'relative',
@@ -33,7 +35,7 @@ class IntroPost extends React.Component
      <p>Love, B</p>
       </body>
 </div>
-
+</ScrollIntoView>
 )
 }
 }

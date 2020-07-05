@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import levain_cookies from '../../levain_cookies_2.png'
+import ScrollIntoView from './../ScrollIntoView/ScrollIntoView'
 import './GhostKitchens.css'
 
 class GhostKitchensPost extends React.Component 
 { render() {
     return (
-
+<ScrollIntoView>
 
         <div style={{
             // margin: 1,
@@ -24,7 +25,7 @@ class GhostKitchensPost extends React.Component
    <h2>Ghost Kitchens, Volume 1: Meet the Ghosts</h2>
 
    <p>More of my wallet has gone to online-delivery platforms since lockdown began. This, despite the well-documented fact that GrubHub, UberEats and their ilk all <a href="https://nypost.com/2020/06/30/uber-eats-offers-nyc-restaurants-a-break-on-fees/" target="_blank" style={{color: 'blue', fontSize:16}}> suck restaurant’s dry</a> with order processing, marketing and delivery commissions. </p>
-   <p>Whatever. Big boy needs a cheeseburger on cheat day, and unfortunately, none of us are about to sit down at J.G. Mellon’s anytime soon.</p>
+   <p>Yes, Big Boy needs his cheeseburger on cheat day, and I need it within the private, non-judgmental walls of my apartment. </p>
    <p>But, as with every crisis, there is opportunity, and the opportunity for many chefs to continue operating, testing and - I donno, not survive on a government check - has been found in virtual restaurants, a.k.a., ghost kitchens. 
  </p>
    <p>Ghost kitchens were buzzing even <a href='https://www.restaurantdive.com/news/why-ghost-restaurants-are-changing-the-delivery-game/546624/' target='blank' style={{color:'blue',fontSize:16}}>before quarantine</a>, as restaurateurs pored through UberEats search data to cook up delivery-only sub-brands catered to a neighborhood’s particular tastes. As ‘delivery-only’ has become a needless qualifier for restaurants in 2020, a natural consequence has been more companies licensing specific segments of their menus - or entirely new concepts - as their own option on delivery apps. </p>
@@ -50,7 +51,7 @@ class GhostKitchensPost extends React.Component
  
    </body>
 </div>
-
+</ScrollIntoView>
 )
 }
 }

@@ -14,18 +14,18 @@ class PageFooter extends React.Component
 <footer class="footer">
       
 <div class='social'>
-   <div class='github' href='https://github.com/multibdoyle/' target="_blank"><img src={require("../../github_logo.png")} class="img-thumbnail" alt='logo' width='25px' 
+   <a class='github' href='https://github.com/multibdoyle/' target="_blank"><img src={require("../../github_logo.png")} class="img-thumbnail" alt='logo' width='25px' 
    style={{ position:'relative',
    top: -2.1    
 }}
    
-   ></img></div>
-<div class='linkedin' href='https://www.linkedin.com/in/brendan-doyle-403ba028' target="_blank"><img src={require("../../linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px'
+   ></img></a>
+<a class='linkedin' href='https://www.linkedin.com/in/brendan-doyle-403ba028' target="_blank"><img src={require("../../linkedin_logo.png")} class="img-thumbnail"alt='linkedinlogo' width='25px'
 style={{
     position:'relative',
 
 }}
-></img></div>
+></img></a>
 
 </div>
 </footer>

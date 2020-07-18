@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import levain_cookies from '../../levain_cookies_2.png'
 import ScrollIntoView from './../ScrollIntoView/ScrollIntoView'
+import CommentSection from './../CommentSection/CommentSection'
 import './GhostKitchens.css'
+
 
 class GhostKitchensPost extends React.Component 
 { render() {
@@ -44,10 +46,13 @@ class GhostKitchensPost extends React.Component
   <p>The very same address, in fact, as Crumb Cookies.</p>
   <p>Greenwich Social is Free Bird is Crumb. It was all a virtual dream. Somewhere in the land of ghost kitchens, smart minds recognized opportunity, spun up a few branded menus, and collaborated to create a seamless, delightful tasting experience for me, just a guy trying to find a balance between Momofuku and bodega chicken wings to pair with my Saturday night movie. </p>
   <p>Ghost kitchens: the way of the future. My future, at least. I’ve already got my eye on Frenchy Burger - a virtual joint which looks to be served out of hip brick-and-mortar Alphabet City spot <a href='https://www.pmfnyc.com/' target='blank' style={{color:'blue', fontSize: 16}}> Pardon My French </a>. And I would list more, but I guess that’s the point of ghost kitchens - you can rarely tell which are ghosts. 
+
 </p>
- 
+  
    </body>
+
 </div>
+
 </ScrollIntoView>
 )
 }

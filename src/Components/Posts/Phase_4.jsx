@@ -22,7 +22,7 @@ class Phase4Post extends React.Component
     
      <img class='img-fluid' style={{borderRadius:12, position:'relative'}} src='https://live.staticflickr.com/5772/30023004952_7bfc77fbf6_b.jpg'  alt='chef' height='30%' width='30%' class='center' ></img>
 
-     <h6 style={{fontSize:14}}> Saturday, July 20th, 2020</h6>
+     <h6 style={{fontSize:14}}> Saturday, July 18th, 2020</h6>
    <h2>Normal but Like Not At All Normal: Who's Ready for Phase 4?</h2>
    <p>The city is stiflingly hot this weekend. A lot of times I actually enjoy intense heat - nothing better than an early-morning run, preferably just after sun-rise, on a day which is going to be north of 90 degrees. I always get back sweating and slightly burnt and ready to pound something sweet and carbonated (kombucha, you’re my love language), feeling like I beat the better part of the day. 
  </p>

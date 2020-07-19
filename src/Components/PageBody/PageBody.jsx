@@ -17,7 +17,7 @@ class PageBody extends React.Component
 
 <div>
     <a><Link to='/phase-4'><h3 style={{fontFamily:'Archer', fontSize:25}}>Which 4? Phase 4!</h3></Link></a> 
-   <h5> Saturday, July 20th, 2020</h5>
+   <h5> Saturday, July 18th, 2020</h5>
     <body>
       <filter id='phase'>
        <img class='img-fluid' id='chinatown' src='https://live.staticflickr.com/5772/30023004952_7bfc77fbf6_b.jpg' 

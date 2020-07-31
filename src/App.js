@@ -26,6 +26,7 @@ import { Nav, Navbar, NavItem } from "react-bootstrap"
 import ReactGA from 'react-ga';
 import GA from './GoogleAnalytics'
 import Phase4Post from './Components/Posts/Phase_4';
+import MyCouchPost from './Components/Posts/MyCouchPost'
 
 
 // or
@@ -78,8 +79,10 @@ export default function App(props) {
 <Route path="/intro" component={IntroPost} />
 <Route path='/ghost-kitchens' component={GhostKitchensPost} />
 <Route path='/phase-4' component={Phase4Post} />
+<Route path ='/get-off-the-couch' component={MyCouchPost} />
 <Route path='/about-me' component={AboutMe} />
 <Route path ='/get-in-touch' component={GetinTouch} />
+
 </Switch>
 <PageFooter></PageFooter>
 </Router>

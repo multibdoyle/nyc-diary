@@ -21,7 +21,7 @@ class Sapiens extends React.Component
     
      <img class='img-fluid' style={{borderRadius:12, position:'relative'}} src='https://live.staticflickr.com/1969/44765796314_e4db9593cf_b.jpg'  alt='chef' height='30%' width='30%' class='center' ></img>
 
-     <h6 style={{fontSize:14}}> Saturday, July 8th, 2020</h6>
+     <h6 style={{fontSize:14}}> Saturday, August 8th, 2020</h6>
    <h2>'Sapiens' Wants You to Stare Into the Void</h2>
 
    <p>I was really excited to read ‘Sapiens,’ Yuval Noah Harari’s sweeping survey of humanity, but also expecting to be maybe-kinda-sorta offended. 
@@ -59,7 +59,7 @@ class Sapiens extends React.Component
 </p>
 <p>But as coldly removed as Harari considers himself from man’s deep need for storytelling, he does tell a story in ‘Sapiens’: the story of how a big-brained species took over the world, even if ‘taking over’ meant extensive destruction of life and resources. 
 </p>
-<p>Harari - a deft writer - insists the Agricultural Revolution was net-negative for most sapiens, with longer working hours and a less nutrient-diverse diet . Similarly, he argues the quality-of-life improvements pulled off in the Scientific Revolution were offset by degradation of the environment and a depletion of genetic diversity.
+<p>Harari - a deft writer - insists the Agricultural Revolution was net-negative for most sapiens, with longer working hours and a less nutrient-diverse diet. Similarly, he argues the quality-of-life improvements pulled off in the Scientific Revolution were offset by degradation of the environment and a depletion of genetic diversity.
 </p>
 <p>True, humans tend to vacuum-suck environments of their biggest, fattest varieties of flora and fauna. But on the bright side (or dark? Light? What is color, man?), human-made solutions to our own limitations and worst habits are, according to Harari, our best chance of continuing the sapiens’ gene pool, assuming we don’t first obliterate ourselves in the quest for progress. 
 </p>

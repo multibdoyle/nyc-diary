@@ -17,7 +17,7 @@ class PageBody extends React.Component
 
 <div>
     <a><Link to='/we-are-all-sapiens'><h3 style={{fontFamily:'Archer', fontSize:25}}>Things Read in Quarantine: "Sapiens" by Yuval Noah Harari</h3></Link></a> 
-   <h5> Saturday, July 8th, 2020</h5>
+   <h5> Saturday, August 8th, 2020</h5>
     <body>
       <filter id='phase'>
        <img class='img-fluid' id='joker' src='https://live.staticflickr.com/1969/44765796314_e4db9593cf_b.jpg' 

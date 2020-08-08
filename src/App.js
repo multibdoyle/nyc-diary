@@ -27,6 +27,7 @@ import ReactGA from 'react-ga';
 import GA from './GoogleAnalytics'
 import Phase4Post from './Components/Posts/Phase_4';
 import MyCouchPost from './Components/Posts/MyCouchPost'
+import Sapiens from './Components/Posts/Sapiens'
 
 
 // or
@@ -80,6 +81,7 @@ export default function App(props) {
 <Route path='/ghost-kitchens' component={GhostKitchensPost} />
 <Route path='/phase-4' component={Phase4Post} />
 <Route path ='/get-off-the-couch' component={MyCouchPost} />
+<Route path ='/we-are-all-sapiens' component={Sapiens} />
 <Route path='/about-me' component={AboutMe} />
 <Route path ='/get-in-touch' component={GetinTouch} />
 

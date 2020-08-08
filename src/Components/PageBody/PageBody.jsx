@@ -16,6 +16,29 @@ class PageBody extends React.Component
 <h1 align='center'></h1>
 
 <div>
+    <a><Link to='/we-are-all-sapiens'><h3 style={{fontFamily:'Archer', fontSize:25}}>Things Read in Quarantine: "Sapiens" by Yuval Noah Harari</h3></Link></a> 
+   <h5> Saturday, July 8th, 2020</h5>
+    <body>
+      <filter id='phase'>
+       <img class='img-fluid' id='joker' src='https://live.staticflickr.com/1969/44765796314_e4db9593cf_b.jpg' 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+       style={{width:'30%',height: '30%', position:'relative',  borderRadius:5,contrast:'200%' }}></img>
+       </filter>
+       </body>
+     <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/phase-4'>Wanna hear a joke? Humanity. Ha. Ha. Ha.</Link></div></a>
+   </div>
+
+
+
+
+
+
+
+
+
+
+<div>
     <a><Link to='/get-off-the-couch'><h3 style={{fontFamily:'Archer', fontSize:25}}>Someone Save Me From My Couch</h3></Link></a> 
    <h5> Thursday, July 30th, 2020</h5>
     <body>

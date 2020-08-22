@@ -14,7 +14,6 @@ import { red, purple } from '@material-ui/core/colors';
 import PageBody from './Components/PageBody/PageBody'
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import CookiesPost from './Components/Posts/CookiesPost'
-import BigFatCookiePost from './Components/Posts/BigFatCookiePost'
 import GeneticsPost from './Components/Posts/GeneticsPost'
 import GhostKitchensPost from './Components/Posts/GhostKitchens'
 import GetinTouch from './Components/Posts/GetinTouch';
@@ -28,6 +27,16 @@ import GA from './GoogleAnalytics'
 import Phase4Post from './Components/Posts/Phase_4';
 import MyCouchPost from './Components/Posts/MyCouchPost'
 import Sapiens from './Components/Posts/Sapiens'
+import {BreakpointProvider} from './Components/BreakpointProvider/BreakpointProvider'
+import BodybuildingCookies from './Components/Posts/BodybuildingCookies'
+
+import {
+  Responsive,
+  isMobileDevice,
+  isTabletDevice,
+  isLaptopDevice
+} from "responsive-react";
+
 
 
 // or
@@ -49,6 +58,8 @@ const MenuLink = ({ to, name }) => {
 
 export default function App(props) {
   return (
+    //next two lines should give me mobile version of app
+
     <Router   >
        { GA.init() && <GA.RouteTracker /> }
     <div class="App">
@@ -75,7 +86,6 @@ export default function App(props) {
     <Switch>
 <Route exact path="/" component={PageBody} />
 <Route exact path="/index.html" component={PageBody} />
-<Route path="/cookies" component={BigFatCookiePost} />
 <Route path='/genetics' component={GeneticsPost} />
 <Route path="/intro" component={IntroPost} />
 <Route path='/ghost-kitchens' component={GhostKitchensPost} />
@@ -84,18 +94,11 @@ export default function App(props) {
 <Route path ='/we-are-all-sapiens' component={Sapiens} />
 <Route path='/about-me' component={AboutMe} />
 <Route path ='/get-in-touch' component={GetinTouch} />
+<Route path ='/the-bodybuilding-bakers-of-instagram' component={BodybuildingCookies} />
 
 </Switch>
 <PageFooter></PageFooter>
 </Router>
+
   );  
   }   
-  
-  //<header className='Header'>
- // <nav className='Nav'>
-//<a ><Link to='/' style={{ textDecoration: 'none' , color: 'black'}}>BDZ In the City</Link></a>
-//<a href='https://github.com/multibdoyle/'>GitHub Logo</a>
-//<a href='https://github.com/multibdoyle/'>LinkedIn Logo</a>
-//<a href='https://github.com/multibdoyle/'>Instagram Logo</a>
-// </nav>
-// </header>

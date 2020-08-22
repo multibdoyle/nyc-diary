@@ -6,14 +6,50 @@ import Main from '../Routing/Routing'
 import levain_cookies from '../../assets/levain_cookies.jpg'
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import './PageBody.css'
-
+import MediaQuery from 'react-responsive'
+import PageBodyMobile from './PageBodyMobile'
+import InstagramEmbed from 'react-instagram-embed'
+//import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
 class PageBody extends React.Component 
 { render() {
     return (
-    <div >
+
+    <div  >
   <div classname='Pagebody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/the-bodybuilding-bakers-of-instagram'><h3 style={{fontFamily:'Archer', fontSize:25}}>I Eat Cookies for Love, Not Likes</h3></Link></a> 
+   <h5> Saturday, August 22nd, 2020</h5>
+    <body>
+    <div        style={{width:'15%',height: '15%', position:'relative' }}> 
+ <InstagramEmbed
+  url='https://www.instagram.com/p/CEHhdVEHExU/'
+  maxWidth={320}
+  hideCaption={true}
+  containerTagName='div'
+  protocol=''
+  injectScript
+  onLoading={() => {}}
+  onSuccess={() => {}}
+  onAfterRender={() => {}}
+  onFailure={() => {}}
+
+   ></InstagramEmbed>
+</div>
+       </body>
+     <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/the-bodybuilding-bakers-of-instagram'>Nobody knows how to cheat day like a fitness fanatic.</Link></div></a>
+   </div>
+
+
+
+
+
+
+
+
+
 
 <div>
     <a><Link to='/we-are-all-sapiens'><h3 style={{fontFamily:'Archer', fontSize:25}}>Things Read in Quarantine: "Sapiens" by Yuval Noah Harari</h3></Link></a> 
@@ -26,16 +62,8 @@ class PageBody extends React.Component
        style={{width:'30%',height: '30%', position:'relative',  borderRadius:5,contrast:'200%' }}></img>
        </filter>
        </body>
-     <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/phase-4'>Wanna hear a joke? Humanity. Ha. Ha. Ha.</Link></div></a>
+     <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/we-are-all-sapiens'>Wanna hear a joke? Humanity. Ha. Ha. Ha.</Link></div></a>
    </div>
-
-
-
-
-
-
-
-
 
 
 <div>
@@ -101,6 +129,8 @@ class PageBody extends React.Component
 
 </div>
 </div>
+
+
 )
 }
 }

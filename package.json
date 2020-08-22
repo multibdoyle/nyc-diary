@@ -14,9 +14,12 @@
     "react-dev-utils": "^10.0.0",
     "react-dom": "^16.13.0",
     "react-ga": "^3.0.0",
+    "react-instagram-embed": "^1.5.0",
     "react-is": "^16.13.0",
+    "react-responsive": "^8.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
+    "responsive-react": "^3.0.2",
     "styled-components": "^5.0.1"
   },
   "scripts": {

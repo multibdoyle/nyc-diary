@@ -7,8 +7,8 @@ import levain_cookies from '../../assets/levain_cookies.jpg'
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import './PageBody.css'
 //import MediaQuery from 'react-responsive'
-//import PageBodyMobile from './PageBodyMobile'
-//import InstagramEmbed from 'react-instagram-embed'
+
+import InstagramEmbed from 'react-instagram-embed'
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
 class PageBody extends React.Component 
@@ -24,7 +24,19 @@ class PageBody extends React.Component
    <h5> Saturday, August 22nd, 2020</h5>
     <body>
     <div        style={{width:'15%',height: '15%', position:'relative' }}> 
+ <InstagramEmbed
+  url='https://www.instagram.com/p/CEHhdVEHExU/'
+  maxWidth={320}
+  hideCaption={true}
+  containerTagName='div'
+  protocol=''
+  injectScript
+  onLoading={() => {}}
+  onSuccess={() => {}}
+  onAfterRender={() => {}}
+  onFailure={() => {}}
 
+   ></InstagramEmbed>
 </div>
        </body>
      <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/the-bodybuilding-bakers-of-instagram'>Nobody knows how to cheat day like a fitness fanatic.</Link></div></a>

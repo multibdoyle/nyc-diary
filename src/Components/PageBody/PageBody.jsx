@@ -6,8 +6,8 @@ import Main from '../Routing/Routing'
 import levain_cookies from '../../assets/levain_cookies.jpg'
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import './PageBody.css'
-import MediaQuery from 'react-responsive'
-import PageBodyMobile from './PageBodyMobile'
+//import MediaQuery from 'react-responsive'
+//import PageBodyMobile from './PageBodyMobile'
 //import InstagramEmbed from 'react-instagram-embed'
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 

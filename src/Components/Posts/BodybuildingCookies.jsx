@@ -4,7 +4,7 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import levain_cookies from '../../levain_cookies_2.png'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import './BodybuildingCookies.css'
-import InstagramEmbed from 'react-instagram-embed'
+//import InstagramEmbed from 'react-instagram-embed'
 class BodybuildingCookies extends React.Component 
 { render() {
     return (

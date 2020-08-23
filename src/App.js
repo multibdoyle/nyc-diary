@@ -27,7 +27,7 @@ import GA from './GoogleAnalytics'
 import Phase4Post from './Components/Posts/Phase_4';
 import MyCouchPost from './Components/Posts/MyCouchPost'
 import Sapiens from './Components/Posts/Sapiens'
-import {BreakpointProvider} from './Components/BreakpointProvider/BreakpointProvider'
+//import {BreakpointProvider} from './Components/BreakpointProvider/BreakpointProvider'
 import BodybuildingCookies from './Components/Posts/BodybuildingCookies'
 
 import {

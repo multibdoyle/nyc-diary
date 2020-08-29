@@ -1,14 +1,11 @@
 .App{
   background-color:   rgb(231, 231, 231);
-
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding:0
 }
-div.App
-{
-background-color:   rgb(231, 231, 231);
-width: 100%;
-height: 100%;
 
-}
 .Navbar {
 
     display:grid;
@@ -20,6 +17,10 @@ height: 100%;
     padding: 0px;
     overflow-x: hidden; 
 }
+
+
+
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),

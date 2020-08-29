@@ -16,14 +16,14 @@ class PageBody extends React.Component
     return (
 
     <div  >
-  <div classname='Pagebody' style={{position: 'relative', top: -75, left: 100}}>
+  <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
 
 <div>
     <a><Link to='/the-bodybuilding-bakers-of-instagram'><h3 style={{fontFamily:'Archer', fontSize:25}}>I Eat Cookies for Love, Not Likes</h3></Link></a> 
    <h5> Saturday, August 22nd, 2020</h5>
     <body>
-    <div        style={{width:'15%',height: '15%', position:'relative' }}> 
+    <div       > 
  <InstagramEmbed
   url='https://www.instagram.com/p/CEHhdVEHExU/'
   maxWidth={320}
@@ -41,26 +41,16 @@ class PageBody extends React.Component
        </body>
      <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/the-bodybuilding-bakers-of-instagram'>Nobody knows how to cheat day like a fitness fanatic.</Link></div></a>
    </div>
-
-
-
-
-
-
-
-
-
-
 <div>
     <a><Link to='/we-are-all-sapiens'><h3 style={{fontFamily:'Archer', fontSize:25}}>Things Read in Quarantine: "Sapiens" by Yuval Noah Harari</h3></Link></a> 
    <h5> Saturday, August 8th, 2020</h5>
     <body>
-      <filter id='phase'>
+   
        <img class='img-fluid' id='joker' src='https://live.staticflickr.com/1969/44765796314_e4db9593cf_b.jpg' 
  alt='intro' 
 /* eslint no-restricted-globals:0 */
        style={{width:'30%',height: '30%', position:'relative',  borderRadius:5,contrast:'200%' }}></img>
-       </filter>
+   
        </body>
      <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/we-are-all-sapiens'>Wanna hear a joke? Humanity. Ha. Ha. Ha.</Link></div></a>
    </div>

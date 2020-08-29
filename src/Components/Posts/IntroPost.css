@@ -1,8 +1,37 @@
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius:12px;
+    position: relative;
+
 
   }    
   
  
+  
+  @media screen and (max-width: 600px) {
+    .center{
+      position: relative;
+      height:100px ;
+      width:200px
+   }
+}
+
+@media screen and (max-width: 1024px) {
+  .center{
+    position: relative;
+    height:100px ;
+    width:200px
+ }
+}
+
+@media screen and (max-width: 1200px) {
+  .article{
+    position: relative;
+    height:100% ;
+    width:100%;
+    padding-bottom:300px
+ }
+}

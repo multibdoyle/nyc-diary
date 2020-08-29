@@ -1,13 +1,16 @@
 .footer {
   display: grid; 
   background-color:rgb(231, 231, 231);
+
   padding: 25px;
  grid-template-columns: repeat(2, 1fr);
     min-height: 1vh;
     flex-direction: column;
     color: black;
     font-size:10px; 
-    margin-bottom:0;
+    bottom:0;
+min-height: 100%;
+    
   }
 
 

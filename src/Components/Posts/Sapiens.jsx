@@ -19,7 +19,7 @@ class Sapiens extends React.Component
          }}>
      <body >
     
-     <img class='img-fluid' style={{borderRadius:12, position:'relative'}} src='https://live.staticflickr.com/1969/44765796314_e4db9593cf_b.jpg'  alt='chef' height='30%' width='30%' class='center' ></img>
+     <img src='https://live.staticflickr.com/1969/44765796314_e4db9593cf_b.jpg'  alt='chef' class='center' ></img>
 
      <h6 style={{fontSize:14}}> Saturday, August 8th, 2020</h6>
    <h2>'Sapiens' Wants You to Stare Into the Void</h2>

@@ -19,7 +19,7 @@ class MyCouchPost extends React.Component
          }}>
      <body >
     
-     <img class='img-fluid' style={{borderRadius:12, position:'relative'}} src='https://live.staticflickr.com/4632/24894378477_25af95c2b1_b.jpg'  alt='chef' height='30%' width='30%' class='center' ></img>
+     <img src='https://live.staticflickr.com/4632/24894378477_25af95c2b1_b.jpg'  alt='chef' class='center' ></img>
 
      <h6 style={{fontSize:14}}> Thursday, July 30th 2020</h6>
    <h2>My Life on a 5x2 Foot Sofa</h2>

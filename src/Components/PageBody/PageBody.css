@@ -1,4 +1,5 @@
 
+   
    div {
 
     background-color: rgb(231, 231, 231);
@@ -20,3 +21,23 @@
          /*   width: 150px; /* Set a small width */
         
         }
+
+
+
+
+
+  @media screen and (max-width: 400px) {
+    .thejoker{
+      position: relative;
+      height:100px ;
+      width:200px 
+   }
+}
+
+  @media screen and (max-width: 600px) {
+    .pageBody{
+      position: relative;
+      height:60% ;
+      width:60% 
+   }
+}

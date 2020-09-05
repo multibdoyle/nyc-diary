@@ -29,6 +29,7 @@ import MyCouchPost from './Components/Posts/MyCouchPost'
 import Sapiens from './Components/Posts/Sapiens'
 //import {BreakpointProvider} from './Components/BreakpointProvider/BreakpointProvider'
 import BodybuildingCookies from './Components/Posts/BodybuildingCookies'
+import DopamineHigh from './Components/Posts/DopamineHigh'
 
 import {
   Responsive,
@@ -92,6 +93,7 @@ export default function App(props) {
 <Route path='/phase-4' component={Phase4Post} />
 <Route path ='/get-off-the-couch' component={MyCouchPost} />
 <Route path ='/we-are-all-sapiens' component={Sapiens} />
+<Route path ='/dopamine-and-social-media' component={DopamineHigh} />
 <Route path='/about-me' component={AboutMe} />
 <Route path ='/get-in-touch' component={GetinTouch} />
 <Route path ='/the-bodybuilding-bakers-of-instagram' component={BodybuildingCookies} />

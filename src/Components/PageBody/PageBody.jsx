@@ -15,10 +15,22 @@ class PageBody extends React.Component
 { render() {
     return (
 
-    <div  >
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
-
+<div>
+    <a><Link to='/dopamine-and-social-media'><h3 style={{fontFamily:'Archer', fontSize:25}}>Quit Social Media; Take Control of Your Dopamine</h3></Link></a> 
+   <h5> Saturday, September 5th, 2020</h5>
+    <body>
+   
+       <img class='thejoker' id='jaron' src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jaron_lanier.JPG/1407px-Jaron_lanier.JPG' 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+       style={{width:'30%',height: '30%', position:'relative',  borderRadius:5,contrast:'200%' }}></img>
+   
+       </body>
+     <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/dopamine-and-social-media'>Jaron Lanier is livin' his best life without social media. </Link></div></a>
+   </div>
+    <div  >
 <div>
     <a><Link to='/the-bodybuilding-bakers-of-instagram'><h3 style={{fontFamily:'Archer', fontSize:25}}>I Eat Cookies for Love, Not Likes</h3></Link></a> 
    <h5> Saturday, August 22nd, 2020</h5>
@@ -46,7 +58,7 @@ class PageBody extends React.Component
    <h5> Saturday, August 8th, 2020</h5>
     <body>
    
-       <img class='img-fluid' id='joker' src='https://live.staticflickr.com/1969/44765796314_e4db9593cf_b.jpg' 
+       <img class='thejoker' id='joker' src='https://live.staticflickr.com/1969/44765796314_e4db9593cf_b.jpg' 
  alt='intro' 
 /* eslint no-restricted-globals:0 */
        style={{width:'30%',height: '30%', position:'relative',  borderRadius:5,contrast:'200%' }}></img>

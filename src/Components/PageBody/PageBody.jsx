@@ -17,6 +17,24 @@ class PageBody extends React.Component
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/california-is-burning'><h3 style={{fontFamily:'Archer', fontSize:25}}>Bangin' out West, Slangin' out West....</h3></Link></a> 
+   <h5> Monday, September 14th, 2020</h5>
+    <body>
+   
+       <img class='california' id='california' src='https://storage.needpix.com/rsynced_images/california-bw.jpg' 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+       style={{width:'30%',height: '30%', position:'relative',  borderRadius:5,contrast:'200%' }}></img>
+   
+       </body>
+     <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-25}}><Link to='/california-is-burning'>East Coast vs. West Coast beef takes a break while wildfires rage. </Link></div></a>
+   </div>
+
+
+
+
 <div>
     <a><Link to='/dopamine-and-social-media'><h3 style={{fontFamily:'Archer', fontSize:25}}>Quit Social Media; Take Control of Your Dopamine</h3></Link></a> 
    <h5> Saturday, September 5th, 2020</h5>

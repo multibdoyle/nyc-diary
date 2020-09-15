@@ -23,7 +23,8 @@ class CaliforniaPost extends React.Component
 
      <h6 style={{fontSize:14}}> Monday, September 14th 2020</h6>
    <h2>The West Will Rise Again</h2>
-
+<p>Up until I was 18, I assumed the trajectory of my life was destined to end in California. One of my formative musical memories is from a family vacation, circa 1999, driving out of San Francisco Airport on the US 101 with my cousin, aunt and uncle while the Red Hot Chili Peppers’ ‘Californication’ played on the speakers of the drop-top convertible. 
+</p>
    <p>It was a vibe I never forgot. But, after high school, I surprised myself by choosing to head deep into the north-east; besides one year abroad in India, I’ve spent the last 12 years in New York State, and the last six in New York City. 
 
 </p>

@@ -65,7 +65,7 @@ Imagine eating that cookie as you walk up Broadway in the Financial District, sn
 <a href='https://www.instagram.com/capsule_corp_cookies/' target='blank' style={{color:'blue',fontSize:16}}>  Capsule Corp Cookies</a> 
 , a Houston, Texas-based start-up whose owner, according to her Instagram feed, placed 4th in the 2019 NPC National Womens’ Physique Division. 
 </p>
-<p> Want more suggestions for fat cookie retailers? Check out the Instagram feed of <a href='https://www.instagram.com/cookiestuffedmuscles/' target='blank' style={{color:'blue',fontSize:16}}>@cookiestuffedmuscgitles</a>, a bodybuilder who moonlights as the cookie reviewer du jour for the fat cookie industry. 
+<p> Want more suggestions for fat cookie retailers? Check out the Instagram feed of <a href='https://www.instagram.com/cookiestuffedmuscles/' target='blank' style={{color:'blue',fontSize:16}}>@cookiestuffedmuscles</a>, a bodybuilder who moonlights as the cookie reviewer du jour for the fat cookie industry. 
 </p>
 <p>Lots of iron and grit to go with the butter and sugar, in the world of #fatcookies. 
 </p>

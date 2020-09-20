@@ -19,6 +19,22 @@ class PageBody extends React.Component
 <h1 align='center'></h1>
 
 <div>
+    <a><Link to='/tatted-on-my-choker'><h3 style={{fontFamily:'Archer', fontSize:25}}>I Had a Vision of the Cross .... On my Forearm</h3></Link></a> 
+   <h5> Sunday, September 20th, 2020</h5>
+    <body>
+   
+       <img class='peep' id='peep' src='https://images-na.ssl-images-amazon.com/images/I/51C43h9BCsL._AC_.jpg' 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+       style={{contrast:'200%' }}></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/tatted-on-my-choker'>Lemme tell ya'all the story of my first tattoo. </Link></div></a>
+  </p> </div>
+
+
+
+<div>
     <a><Link to='/california-is-burning'><h3 style={{fontFamily:'Archer', fontSize:25}}>Bangin' out West, Slangin' out West....</h3></Link></a> 
    <h5> Monday, September 14th, 2020</h5>
     <body>
@@ -31,10 +47,6 @@ class PageBody extends React.Component
        </body>
     <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/california-is-burning'>East Coast vs. West Coast beef takes a break while wildfires rage. </Link></div></a>
   </p> </div>
-
-
-
-
 <div>
     <a><Link to='/dopamine-and-social-media'><h3 style={{fontFamily:'Archer', fontSize:25}}>Quit Social Media; Take Control of Your Dopamine</h3></Link></a> 
    <h5> Saturday, September 5th, 2020</h5>

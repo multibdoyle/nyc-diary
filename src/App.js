@@ -31,6 +31,7 @@ import Sapiens from './Components/Posts/Sapiens'
 import BodybuildingCookies from './Components/Posts/BodybuildingCookies'
 import DopamineHigh from './Components/Posts/DopamineHigh'
 import CaliforniaPost from './Components/Posts/California'
+import Tattoos from './Components/Posts/Tattoos'
 
 import {
   Responsive,
@@ -99,7 +100,7 @@ export default function App(props) {
 <Route path ='/get-in-touch' component={GetinTouch} />
 <Route path ='/the-bodybuilding-bakers-of-instagram' component={BodybuildingCookies} />
 <Route path ='/california-is-burning' component={CaliforniaPost} />
-
+<Route path ='/tatted-on-my-choker' component={Tattoos}/>
 </Switch>
 <PageFooter></PageFooter>
 </Router>

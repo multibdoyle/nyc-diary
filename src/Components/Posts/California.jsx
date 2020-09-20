@@ -33,7 +33,7 @@ class CaliforniaPost extends React.Component
   
   <p>For now, I’m proud to hold it down for the East, bumpin’ that <a href=' https://www.youtube.com/watch?v=yjBDozsKXqM' target='blank' style={{color:'blue', fontSize: 16}}> new Dave East</a>, nahmean...But the red-and-orange hellscape pictures coming out of California this past week are making me wonder if I’m ever going to shake it, shake it out West...like, ever.
 </p>
-<p>The colors have something to do with smoke particles blocking short wavelength colors from the sun - apparently red and orange have long wavelengths while yellow, blue and green are short. Whatever the scientific reason, it’s scary to see <a href='https://www.bbc.com/news/topics/cjyq4rd3x3zt/california-wildfiresDolores' target='blank' style={{color:'blue',fontSize:16}}> Dolores Park looking like the movie set of an apocalypse film about the last days of Earth</a>. 
+<p>The colors have something to do with smoke particles blocking short wavelength colors from the sun - apparently red and orange have long wavelengths while yellow, blue and green are short. Whatever the scientific reason, I freaked out seeing <a href='https://www.bbc.com/news/topics/cjyq4rd3x3zt/california-wildfiresDolores' target='blank' style={{color:'blue',fontSize:16}}> Dolores Park looking like a screenshot out of an end-of-days film.</a>. 
 </p>
   <p>
   Prayers for all my West Coast fam. Stay safe. 

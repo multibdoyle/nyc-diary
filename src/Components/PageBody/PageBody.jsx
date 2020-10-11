@@ -19,6 +19,22 @@ class PageBody extends React.Component
 <h1 align='center'></h1>
 
 <div>
+    <a><Link to='/shoes-so-ugly-they-are-beautiful'><h3 style={{fontFamily:'Archer', fontSize:25}}>Dad Shoes Aint' Dead Yet </h3></Link></a> 
+   <h5> Sunday, October 11th, 2020</h5>
+    <body>
+   
+       <img class='migos' id='migos' src='https://i.pinimg.com/736x/17/ff/f4/17fff49484207924f2047e953572bdb8.jpg' 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/shoes-so-ugly-they-are-beautiful'>I like Dad shoes and I cannot lie. </Link></div></a>
+  </p> </div>
+
+
+
+<div>
     <a><Link to='/tatted-on-my-choker'><h3 style={{fontFamily:'Archer', fontSize:25}}>I Had a Vision of the Cross .... On my Forearm</h3></Link></a> 
    <h5> Sunday, September 20th, 2020</h5>
     <body>

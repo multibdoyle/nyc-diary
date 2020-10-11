@@ -26,6 +26,34 @@ line-height: 1em;
         
         }
 
+        .migos{
+         
+          filter: grayscale(100%);
+       }
+        @media screen and (max-width: 1600px) {
+          .migos{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+            filter: grayscale(70%);
+         }
+       }
+       
+       @media screen and (max-width: 400px) {
+         .migos{
+           position: relative;
+           height:90%;
+           width:90% ;
+           filter: grayscale(100%);
+        }
+       }
+     
+     
+     
+     
+     
+     
         @media screen and (max-width: 1600px) {
          .peep{
            position: relative;

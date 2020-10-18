@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
+import CommentSection from '../CommentSection/CommentSection'
 import './DadShoes.css'
 
 
@@ -42,6 +43,7 @@ class DadShoesPost extends React.Component
 </p>
 <p>In the meantime, I’ll go out and - God willing - buy another ugly-beautiful grail, like high-waisted pants or a geometric-printed multi-colored sweater. Or, maybe, the ugly-beautiful trend will invert on itself and I’ll just end back in standard-wear staples like monochrome cotton polos and suit pants. But God, I hope not; can’t we stay ugly-beautiful forever?
 </p>
+<CommentSection>Leave comment here</CommentSection>
    </body>
 
 </div>

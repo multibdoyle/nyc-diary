@@ -25,10 +25,35 @@ line-height: 1em;
          /*   width: 150px; /* Set a small width */
         
         }
+        .flanders{
+         
+          filter: grayscale(70%);
+       }
+        @media screen and (max-width: 1600px) {
+          .flanders{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+            filter: grayscale(70%);
+         }
+       }
+       
+       @media screen and (max-width: 400px) {
+         .flanders{
+           position: relative;
+           height:90%;
+           width:90% ;
+           filter: grayscale(70%);
+        }
+       }
+     
+
+
 
         .migos{
          
-          filter: grayscale(100%);
+          filter: grayscale(70%);
        }
         @media screen and (max-width: 1600px) {
           .migos{
@@ -45,7 +70,7 @@ line-height: 1em;
            position: relative;
            height:90%;
            width:90% ;
-           filter: grayscale(100%);
+           filter: grayscale(70%);
         }
        }
      

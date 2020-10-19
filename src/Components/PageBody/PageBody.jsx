@@ -30,17 +30,8 @@ class PageBody extends React.Component
       ></img>
    
        </body>
-    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/i-am-looking for the best wings'>Wherein I review Best Wingers on Delancey Street.</Link></div></a>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/i-am-looking-for-the-best-wings'>Wherein I review Best Wingers on Delancey Street.</Link></div></a>
   </p> </div>
-
-
-
-
-
-
-
-
-
 
 <div>
     <a><Link to='/shoes-so-ugly-they-are-beautiful'><h3 style={{fontFamily:'Archer', fontSize:25}}>Dad Shoes Aint' Dead Yet </h3></Link></a> 

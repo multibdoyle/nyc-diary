@@ -19,19 +19,6 @@ class PageBody extends React.Component
 <h1 align='center'></h1>
 
 
-<div>
-    <a><Link to='/i-am-looking-for-the-best-wings'><h3 style={{fontFamily:'Archer', fontSize:25}}> I Thought These Chicken Wings Would Get Me Out of My Rut</h3></Link></a> 
-   <h5> Sunday, October 18th, 2020</h5>
-    <body>
-   
-       <img class='flanders' id='flanders' src='https://i.pinimg.com/originals/f3/63/48/f363480a83ab0bb605e90d1d9f9e8beb.jpg' 
- alt='intro' 
-/* eslint no-restricted-globals:0 */
-      ></img>
-   
-       </body>
-    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/i-am-looking-for-the-best-wings'>Wherein I review Best Wingers on Delancey Street.</Link></div></a>
-  </p> </div>
 
 <div>
     <a><Link to='/shoes-so-ugly-they-are-beautiful'><h3 style={{fontFamily:'Archer', fontSize:25}}>Dad Shoes Aint' Dead Yet </h3></Link></a> 

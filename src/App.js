@@ -34,6 +34,7 @@ import CaliforniaPost from './Components/Posts/California'
 import Tattoos from './Components/Posts/Tattoos'
 import DadShoesPost  from './Components/Posts/DadShoes'
 import BestWingersPost from './Components/Posts/BestWingers'
+import UncleSamsPizzaPost from './Components/Posts/UncleSamPizza'
 
 import {
   Responsive,
@@ -105,6 +106,7 @@ export default function App(props) {
 <Route path ='/tatted-on-my-choker' component={Tattoos}/>
 <Route path ='/shoes-so-ugly-they-are-beautiful' component={DadShoesPost}/>
 <Route path ='/i-am-looking-for-the-best-wings' component={BestWingersPost}/>
+<Route path ='/salute-uncle-sams-pizza' component={UncleSamsPizzaPost}/>
 </Switch>
 <PageFooter></PageFooter>
 </Router>

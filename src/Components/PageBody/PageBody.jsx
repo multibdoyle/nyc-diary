@@ -6,6 +6,7 @@ import Main from '../Routing/Routing'
 import levain_cookies from '../../assets/levain_cookies.jpg'
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import './PageBody.css'
+import UncleSamsPizza from '../../UncleSamsPizza.gif'
 //import MediaQuery from 'react-responsive'
 
 import InstagramEmbed from 'react-instagram-embed'
@@ -17,6 +18,21 @@ class PageBody extends React.Component
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/salute-uncle-sams-pizza'><h3 style={{fontFamily:'Archer', fontSize:25}}> The Audacity of Uncle Sam's Pizza on Clinton Street</h3></Link></a> 
+   <h5> Sunday, October 24th, 2020</h5>
+    <body>
+   
+       <img class='unclesampizza' id='unclesampizza' src={UncleSamsPizza} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/salute-uncle-sams-pizza'>I donno if they're actually patriotic, but they make great pizza. </Link></div></a>
+  </p> </div>
+
 
 
 <div>

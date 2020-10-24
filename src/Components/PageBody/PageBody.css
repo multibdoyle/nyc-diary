@@ -25,6 +25,34 @@ line-height: 1em;
          /*   width: 150px; /* Set a small width */
         
         }
+
+        .unclesamspizza{
+         
+          filter: grayscale(70%);
+       }
+        @media screen and (max-width: 1600px) {
+          .unclesamspizza{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+            filter: grayscale(70%);
+         }
+       }
+       
+       @media screen and (max-width: 400px) {
+         .unclesamspizza{
+           position: relative;
+           height:90%;
+           width:90% ;
+           filter: grayscale(70%);
+        }
+       }
+
+
+
+
+
         .flanders{
          
           filter: grayscale(70%);

@@ -25,7 +25,7 @@ class UncleSamPizzaPost extends React.Component
      <h6 style={{fontSize:14}}> Saturday, October 24th, 2020</h6>
    <h2>There's a new spicy pepperoni square in the Lower East Side</h2>
 
-   <p>I’m not sure it’s possible to open a pizza shop in Manhattan right nowo without offering a rendition of a square Sicilian slice with pepperoni. The madness that <a href='https://thecounter.org/new-york-city-prince-street-pizza-lawsuit/' target='blank' style={{color:'blue',fontSize: 16}}>Prince Street Pizza started</a> has got everybody trying to make their own Spicy Spring. I’m not mad at it - in fact, for my money, there are a few shops that do a ‘Gram worth baby ‘roni-loaded ‘za slice better than Prince Street. 
+   <p>I’m not sure it’s possible to open a pizza shop in Manhattan right now without offering a rendition of a square Sicilian slice with pepperoni. The madness that <a href='https://thecounter.org/new-york-city-prince-street-pizza-lawsuit/' target='blank' style={{color:'blue',fontSize: 16}}>Prince Street Pizza started</a> has got everybody trying to make their own Spicy Spring. I’m not mad at it - in fact, for my money, there are a few shops that do a ‘Gram worth baby ‘roni-loaded ‘za slice better than Prince Street. 
 
 </p>
 <p>One of them is Uncle Sam’s Pizza, recently opened on Clinton Street. 

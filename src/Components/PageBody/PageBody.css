@@ -28,6 +28,31 @@ line-height: 1em;
 
         .unclesamspizza{
          
+  
+       }
+        @media screen and (max-width: 1600px) {
+          .eggburger{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+       
+       @media screen and (max-width: 400px) {
+         .eggburger{
+           position: relative;
+           height:90%;
+           width:90% ;
+    
+        }
+       }
+
+
+
+        .unclesamspizza{
+         
           filter: grayscale(70%);
        }
         @media screen and (max-width: 1600px) {

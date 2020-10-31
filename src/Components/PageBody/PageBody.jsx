@@ -10,6 +10,8 @@ import UncleSamsPizza from '../../UncleSamsPizza.gif'
 //import MediaQuery from 'react-responsive'
 
 import InstagramEmbed from 'react-instagram-embed'
+import EggdaysPost from '../Posts/Eggdays';
+import SmashEgg from '../../SmashEgg.jpg'
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
 class PageBody extends React.Component 
@@ -18,6 +20,26 @@ class PageBody extends React.Component
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/eggs-on-my-burger'><h3 style={{fontFamily:'Archer', fontSize:25}}>I Want More Eggdays and Less Weekdays</h3></Link></a> 
+   <h5> Sunday, October 31st, 2020</h5>
+    <body>
+   
+       <img class='eggburger' id='eggburger' src={SmashEgg} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/eggs-on-my-burger'>Wherein Eggdays pops up in the East Village and into my heart.  </Link></div></a>
+  </p> </div>
+
+
+
+
+
+
 
 <div>
     <a><Link to='/salute-uncle-sams-pizza'><h3 style={{fontFamily:'Archer', fontSize:25}}> The Audacity of Uncle Sam's Pizza on Clinton Street</h3></Link></a> 

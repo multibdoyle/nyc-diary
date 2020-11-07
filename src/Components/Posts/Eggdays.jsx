@@ -4,8 +4,7 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import SmashEgg from '../../SmashEgg.jpg'
 import './Eggdays.css'
-import CreateComment from '../CommentSection/create-comment.jsx'
-import Commentlist from '../CommentSection/comment-list.jsx'
+
 
 
 class EggdaysPost extends React.Component 
@@ -58,8 +57,7 @@ class EggdaysPost extends React.Component
 <p>The American space-time-culinary continuum is a lie! Egg sandwiches belong at every meal! Tell the people!
 </p>
 <p>Until next time. </p>
-<CreateComment></CreateComment>
-<Commentlist></Commentlist>
+
    </body>
 
 </div>

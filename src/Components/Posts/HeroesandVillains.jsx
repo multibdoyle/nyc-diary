@@ -48,9 +48,9 @@ class HeroesandVillainsPost extends React.Component
 </p>
 <p>The Lil Susie came as advertised — two juicy, dripping patties melted over with American cheese, caramelized onions and that mysterious Stoney Sauce poking out from under a fluffy potato bun. It looked like the platonic ideal of a backyard barbecue burger, the kind of handheld masterpiece every summertime grillmaster strives for. 
 </p>
-<p>Lil Susie tasted as photogenic as she looked; the patties-and-cheese packed a savory punch of flavor; I could’ve gone straight keto and eaten the whole shebang without a bun. And I can only guess what’s in the sweet-tangy concoction of ‘Stoney Sauce,’ but layering that stuff with caramelized onions and pickles is like mixing cookie butter with any dessert — it can only go right. 
+<p>Thankfully, Lil Susie tasted as photogenic as she looked. The patties-and-cheese packed a savory punch of flavor; I could’ve gone straight keto and eaten the whole shebang without a bun. And I can only guess what’s in the sweet-tangy concoction of ‘Stoney Sauce,’ but layering that stuff with caramelized onions and pickles is like mixing cookie butter with any dessert — it can only go right. 
 </p>
-<p>All together, I’d give the Lil Susie a **kisses fingertips.** And If I have to give a numerical rating, 4.5 out of 5. This burger alone is worth a trip to Essex Market, for all you nascent NYC explorers who are still nervous to venture out. </p>
+<p>All together, I’d give the Lil Susie a **kisses fingertips.** And if I have to give a numerical rating, 4.5 out of 5. This burger alone is worth a trip to Essex Market, for all you nascent NYC explorers who are still nervous to venture out. </p>
   <p>Oh yeah, the shoestring cheese fries were also bomb — so crispy and salty, I didn’t even need ketchup! Just let some drops of Stoney Sauce fall all over the fries, mix in the hang-off meat from the burger, and <b>voilà</b> — you’ve got yourself a Lower East Side poutine. 
 </p>
 <p>	Heroes & Villains, you’re all heroes to me. Keep the lights on please, ‘cuz I’m comin’ back for a Proud Mary.</p>

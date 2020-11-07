@@ -12,6 +12,7 @@ import UncleSamsPizza from '../../UncleSamsPizza.gif'
 import InstagramEmbed from 'react-instagram-embed'
 import EggdaysPost from '../Posts/Eggdays';
 import SmashEgg from '../../SmashEgg.jpg'
+import Heroes_and_Villains1 from '../../Heroes_and_Villains1.jpeg'
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
 class PageBody extends React.Component 
@@ -20,6 +21,25 @@ class PageBody extends React.Component
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/heroes-and-villains-in-essex-street-saves-the-day'><h3 style={{fontFamily:'Archer', fontSize:25}}> Need a Hero? Go Find Lil Susie on Essex Street</h3></Link></a> 
+   <h5> Sunday, November 7th, 2020</h5>
+    <body>
+   
+       <img class='lilsusieburger' id='lilsusieburger' src={Heroes_and_Villains1} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/heroes-and-villains-in-essex-street-saves-the-day'>It was a day for new heros, so I got a double cheeseburger.  </Link></div></a>
+  </p> </div>
+
+
+
+
+
 
 <div>
     <a><Link to='/eggs-on-my-burger'><h3 style={{fontFamily:'Archer', fontSize:25}}>I Want More Eggdays and Less Weekdays</h3></Link></a> 

@@ -36,6 +36,7 @@ import DadShoesPost  from './Components/Posts/DadShoes'
 import BestWingersPost from './Components/Posts/BestWingers'
 import UncleSamsPizzaPost from './Components/Posts/UncleSamPizza'
 import EggdaysPost from './Components/Posts/Eggdays'
+import GobblerPost from './Components/Posts/Gobbler'
 import HeroesandVillainsPost from './Components/Posts/HeroesandVillains'
 
 import {
@@ -112,6 +113,7 @@ export default function App(props) {
 <Route path ='/salute-uncle-sams-pizza' component={UncleSamsPizzaPost}/>
 <Route path ='/eggs-on-my-burger' component={EggdaysPost}/>
 <Route path ='/heroes-and-villains-in-essex-street-saves-the-day' component={HeroesandVillainsPost}/>
+<Route path ='/eat-more-stuffing' component={GobblerPost}/>
 </Switch>
 <PageFooter></PageFooter>
 </Router>

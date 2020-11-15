@@ -27,6 +27,43 @@ line-height: 1em;
         }
 
 
+      .gobblersandwich{
+         
+  
+        }
+         @media screen and (max-width: 1600px) {
+           .gobblersandwich{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        
+        @media screen and (max-width: 400px) {
+          .gobblersandwich{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         .lilsusieburger{
          
   

@@ -26,6 +26,35 @@ line-height: 1em;
         
         }
 
+        .twobootspizza{
+         
+  
+        }
+         @media screen and (max-width: 1600px) {
+           .twobootspizza{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        
+        @media screen and (max-width: 400px) {
+          .twobootspizza{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
+
+
+
+
+
+
 
       .gobblersandwich{
          

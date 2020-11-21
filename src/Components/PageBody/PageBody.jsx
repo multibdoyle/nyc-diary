@@ -14,6 +14,7 @@ import EggdaysPost from '../Posts/Eggdays';
 import SmashEgg from '../../SmashEgg.jpg'
 import Heroes_and_Villains1 from '../../Heroes_and_Villains1.jpeg'
 import Gobbler from '../../Gobbler.jpeg'
+import TwoBootsPizza from '../../TwoBootsPizza.jpeg'
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
 class PageBody extends React.Component 
@@ -22,6 +23,24 @@ class PageBody extends React.Component
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/the-genius-of-two-boots-pizza'><h3 style={{fontFamily:'Archer', fontSize:25}}> Two Boots, Many Opposing Ideas, One FANTASTIC Pizza</h3></Link></a> 
+   <h5> Saturday, November 21st, 2020</h5>
+    <body>
+   
+       <img class='twobootspizza' id='twobootspizza' src={TwoBootsPizza} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/the-genius-of-two-boots-pizza'>The pizza-slingers at Two Boots pass F. Scott Fitzgerald's test for first-rate minds. </Link></div></a>
+  </p> </div>
+
+
+
+
 
 <div>
     <a><Link to='/eat-more-stuffing'><h3 style={{fontFamily:'Archer', fontSize:25}}> 'Tis the Season for Holiday Sandwiches</h3></Link></a> 

@@ -32,7 +32,7 @@ class VanLeeuwenPost extends React.Component
 
 
 </p>
-<p>Integral to my <i>amour de la glace</i> is Van Leeuwen’s variety of oat milk ice creams, packaged in soft-focus millennial-nursery colors and whipped together with all the local artisanal flavors you’d expect from a Brooklyn-based, millennial-founded creamery. 
+<p>Integral to my <i>amour de la glace</i> is Van Leeuwen’s variety of oat milk ice creams, packaged in soft-focus millennial-nursery colors and whipped together with all the local artisanal flavors you’d expect from a Brooklyn-based creamery. 
 
  </p>
 <p>	 As a guy who has always tended towards ultra-chunky mix-ins, the Brown Sugar Chunk seemed right up my alley. Brownies, cookie dough and candied oat clusters compete for top-billing in a brown sugar oat milk base, which <a href='https://vanleeuwenicecream.com/' target='blank' style={{color:'blue',fontSize:16}}>Van Leeuwen’s website</a> describes as a ‘maximalist’s dream.’

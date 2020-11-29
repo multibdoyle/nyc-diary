@@ -15,6 +15,7 @@ import SmashEgg from '../../SmashEgg.jpg'
 import Heroes_and_Villains1 from '../../Heroes_and_Villains1.jpeg'
 import Gobbler from '../../Gobbler.jpeg'
 import TwoBootsPizza from '../../TwoBootsPizza.jpeg'
+import VanLeeuwenPint from '../../VanLeeuwenPint.jpeg'
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
 class PageBody extends React.Component 
@@ -23,6 +24,28 @@ class PageBody extends React.Component
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/you-belong-with-me-van-leeuwen-oat-milk-ice-cream'><h3 style={{fontFamily:'Archer', fontSize:25}}> I Started Cheating on Regular Ice Cream with Oat Milk Ice Cream</h3></Link></a> 
+   <h5> Saturday, November 28th, 2020</h5>
+    <body>
+   
+       <img class='oatmilkbrownsugar' id='oatmilkbrownsugar' src={VanLeeuwenPint} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/you-belong-with-me-van-leeuwen-oat-milk-ice-cream'>Oat milk? More like G.O.A.T. milk, nawmsayin.... </Link></div></a>
+  </p> </div>
+
+
+
+
+
+
+
+
 
 <div>
     <a><Link to='/the-genius-of-two-boots-pizza'><h3 style={{fontFamily:'Archer', fontSize:25}}> Two Boots, Many Opposing Ideas, One FANTASTIC Pizza</h3></Link></a> 

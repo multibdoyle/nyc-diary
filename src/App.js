@@ -39,6 +39,7 @@ import EggdaysPost from './Components/Posts/Eggdays'
 import GobblerPost from './Components/Posts/Gobbler'
 import HeroesandVillainsPost from './Components/Posts/HeroesandVillains'
 import TheDivinePost from './Components/Posts/TheDivine'
+import VanLeeuwenPost from './Components/Posts/VanLeeuwen'
 
 import {
   Responsive,
@@ -116,6 +117,8 @@ export default function App(props) {
 <Route path ='/heroes-and-villains-in-essex-street-saves-the-day' component={HeroesandVillainsPost}/>
 <Route path ='/eat-more-stuffing' component={GobblerPost}/>
 <Route path ='/the-genius-of-two-boots-pizza' component={TheDivinePost}/>
+<Route path ='/you-belong-with-me-van-leeuwen-oat-milk-ice-cream' component={VanLeeuwenPost}/>
+
 </Switch>
 <PageFooter></PageFooter>
 </Router>

@@ -26,10 +26,64 @@ line-height: 1em;
         
         }
 
+
+
+
+
+        .oatmilkbrownsugar{
+         
+  
+        }
+        @media screen and (max-width: 6000px) {
+          .oatmilkbrownsugar{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+       
+
+
+
+         @media screen and (max-width: 1600px) {
+           .oatmilkbrownsugar{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        
+        @media screen and (max-width: 600px) {
+          .oatmilkbrownsugar{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
+
+
+
+
         .twobootspizza{
          
   
         }
+
+        @media screen and (max-width: 6000px) {
+          .twobootspizza{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
          @media screen and (max-width: 1600px) {
            .twobootspizza{
              position: relative;
@@ -60,6 +114,18 @@ line-height: 1em;
          
   
         }
+
+        @media screen and (max-width: 6000px) {
+          .gobblersandwich{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+
+
          @media screen and (max-width: 1600px) {
            .gobblersandwich{
              position: relative;
@@ -97,6 +163,18 @@ line-height: 1em;
          
   
         }
+
+        @media screen and (max-width: 6000px) {
+          .lilsusieburger{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+       
+
          @media screen and (max-width: 1600px) {
            .lilsusieburger{
              position: relative;
@@ -120,6 +198,16 @@ line-height: 1em;
          
   
        }
+
+       @media screen and (max-width: 6000px) {
+        .eggburger{
+          position: relative;
+          height:21%;
+          width:21% ;
+          border-radius: 5%;
+    
+       }
+     }
         @media screen and (max-width: 1600px) {
           .eggburger{
             position: relative;
@@ -172,6 +260,17 @@ line-height: 1em;
          
           filter: grayscale(70%);
        }
+
+       @media screen and (max-width: 6000px) {
+        .flanders{
+          position: relative;
+          height:21%;
+          width:21% ;
+          border-radius: 5%;
+          filter: grayscale(70%);
+       }
+     }
+     
         @media screen and (max-width: 1600px) {
           .flanders{
             position: relative;
@@ -198,6 +297,17 @@ line-height: 1em;
          
           filter: grayscale(70%);
        }
+
+       @media screen and (max-width: 6000px) {
+        .migos{
+          position: relative;
+          height:21%;
+          width:21% ;
+          border-radius: 5%;
+          filter: grayscale(70%);
+       }
+     }
+     
         @media screen and (max-width: 1600px) {
           .migos{
             position: relative;
@@ -221,6 +331,14 @@ line-height: 1em;
      
      
      
+       @media screen and (max-width: 6000px) {
+        .peep{
+          position: relative;
+          height:30%;
+          width:30% ;
+          border-radius: 5%
+       }
+     }
      
         @media screen and (max-width: 1600px) {
          .peep{
@@ -240,6 +358,15 @@ line-height: 1em;
       }
 
 
+      @media screen and (max-width: 6000px) {
+        .california{
+          position: relative;
+          height:30%;
+          width:30% ;
+          border-radius: 5%
+       }
+     }
+     
         @media screen and (max-width: 1600px) {
          .california{
            position: relative;
@@ -257,6 +384,15 @@ line-height: 1em;
        }
       }
 
+
+      @media screen and (max-width: 6000px) {
+        .jdog{
+          position: relative;
+          height:30%;
+          width:30% ;
+          border-radius: 5%
+       }
+     }
         @media screen and (max-width: 1600px) {
          .jdog{
            position: relative;
@@ -275,6 +411,14 @@ line-height: 1em;
        }
       }
 
+      @media screen and (max-width: 6000px) {
+        .thejoker{
+          position: relative;
+          height:30%;
+          width:30% ;
+          border-radius: 5%
+       }
+    }
   @media screen and (max-width: 1600px) {
     .thejoker{
       position: relative;
@@ -283,6 +427,9 @@ line-height: 1em;
       border-radius: 5%
    }
 }
+
+
+
 
 @media screen and (max-width: 400px) {
    .thejoker{
@@ -295,6 +442,14 @@ line-height: 1em;
 
 
 
+@media screen and (max-width: 6000px) {
+  .couch{
+    position: relative;
+    height:30%;
+    width:30% ;
+    border-radius: 5%
+ }
+}
 @media screen and (max-width: 1600px) {
    .couch{
      position: relative;
@@ -312,7 +467,7 @@ line-height: 1em;
     border-radius: 5%
  }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 6000px) {
    .chinatown{
      position: relative;
      height:30%;
@@ -335,7 +490,7 @@ line-height: 1em;
 
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 6000px) {
    .swedishChef{
      position: relative;
      height:20%;
@@ -352,7 +507,7 @@ line-height: 1em;
  }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 6000px) {
    .oculus{
      position: relative;
      height:30%;

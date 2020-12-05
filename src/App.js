@@ -40,6 +40,7 @@ import GobblerPost from './Components/Posts/Gobbler'
 import HeroesandVillainsPost from './Components/Posts/HeroesandVillains'
 import TheDivinePost from './Components/Posts/TheDivine'
 import VanLeeuwenPost from './Components/Posts/VanLeeuwen'
+import DoughnutProjectPost from './Components/Posts/DoughnutProject'
 
 import {
   Responsive,
@@ -118,6 +119,7 @@ export default function App(props) {
 <Route path ='/eat-more-stuffing' component={GobblerPost}/>
 <Route path ='/the-genius-of-two-boots-pizza' component={TheDivinePost}/>
 <Route path ='/you-belong-with-me-van-leeuwen-oat-milk-ice-cream' component={VanLeeuwenPost}/>
+<Route path ='/the-doughnut-project-and-the-bourbon-sticky-toffee-pudding-bun-plus-the-cereal-milk-crunch' component={DoughnutProjectPost}/>
 
 </Switch>
 <PageFooter></PageFooter>

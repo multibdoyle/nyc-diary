@@ -16,6 +16,7 @@ import Heroes_and_Villains1 from '../../Heroes_and_Villains1.jpeg'
 import Gobbler from '../../Gobbler.jpeg'
 import TwoBootsPizza from '../../TwoBootsPizza.jpeg'
 import VanLeeuwenPint from '../../VanLeeuwenPint.jpeg'
+import StickyToffee from '../../StickyToffee.jpeg'
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
 class PageBody extends React.Component 
@@ -24,6 +25,26 @@ class PageBody extends React.Component
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/the-doughnut-project-and-the-bourbon-sticky-toffee-pudding-bun-plus-the-cereal-milk-crunch'><h3 style={{fontFamily:'Archer', fontSize:25}}> The Doughnut Project is a Fount of Inspiration in the West Village</h3></Link></a> 
+   <h5> Saturday, December 4th, 2020</h5>
+    <body>
+   
+       <img class='stickytoffee' id='stickytoffee' src={StickyToffee} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/the-doughnut-project-and-the-bourbon-sticky-toffee-pudding-bun-plus-the-cereal-milk-crunch'>Life is like a weekend menu at The Doughnut Project, ya never know what you're gonna get... </Link></div></a>
+  </p> </div>
+
+
+
+
+
+
 
 <div>
     <a><Link to='/you-belong-with-me-van-leeuwen-oat-milk-ice-cream'><h3 style={{fontFamily:'Archer', fontSize:25}}> I Started Cheating on Regular Ice Cream with Oat Milk Ice Cream</h3></Link></a> 
@@ -36,7 +57,7 @@ class PageBody extends React.Component
       ></img>
    
        </body>
-    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/you-belong-with-me-van-leeuwen-oat-milk-ice-cream'>Oat milk? More like G.O.A.T. milk, nawmsayin.... </Link></div></a>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/you-belong-with-me-van-leeuwen-oat-milk-ice-cream'>Oat milk? More like G.O.A.T. milk, nawmsaying.... </Link></div></a>
   </p> </div>
 
 

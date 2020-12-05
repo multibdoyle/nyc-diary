@@ -4,6 +4,10 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import './IntroPost.css'
 import { blue } from '@material-ui/core/colors';
 import ScrollIntoView from './../ScrollIntoView/ScrollIntoView'
+import LeaveaComment from './../CommentSection/LeaveaComment'
+import CommentList from '../CommentSection/CommentList'
+import TodosList from './../CommentSection/todos-list.component'
+import CreateTodo from './../CommentSection/create-todo-component'
 
 class IntroPost extends React.Component 
 { render() {
@@ -34,6 +38,10 @@ class IntroPost extends React.Component
      <p>I'm also going to write a lot about food. Because ... why not.</p>
      <p>Love, B</p>
       </body>
+      <LeaveaComment></LeaveaComment>
+      <CreateTodo></CreateTodo>
+      <TodosList></TodosList>
+  
 </div>
 </ScrollIntoView>
 )

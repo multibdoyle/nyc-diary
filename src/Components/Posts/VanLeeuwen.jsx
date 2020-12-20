@@ -28,7 +28,7 @@ class VanLeeuwenPost extends React.Component
    <p>In this tragi-comic year of 2020, a lot of people have been forced to confront life's big questions — those kind of existential queries you face every 10-15 years in either case, things like <i>Why am I here?</i> and <i>What really matters in life?</i>
 
 </p>
-<p>Fortunately for me, I already knew what really mattered in life going into 2020 — the answer is always love. So rather than reinvent a set of values, I’ve begun to indulge a long-teased, slow-burning love affair with ice cream. Not until 2020 did I appreciate the deep depths of deliciousness amd comfort a pint of ice cream can deliver for the soul. 
+<p>Fortunately for me, I already knew what really mattered in life going into 2020 — the answer is always love. So rather than reinvent a set of values, I’ve begun to indulge a long-teased, slow-burning love affair with ice cream. Not until 2020 did I appreciate the deep depths of deliciousness and comfort a pint of ice cream can deliver for the soul. 
 
 
 </p>

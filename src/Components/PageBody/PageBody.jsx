@@ -8,6 +8,7 @@ import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import './PageBody.css'
 import UncleSamsPizza from '../../UncleSamsPizza.gif'
 //import MediaQuery from 'react-responsive'
+import TheDutchBurger from '../../TheDutchBurger.jpeg'
 
 import InstagramEmbed from 'react-instagram-embed'
 import EggdaysPost from '../Posts/Eggdays';
@@ -25,6 +26,24 @@ class PageBody extends React.Component
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+
+
+
+<div>
+    <a><Link to='/the-dutch-will-always-strive-and-prosper'><h3 style={{fontFamily:'Archer', fontSize:25}}>Dinner at The Dutch Made Up for Everything Bad in 2020</h3></Link></a> 
+   <h5> Sunday, December 21st, 2020</h5>
+    <body>
+   
+       <img class='dutchcheeseburger' id='dutchcheeseburger' src={TheDutchBurger} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/the-dutch-will-always-strive-and-prosper'>Warm, cozy, and crazy-delicious American bistro-fare in the heart of Soho.  </Link></div></a>
+  </p> </div>
+
 
 <div>
     <a><Link to='/the-doughnut-project-and-the-bourbon-sticky-toffee-pudding-bun-plus-the-cereal-milk-crunch'><h3 style={{fontFamily:'Archer', fontSize:25}}> The Doughnut Project is a Fount of Inspiration in the West Village</h3></Link></a> 

@@ -28,7 +28,7 @@ class TheDutchPost extends React.Component
      <h6 style={{fontSize:14}}> Sunday, December 21st, 2020</h6>
    <h2>I was not worthy of that cornbread. Or that burger. Or that cake I stole from my friend...</h2>
 
-   <p><a href='https://www.thedutchnyc.com/' target='blank' style={{color:'blue',fontSize:16}}>The Dutch </a>is a beautiful restaurant with beautiful food and — frankly — usually beautiful clientele. Even with the impossibly limiting restrictions on NYC dining in 2020, Andrew Carmellini’s bistro at the corner of Sullivan and Prince has remained an bustling Soho hotspot for those who are <a href="https://www.businessoffashion.com/community/people/a-ap-rocky#:~:text=The%20music%20coalition%20to%20which,all%20the%20members'%20stage%20names." target='blank' style={{color:'blue', fontSize:16}}>always striving and prospering.</a>
+   <p><a href='https://www.thedutchnyc.com/' target='blank' style={{color:'blue',fontSize:16}}>The Dutch </a>is a beautiful restaurant with beautiful food and — frankly — usually beautiful clientele. Even with the impossibly limiting restrictions on NYC dining in 2020, Andrew Carmellini’s bistro at the corner of Sullivan and Prince has remained a bustling Soho hotspot for those who are <a href="https://www.businessoffashion.com/community/people/a-ap-rocky#:~:text=The%20music%20coalition%20to%20which,all%20the%20members'%20stage%20names." target='blank' style={{color:'blue', fontSize:16}}>always striving and prospering.</a>
 
 </p>
 <p>Given so much of my year was spent barely maintaining my hold on reality rather than concertedly crushing it, I was struck with a wee bit of imposter syndrome when deciding whether to dine at The Dutch last weekend. The Dutch is not where one goes to celebrate ‘maintaining.’ 
@@ -74,10 +74,10 @@ But I had a friend I wanted to treat to dinner. I live nearby. I was really hung
 <p>I would give The Dutch a 5 out of 5 on the experience alone — the service and ambiance were all lovely and inviting, and whoever picks the hip-hop and low-fi pop playlist pumping throughout the venue has a special talent for vibe-setting. 
 
 </p>
-<p>The food as well was bomb bomb bomb, a 4.5 out of 5. The burger, especially, was very memorable - literally a Big Mac as envisioned by a Michelin-starred chef. 
+<p>The food as well was bomb bomb bomb, a 4.5 out of 5. The burger, especially, was very memorable — literally a Big Mac as envisioned by a Michelin-starred chef. 
 </p>
 
-<p> All you New York City denizens holing up here for Christmas, get thee to The Dutch this season - they’re serving Christmas Feasts available for pick-up. Unlike myself, The Dutch is still pushing past the temptation to ‘maintain’ continuing to strive and prosper.
+<p> All you New York City denizens holing up here for Christmas, get thee to The Dutch this season — they’re serving Christmas Feasts available for pick-up. Unlike myself in the midst of this pandemic, The Dutch has pushed past the temptation to ‘maintain’, and has continued to strive and prosper.
 </p>
 <p> Long live The Dutch. Long live NYC dining. 
 </p>

@@ -55,7 +55,7 @@ But I had a friend I wanted to treat to dinner. I live nearby. I was really hung
 
 </p>
     
-<p>The burger overall was one of the top three I’ve had all year - the uber-melty cheese and tangy pickle chips enhanced the flavor of the quality meat, and of course, secret sauce can elevate any double-cheeseburger to an 11. 
+<p>The burger overall was one of the top three I’ve had all year — the uber-melty cheese and tangy pickle chips enhanced the flavor of the quality meat, and of course, secret sauce can elevate any double-cheeseburger to an 11. 
 
 </p>
 <p>For dessert, I ordered Apple Pie and Cinnamon Ice Cream. 
@@ -63,7 +63,7 @@ But I had a friend I wanted to treat to dinner. I live nearby. I was really hung
 </p>
 <img  src={TheDutchApplePie}  alt='dutchapplepie' class='dutchapplepie' ></img> 
     
-<p>First of all, apple pie and cinnamon ice cream - that is just an inspired combination. The pie was very cold, like it had just come out of an icebox - in my opinion, it would’ve benefited from being warmed up, but cold apple pie holds its own intricacies of enjoyment. The whole thing was loaded with apples and tasted super-fresh. 
+<p>First of all, apple pie and cinnamon ice cream — that is just an inspired combination. The pie was very cold, like it had just come out of an icebox; in my opinion, it would’ve benefited from being warmed up, but cold apple pie holds its own intricacies of enjoyment. The whole thing was loaded with apples and tasted super-fresh. 
 </p>
 <p>In between bites of pie and ice cream, I dug into my friend’s Salted Caramel Chocolate Cake with Rice Crispies; this was a brilliant dessert, thick and decadent and RICH, with the rice crispies providing an enjoyable crunch to the pure fudgy-decadence of the cake. 
 
@@ -71,7 +71,7 @@ But I had a friend I wanted to treat to dinner. I live nearby. I was really hung
 <img  src={TheDutchCake}  alt='dutchcake' class='dutchcake' ></img> 
 <p>Eating two desserts took its expected toll on my vivality, and by the end of the meal I was feeling like a couch and a movie were all I was good for. After settling the bill, my friend and I walked a bit through Soho before I retreated back to my apartment, enjoying the remainder of my evening in a mostly mindless stupor. 
 </p>
-<p>I would give The Dutch a 5 out of 5 on the experience alone - the service and ambiance were all lovely and inviting, and whoever picks the hip-hop and low-fi pop playlist pumping throughout the venue has a special talent for setting the vibe-setting. 
+<p>I would give The Dutch a 5 out of 5 on the experience alone — the service and ambiance were all lovely and inviting, and whoever picks the hip-hop and low-fi pop playlist pumping throughout the venue has a special talent for vibe-setting. 
 
 </p>
 <p>The food as well was bomb bomb bomb, a 4.5 out of 5. The burger, especially, was very memorable - literally a Big Mac as envisioned by a Michelin-starred chef. 

@@ -52,7 +52,14 @@ line-height: 1em;
        
           }
         }
-        
+        @media screen and (max-width: 600px) {
+          .dutchcheeseburger{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
 
 
         .stickytoffee{

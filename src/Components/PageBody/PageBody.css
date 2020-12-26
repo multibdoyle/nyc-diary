@@ -26,6 +26,44 @@ line-height: 1em;
         
         }
 
+
+
+
+        .honeypie{
+         
+  
+        }
+        @media screen and (max-width: 6000px) {
+          .honeypie{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+       
+
+
+
+         @media screen and (max-width: 1600px) {
+           .honeypie{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .honeypie{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
         .dutchcheeseburger{
          
   

@@ -18,6 +18,7 @@ import Gobbler from '../../Gobbler.jpeg'
 import TwoBootsPizza from '../../TwoBootsPizza.jpeg'
 import VanLeeuwenPint from '../../VanLeeuwenPint.jpeg'
 import StickyToffee from '../../StickyToffee.jpeg'
+import RubirosaPizza from '../../RubirosaPizza.jpeg'
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
 class PageBody extends React.Component 
@@ -27,7 +28,22 @@ class PageBody extends React.Component
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
 
+<div>
+    <a><Link to='/rubirosa-pizza-delivered-a-very-merry-christmas'><h3 style={{fontFamily:'Archer', fontSize:25}}>Rubirosa Pizza Made Christmas Merry & Bright</h3></Link></a> 
+   <h5> Sunday, December 21st, 2020</h5>
+    <body>
+   
+       <img class='honeypie' id='honeypie' src={RubirosaPizza} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/rubirosa-pizza-delivered-a-very-merry-christmas'> COVID dampened the Christmas spirits, but it couldn't dampen the Christmas pizza.... </Link></div></a>
+  </p> </div>
 
+
+<div></div>
 
 
 <div>

@@ -3,61 +3,60 @@ const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const todoRoutes = express.Router();
+const commentRoutes = express.Router();
 const PORT = 4000;
 
-let Todo = require('./todo.model');
+let Comment = require('./comment.model');
 
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://127.0.0.1:27017/todos', { useNewUrlParser: true });
+mongoose.connect('mongodb://127.0.0.1:27017/comments', { useNewUrlParser: true });
 const connection = mongoose.connection;
 
 connection.once('open', function() {
     console.log("MongoDB database connection established successfully");
 })
 
-todoRoutes.route('/').get(function(req, res) {
-    Todo.find(function(err, todos) {
+commentRoutes.route('/').get(function(req, res) {
+    Comment.find(function(err, comments) {
         if (err) {
             console.log(err);
         } else {
-            res.json(todos);
+            res.json(comments);
         }
     });
 });
 
-todoRoutes.route('/:id').get(function(req, res) {
+commentRoutes.route('/:id').get(function(req, res) {
     let id = req.params.id;
-    Todo.findById(id, function(err, todo) {
-        res.json(todo);
+    Comment.findById(id, function(err, comment) {
+        res.json(comment);
     });
 });
 
-todoRoutes.route('/add').post(function(req, res) {
-    let todo = new Todo(req.body);
-    todo.save()
-        .then(todo => {
-            res.status(200).json({'todo': 'todo added successfully'});
+commentRoutes.route('/add').post(function(req, res) {
+    let comment = new Comment(req.body);
+    comment.save()
+        .then(comment => {
+            res.status(200).json({'comment': 'comment added successfully'});
         })
         .catch(err => {
-            res.status(400).send('adding new todo failed');
+            res.status(400).send('adding new comment failed');
         });
 });
 
-todoRoutes.route('/update/:id').post(function(req, res) {
-    Todo.findById(req.params.id, function(err, todo) {
-        if (!todo)
+commentRoutes.route('/update/:id').post(function(req, res) {
+    Comment.findById(req.params.id, function(err, comment) {
+        if (!comment)
             res.status(404).send('data is not found');
         else
-            todo.todo_description = req.body.todo_description;
-            todo.todo_responsible = req.body.todo_responsible;
-            todo.todo_priority = req.body.todo_priority;
-            todo.todo_completed = req.body.todo_completed;
+           
+            comment.comment_name = req.body.comment_name;
+            comment.comment_text = req.body.comment_text;
 
-            todo.save().then(todo => {
-                res.json('Todo updated');
+            comment.save().then(comment => {
+                res.json('Comment updated');
             })
             .catch(err => {
                 res.status(400).send("Update not possible");
@@ -65,7 +64,7 @@ todoRoutes.route('/update/:id').post(function(req, res) {
     });
 });
 
-app.use('/todos', todoRoutes);
+app.use('/comments', commentRoutes);
 
 app.listen(PORT, function() {
     console.log("Server is running on Port: " + PORT);

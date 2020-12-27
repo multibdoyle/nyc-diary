@@ -53,7 +53,7 @@ class RubirosaPost extends React.Component
 <p>I finished that pizza in clean under an hour. I don’t eat large pizzas to myself often. It’s not a habit; I don’t <i>want</i> it to be a habit. But for Rubirosa’s Honey Pie, on Christmas 2020, it was absolutely the move to be made. 
 
 </p>
-<p>A 5 out of 5 for Rubirosa; a stand-out pizza in a year full of, if nothing else, <a href='http://localhost:3000/the-genius-of-two-boots-pizza' target='blank' style={{color:'blue',fontSize:16}}>really great pizza</a>. 
+<p>A 5 out of 5 for Rubirosa; a stand-out pizza in a year full of, if nothing else, <a href='https://www.multibdoyle.com/the-genius-of-two-boots-pizza' target='blank' style={{color:'blue',fontSize:16}}>really great pizza</a>. 
 
 </p>
 <p>Until next time. </p>

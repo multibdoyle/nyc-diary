@@ -39,6 +39,7 @@ class IntroPost extends React.Component
      <p>I'm also going to write a lot about food. Because ... why not.</p>
      <p>Love, B</p>
      <LeaveaComment></LeaveaComment>
+    
       </body>
   
  

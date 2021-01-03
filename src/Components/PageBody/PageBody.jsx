@@ -9,7 +9,7 @@ import './PageBody.css'
 import UncleSamsPizza from '../../UncleSamsPizza.gif'
 //import MediaQuery from 'react-responsive'
 import TheDutchBurger from '../../TheDutchBurger.jpeg'
-
+import VesuvioBakery from '../../VesuvioBakery.jpeg'
 import InstagramEmbed from 'react-instagram-embed'
 import EggdaysPost from '../Posts/Eggdays';
 import SmashEgg from '../../SmashEgg.jpg'
@@ -27,6 +27,34 @@ class PageBody extends React.Component
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/vesuvio-bakery-serves-up-the-best-bombolini-in-downtown-manhattan'><h3 style={{fontFamily:'Archer', fontSize:25}}>Vesuvio Bakery is the Boss of Bombolini's</h3></Link></a> 
+   <h5> Sunday, January 3rd, 2021</h5>
+    <body>
+   
+       <img class='vesuviobakery' id='vesuviobakery' src={VesuvioBakery} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/rubirosa-pizza-delivered-a-very-merry-christmas'> Wipe those 2020 tears and have a bombolini, it's a new year. </Link></div></a>
+  </p> </div>
+
+
+<div></div>
+
+
+
+
+
+
+
+
+
+
+
 
 <div>
     <a><Link to='/rubirosa-pizza-delivered-a-very-merry-christmas'><h3 style={{fontFamily:'Archer', fontSize:25}}>Rubirosa Pizza Made Christmas Merry & Bright</h3></Link></a> 

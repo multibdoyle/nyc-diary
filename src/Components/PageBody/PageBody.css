@@ -26,6 +26,43 @@ line-height: 1em;
         
         }
 
+        .holeycreamdonuts{
+         
+  
+        }
+        @media screen and (max-width: 6000px) {
+          .holeycreamdonuts{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+       
+
+
+
+         @media screen and (max-width: 1600px) {
+           .holeycreamdonuts{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .holeycreamdonuts{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
+
+
 
 
 

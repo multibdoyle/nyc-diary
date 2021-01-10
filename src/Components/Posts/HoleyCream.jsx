@@ -54,7 +54,7 @@ class HoleyCreamPost extends React.Component
 <p>All qualms with chocolate ice cream aside, these were tasty scoops, with plenty of crunch and cookie in the mix. Paired with that familiar chocolately-toffee Heath Bar topping, I had myself a lovely movie snack. 
 
 </p>
-<p>Holey Moley’s donut ice cream sandwiches are always greater than the sum of their parts, and this one was no different. You take a mediocre donut, stack on some fresh ice cream, sprinkle in convenience-store grade candy bits, and **voila** Instant cheat-night deliciousness. I give Holey Moley a 3 out of 5, and yes, I will be there ordering from there again. They’re reliable, they’re tasty, and they’re...donut ice cream sandwiches. 
+<p>Holey Moley’s donut ice cream sandwiches are always greater than the sum of their parts, and this one was no different. You take a mediocre donut, stack on some fresh ice cream, sprinkle in convenience-store grade candy bits, and **voila** Instant cheat-night deliciousness. I give Holey Moley a 3 out of 5, and yes, I will be ordering from there again. They’re reliable, they’re tasty, and they’re...donut ice cream sandwiches. 
 </p>
 <p>Until next time. </p>
 

@@ -45,6 +45,7 @@ import TheDutchPost from './Components/Posts/TheDutch'
 import RubirosaPost from './Components/Posts/Rubirosa'
 import VesuvioPost from './Components/Posts/Vesuvio'
 import HoleyCreamPost from './Components/Posts/HoleyCream'
+import VillageSquarePost from './Components/Posts/VillageSquare'
 
 import {
   Responsive,
@@ -126,6 +127,7 @@ export default function App(props) {
 <Route path ='/the-doughnut-project-and-the-bourbon-sticky-toffee-pudding-bun-plus-the-cereal-milk-crunch' component={DoughnutProjectPost}/>
 <Route path ='/the-dutch-will-always-strive-and-prosper' component={TheDutchPost}/>
 <Route path ='/rubirosa-pizza-delivered-a-very-merry-christmas' component={RubirosaPost}/>
+<Route path ='/vodka-and-hot-honey-spices-up-village-square-pizza-in-the-east-village' component={VillageSquarePost}/>
 <Route path ='/holey-cream-has-got-the-most-reliable-delivery-donut-ice-cream-sandwiches-in-new-york' component={HoleyCreamPost}/>
 <Route path ='/vesuvio-bakery-serves-up-the-best-bombolini-in-downtown-manhattan' component={VesuvioPost}/>
 </Switch>

@@ -20,6 +20,9 @@ import VanLeeuwenPint from '../../VanLeeuwenPint.jpeg'
 import StickyToffee from '../../StickyToffee.jpeg'
 import RubirosaPizza from '../../RubirosaPizza.jpeg'
 import HoleyCream from '../../HoleyCream.jpeg'
+import VillageSquarePizza from '../../VillageSquarePizza.jpeg'
+
+
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
 class PageBody extends React.Component 
@@ -27,7 +30,35 @@ class PageBody extends React.Component
     return (
 
   <div class='pageBody' style={{position: 'relative', top: -75, left: 100}}>
+
+
+
+<Route path ='/vodka-and-hot-honey-spices-up-village-square-pizza-in-the-east-village' component={VillageSquarePizza}/>
 <h1 align='center'></h1>
+
+
+
+<div>
+    <a><Link to='/vodka-and-hot-honey-spices-up-village-square-pizza-in-the-east-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Village Square Pizza Dishes Out Incredible 'Pandemic-Proof' Sicilian Slices in the East Village</h3></Link></a> 
+   <h5> Saturday, January 16th, 2021</h5>
+    <body>
+   
+       <img class='villagesquare' id='villagesquare'  src={VillageSquarePizza} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/vodka-and-hot-honey-spices-up-village-square-pizza-in-the-east-village'> I'm punching back at Dave Portnoy and One Bite Pizza Reviews, Village Square Pizza deserves their high-8 score. </Link></div></a>
+  </p> </div>
+
+
+<div></div>
+
+
+
+
+
 
 <div>
     <a><Link to='/holey-cream-has-got-the-most-reliable-delivery-donut-ice-cream-sandwiches-in-new-york'><h3 style={{fontFamily:'Archer', fontSize:25}}>Holey Cream Serves My Basest Late-Night Munchie Desires</h3></Link></a> 

@@ -49,7 +49,7 @@ class PageBody extends React.Component
       ></img>
    
        </body>
-    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/vodka-and-hot-honey-spices-up-village-square-pizza-in-the-east-village'> I'm punching back at Dave Portnoy and One Bite Pizza Reviews, Village Square Pizza deserves their high-8 score. </Link></div></a>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/vodka-and-hot-honey-spices-up-village-square-pizza-in-the-east-village'> I'm punching back at Dave Portnoy, Village Square Pizza deserves to be ranked with the best. </Link></div></a>
   </p> </div>
 
 

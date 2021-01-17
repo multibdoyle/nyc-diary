@@ -39,7 +39,7 @@ class PageBody extends React.Component
 
 
 <div>
-    <a><Link to='/vodka-and-hot-honey-spices-up-village-square-pizza-in-the-east-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Village Square Pizza Dishes Out Incredible 'Pandemic-Proof' Sicilian Slices in the East Village</h3></Link></a> 
+    <a><Link to='/vodka-and-hot-honey-spices-up-village-square-pizza-in-the-east-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Village Square Pizza Dishes Out Incredible 'Pandemic-Proof' Sicilian Slices</h3></Link></a> 
    <h5> Saturday, January 16th, 2021</h5>
     <body>
    

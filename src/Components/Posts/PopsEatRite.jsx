@@ -30,14 +30,14 @@ class PopsEatRitePost extends React.Component
 
 </p>
 <p>
-Endless Hospitality Group opened up Pops as <a href='https://ny.eater.com/2020/9/14/21420024/pops-eat-rite-opening-endless-hospitality-group' target='blank' style={{color:'blue',fontsize:16}}> a takeout-and-delivery storefront in September of last year</a>, a quick strategy pivot which helped them hire back staff furloughed from their other neighborhood spots including The Wayland and Goodnight Sonny. According to the cashier I talked to today, business has been great; Pops’ inside space, of course currently off-limits for seating, looks decently expansive, the type of spot which could function both as a casual, off-kilter date spot or a place to stop in to meet with friends before taking a stroll through Tompkins Square. I look forward to seeing how Endless Hospitality makes use of the space once COVID restrictions are lifted. 
+Endless Hospitality Group opened up Pops as <a href='https://ny.eater.com/2020/9/14/21420024/pops-eat-rite-opening-endless-hospitality-group' target='blank' style={{color:'blue',fontsize:16}}> a takeout-and-delivery storefront in September of last year</a>, a quick strategy pivot which helped them hire back staff furloughed from their other neighborhood spots including The Wayland and Goodnight Sonny. According to the cashier I talked to today, business has been great. Pops’ inside space, of course currently off-limits for seating, looks decently expansive; I could image Pops functioning both as a casual, off-kilter date spot or a place to stop in to meet with friends before taking a stroll through Tompkins Square. I look forward to seeing how Endless Hospitality makes use of the space once COVID restrictions are lifted. 
 
  </p>
 <p>	Pops has a concise food menu — just two regular burger options and a choice between kale and french fries for a side, with rotating burger and side-dish specials as well as donuts,  ice cream and milkshakes for dessert. I was intrigued by today’s special burger, the Poppa Kahn — a sort of South Pacific-inspired sandwich with soy BBQ glaze, cucumbers, pickled onions, vegan mayo and sesame seeds. 
 
 </p>
 
-<p>But, today being a cheat day, I needed a helping of cheese — or ‘cheese,’ as you may call Pops’ soy-based vegan cheese. So I ordered up a double Classic burger - which includes pickles, caramelized onions and ketchup in addition to the vegan American cheese, and added a side of vegan cheese fries. 
+<p>But, today being a cheat day, I needed a helping of cheese — or ‘cheese,’ as you may call Pops’ soy-based vegan cheese. So I ordered up a double Classic burger — which includes pickles, caramelized onions and ketchup in addition to the vegan American cheese, and added a side of vegan cheese fries. 
 
 
   </p> 

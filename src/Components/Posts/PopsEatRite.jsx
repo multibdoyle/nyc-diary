@@ -25,19 +25,19 @@ class PopsEatRitePost extends React.Component
      <h6 style={{fontSize:14}}> Saturday, January 23rd, 2021 </h6>
    <h2>Just a good ol' fashioned genetically engineered soy burger with carrot-and-tomato cheese sauce...</h2>
 
-<p><a href='https://www.popseatrite.com/' target='blank' style={{color:'blue',fontsize:16 }}>Pops Eat-Rite is a new school burger joint following an old school template</a>. Their core specialty — smashed-and-griddled plant-based burgers — is set in the tradition of a fast-casual joint like McDonalds or In-N-Out, with the sort of primary-colored and bold-lined aesthetic that could only come about from a fast food spot born on St. Mark’s Place. 
+<p><a href='https://www.popseatrite.com/' target='blank' style={{color:'blue',fontsize:16 }}>Pops Eat-Rite is a new school burger joint following an old school template</a>. Their core specialty — smashed-and-griddled plant-based burgers — is set in the tradition of fast-casual grandaddies like McDonalds or In-N-Out, with the sort of primary-colored and bold-lined aesthetic that could only come about from a fast food spot born on St. Mark’s Place. 
 
 
 </p>
 <p>
-Endless Hospitality Group opened up Pops as <a href='https://ny.eater.com/2020/9/14/21420024/pops-eat-rite-opening-endless-hospitality-group' target='blank' style={{color:'blue',fontsize:16}}> a takeout-and-delivery storefront in September of last year </a>, a quick strategy pivot which helped them hire back staff furloughed from their other neighborhood spots including The Wayland and Goodnight Sonny. According to the cashier I talked today, business ‘has been great;’ Pops’ inside space, of course currently off-limits for seating, looks looks decently expansive, the type of joint which could function both as a casual, off-kilter date spot or a place to stop in to meet with friends before taking a stroll through Tompkins Square. I look forward to seeing how Endless Hospitality makes use of the space once COVID restrictions are lifted. 
+Endless Hospitality Group opened up Pops as <a href='https://ny.eater.com/2020/9/14/21420024/pops-eat-rite-opening-endless-hospitality-group' target='blank' style={{color:'blue',fontsize:16}}> a takeout-and-delivery storefront in September of last year</a>, a quick strategy pivot which helped them hire back staff furloughed from their other neighborhood spots including The Wayland and Goodnight Sonny. According to the cashier I talked to today, business has been great; Pops’ inside space, of course currently off-limits for seating, looks decently expansive, the type of spot which could function both as a casual, off-kilter date spot or a place to stop in to meet with friends before taking a stroll through Tompkins Square. I look forward to seeing how Endless Hospitality makes use of the space once COVID restrictions are lifted. 
 
  </p>
-<p>	Pops has a concise food menu - just two regular burger options and a choice between kale and french fries for a side, with rotating burger and side-dish specials as well as donuts,  ice cream and milkshakes for dessert. I was intrigued by today’s special burger, the Poppa Kahn - a sort of South Pacific-inspired sandwich with soy BBQ glaze, cucumbers, pickled onions, vegan mayo and sesame seeds. 
+<p>	Pops has a concise food menu — just two regular burger options and a choice between kale and french fries for a side, with rotating burger and side-dish specials as well as donuts,  ice cream and milkshakes for dessert. I was intrigued by today’s special burger, the Poppa Kahn — a sort of South Pacific-inspired sandwich with soy BBQ glaze, cucumbers, pickled onions, vegan mayo and sesame seeds. 
 
 </p>
 
-<p>But, today being a cheat day, I needed a helping of cheese - or ‘cheese,’ as you may call Pops’ soy-based vegan cheese. So I ordered up a double Classic burger - which includes pickles, caramelized onions and ketchup in addition to the vegan American cheese - and added a side of vegan cheese fries. 
+<p>But, today being a cheat day, I needed a helping of cheese — or ‘cheese,’ as you may call Pops’ soy-based vegan cheese. So I ordered up a double Classic burger - which includes pickles, caramelized onions and ketchup in addition to the vegan American cheese, and added a side of vegan cheese fries. 
 
 
   </p> 
@@ -46,7 +46,7 @@ Endless Hospitality Group opened up Pops as <a href='https://ny.eater.com/2020/9
     Off I trekked through the East Village, my greasy delicious bag of not-quite-burger-and-fries heavy in hand, looking for a place to sit and eat. I ended up at The Coffee Project on East 5th Street, and picked up a pumpkin spice muffin before setting myself into one of their two outdoor seats. 
 
 </p>
-<p>The burger, still piping hot from the tin foil wrapping, was a well-stacked and pressed beauty of a sandwich, with melted cheese and amber caramelized onions peeking out from under a fluffy toasted bun. Assessing this picture now, I will say there is a certain plant-y look to the whole scene, what with the fresh shaved lettuce and -- is that a whole-grain bun? 
+<p>The burger, still piping hot from the tin foil wrapping, was a well-stacked and pressed beauty of a sandwich, with melted cheese and amber caramelized onions peeking out from under a fluffy toasted bun. Assessing this picture now, I will say there is a certain plant-y look to the whole scene, what with the fresh shaved lettuce and — is that a whole-grain bun? 
 
 
 </p>
@@ -64,13 +64,13 @@ Endless Hospitality Group opened up Pops as <a href='https://ny.eater.com/2020/9
 </p>
 
 <p>
-The french fries were perfectly done, crispy shoestring facsimiles of McDonald’s fries which tasted better by the handful. And that cheese sauce - I’m not sure how much of the sauce was composed of carrots and tomatoes, but it did taste lighter than your typical nacho dip. In fact, as far as cheat meals go, the whole Pops Eat-Rite shebang left me feeling easy and breezy after. I felt like I could’ve gone for a training run and a Crossfit workout later, had I not proceeded to munch into the Pumpkin Spice Muffin from The Coffee Project. The muffin put me out for the day; all I’ve been good for since then is phone chats and keyboard tapping. 
+The french fries were perfectly done, crispy shoestring facsimiles of McDonald’s fries which tasted better by the handful. And that cheese sauce — I’m not sure how much of the sauce was composed of carrots and tomatoes, but it did taste lighter than your typical nacho dip. In fact, as far as cheat meals go, the whole Pops Eat-Rite shebang left me feeling easy and breezy after. I felt like I could’ve gone for a training run and a Crossfit workout later, had I not proceeded to munch into the Pumpkin Spice Muffin from The Coffee Project. The muffin put me out for the day; all I’ve been good for since then is phone chats and keyboard tapping. 
 
 </p>
-<p>I’ve said before that I’m a hard sell for vegan products, but Pops Eat-Rite at least has got me on the segment of consumers who would eat a vegan meal for its own delicious merits, rather than any particular moral standard against eating animals. 
+<p>I’ve said before that I’m a hard sell for vegan products, but Pops Eat-Rite at least has got me in the segment of consumers who would eat a vegan meal for its own delicious merits, rather than any particular moral standard against eating animals. 
 
 </p>
-<p>Sticking with the ol’ five-point scale, I’d give Pops a 4.5 out of 5 - fast, fresh and focused on fundamentals - and hope to make this joint a part of my regular Saturday restaurant rotation. Just put cheese on those special burgers, Pops! Your man needs his cheese.
+<p>Sticking with the ol’ five-point scale, I’d give Pops a 4.5 out of 5 — fast, fresh and focused on fundamentals — and hope to make this joint a part of my regular Saturday restaurant rotation. Just put cheese on those special burgers, Pops! Your man needs his cheese.
 
 
 </p>

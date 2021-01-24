@@ -21,6 +21,7 @@ import StickyToffee from '../../StickyToffee.jpeg'
 import RubirosaPizza from '../../RubirosaPizza.jpeg'
 import HoleyCream from '../../HoleyCream.jpeg'
 import VillageSquarePizza from '../../VillageSquarePizza.jpeg'
+import PopsBurgerandFries from '../../PopsBurgerandFries.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -33,8 +34,27 @@ class PageBody extends React.Component
 
 
 
-<Route path ='/vodka-and-hot-honey-spices-up-village-square-pizza-in-the-east-village' component={VillageSquarePizza}/>
+
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/pops-burger-and-fries-has-got-me-hot-for-vegan-food'><h3 style={{fontFamily:'Archer', fontSize:25}}>Pops Eat-Rite Has Got Me Hooked on Vegan Food</h3></Link></a> 
+   <h5> Saturday, January 21st, 2021</h5>
+    <body>
+   
+       <img class='popsburgerandfries' id='popsburgerandfries'  src={PopsBurgerandFries} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/pops-burger-and-fries-has-got-me-hot-for-vegan-food'> I'm going to make this plant-based double cheeseburger my half-marathon fuel.  </Link></div></a>
+  </p> </div>
+
+
+<div></div>
+
+
 
 
 

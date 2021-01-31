@@ -11,6 +11,7 @@ import UncleSamsPizza from '../../UncleSamsPizza.gif'
 import TheDutchBurger from '../../TheDutchBurger.jpeg'
 import VesuvioBakery from '../../VesuvioBakery.jpeg'
 import InstagramEmbed from 'react-instagram-embed'
+import cronut_and_croissant from '../../cronut_and_croissant.jpeg'
 import EggdaysPost from '../Posts/Eggdays';
 import SmashEgg from '../../SmashEgg.jpg'
 import Heroes_and_Villains1 from '../../Heroes_and_Villains1.jpeg'
@@ -22,6 +23,7 @@ import RubirosaPizza from '../../RubirosaPizza.jpeg'
 import HoleyCream from '../../HoleyCream.jpeg'
 import VillageSquarePizza from '../../VillageSquarePizza.jpeg'
 import PopsBurgerandFries from '../../PopsBurgerandFries.jpeg'
+import split_cronut from '../../split_cronut.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -37,9 +39,40 @@ class PageBody extends React.Component
 
 <h1 align='center'></h1>
 
+
+<div>
+    <a><Link to='/dominique-ansel-is-still-a-genius-and-the-cronut-is-still-the-best-pastry-in-the-world'><h3 style={{fontFamily:'Archer', fontSize:25}}>I'm Still Crazy for Cronuts</h3></Link></a> 
+   <h5> Saturday, January 30th, 2020</h5>
+    <body>
+   
+       <img class='cronutandcroissant' id='cronutandcroissant'  src={cronut_and_croissant} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/pops-burger-and-fries-has-got-me-hot-for-vegan-food'> Dominique Ansel is still a genius and the cronut is still a mind-blowing pastry.  </Link></div></a>
+  </p> </div>
+
+
+<div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div>
     <a><Link to='/pops-burger-and-fries-has-got-me-hot-for-vegan-food'><h3 style={{fontFamily:'Archer', fontSize:25}}>Pops Eat-Rite Has Got Me Hooked on Vegan Food</h3></Link></a> 
-   <h5> Saturday, January 21st, 2021</h5>
+   <h5> Saturday, January 23rd, 2021</h5>
     <body>
    
        <img class='popsburgerandfries' id='popsburgerandfries'  src={PopsBurgerandFries} 

@@ -1,0 +1,42 @@
+.cronut_and_croissant{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:12px;
+position: relative;
+height:25% ;
+width:25% ;
+
+}    
+
+
+  
+  @media screen and (max-width: 600px) {
+    .cronut_and_croissant{
+      position: relative;
+      height:100% ;
+      width:100% 
+   }
+  }
+
+
+  .splitcronut{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:12px;
+  position: relative;
+  height:20% ;
+  width:20% ;
+  
+  }    
+  
+  
+    
+    @media screen and (max-width: 600px) {
+      .splitcronut{
+        position: relative;
+        height:100% ;
+        width:100% 
+     }
+    }

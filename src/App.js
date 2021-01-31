@@ -47,6 +47,8 @@ import VesuvioPost from './Components/Posts/Vesuvio'
 import HoleyCreamPost from './Components/Posts/HoleyCream'
 import VillageSquarePost from './Components/Posts/VillageSquare'
 import PopsEatRitePost from './Components/Posts/PopsEatRite'
+import CronutPost from './Components/Posts/Cronut'
+
 
 import {
   Responsive,
@@ -132,7 +134,7 @@ export default function App(props) {
 <Route path ='/holey-cream-has-got-the-most-reliable-delivery-donut-ice-cream-sandwiches-in-new-york' component={HoleyCreamPost}/>
 <Route path ='/vesuvio-bakery-serves-up-the-best-bombolini-in-downtown-manhattan' component={VesuvioPost}/>
 <Route path ='/pops-burger-and-fries-has-got-me-hot-for-vegan-food' component={PopsEatRitePost}/>
-
+<Route path ='/dominique-ansel-is-still-a-genius-and-the-cronut-is-still-the-best-pastry-in-the-world' component={CronutPost}/>
 
 </Switch>
 <PageFooter></PageFooter>

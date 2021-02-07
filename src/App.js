@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -48,7 +48,9 @@ import HoleyCreamPost from './Components/Posts/HoleyCream'
 import VillageSquarePost from './Components/Posts/VillageSquare'
 import PopsEatRitePost from './Components/Posts/PopsEatRite'
 import CronutPost from './Components/Posts/Cronut'
-
+import {useDispatch} from 'react-redux';
+import PasticceriaRoccoPost from './Components/Posts/PasticceriaRocco'
+//import {getComments} from '.actions/comments'
 
 import {
   Responsive,
@@ -75,13 +77,12 @@ const MenuLink = ({ to, name }) => {
   )
 }
 
-
-
 export default function App(props) {
   return (
     //next two lines should give me mobile version of app
 
     <Router   >
+  
        { GA.init() && <GA.RouteTracker /> }
     <div class="App">
     <Navbar classname='header' style={{position: 'relative', top: -30}}>
@@ -135,6 +136,7 @@ export default function App(props) {
 <Route path ='/vesuvio-bakery-serves-up-the-best-bombolini-in-downtown-manhattan' component={VesuvioPost}/>
 <Route path ='/pops-burger-and-fries-has-got-me-hot-for-vegan-food' component={PopsEatRitePost}/>
 <Route path ='/dominique-ansel-is-still-a-genius-and-the-cronut-is-still-the-best-pastry-in-the-world' component={CronutPost}/>
+<Route path ='/pasticceria-rocco-cookies-and-cheesecake-are-a-deadly-combination' component={PasticceriaRoccoPost}/>
 
 </Switch>
 <PageFooter></PageFooter>

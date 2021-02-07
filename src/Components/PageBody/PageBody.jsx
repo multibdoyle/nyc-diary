@@ -24,6 +24,7 @@ import HoleyCream from '../../HoleyCream.jpeg'
 import VillageSquarePizza from '../../VillageSquarePizza.jpeg'
 import PopsBurgerandFries from '../../PopsBurgerandFries.jpeg'
 import split_cronut from '../../split_cronut.jpeg'
+import RoccoCookiesandCheesecake from '../../RoccoCookiesandCheesecake.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -41,8 +42,34 @@ class PageBody extends React.Component
 
 
 <div>
+    <a><Link to='/pasticceria-rocco-cookies-and-cheesecake-are-a-deadly-combination'><h3 style={{fontFamily:'Archer', fontSize:25}}>Pasticceria Rocco is an Old School Italian Bakery That's Keeping the West Village Fresh</h3></Link></a> 
+   <h5> </h5>
+    <body>
+   
+       <img class='pasticceriarocco' id='pasticceriarocco'  src={RoccoCookiesandCheesecake} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/pasticceria-rocco-and-its-cookies-are-legendary'> 47 years in the pastry game, and still going strong... </Link></div></a>
+  </p> </div>
+
+
+<div></div>
+
+
+
+
+
+
+
+
+
+
+<div>
     <a><Link to='/dominique-ansel-is-still-a-genius-and-the-cronut-is-still-the-best-pastry-in-the-world'><h3 style={{fontFamily:'Archer', fontSize:25}}>I'm Still Crazy for Cronuts</h3></Link></a> 
-   <h5> Saturday, January 30th, 2020</h5>
+   <h5> Saturday, January 30th, 2021</h5>
     <body>
    
        <img class='cronutandcroissant' id='cronutandcroissant'  src={cronut_and_croissant} 

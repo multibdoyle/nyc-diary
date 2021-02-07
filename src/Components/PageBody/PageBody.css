@@ -26,6 +26,44 @@ line-height: 1em;
         
         }
 
+
+        .pasticceriarocco
+        {
+         
+        }
+        @media screen and (max-width: 6000px) {
+          .pasticceriarocco{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+
+
+         @media screen and (max-width: 1600px) {
+           .pasticceriarocco{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .pasticceriarocco{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
+
+
+
+
         .cronutandcroissant
         {
          

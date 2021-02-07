@@ -25,7 +25,7 @@ class PasticceriaRoccoPost extends React.Component
      <h6 style={{fontSize:14}}> Saturday, February 6th, 2021 </h6>
    <h2>You're walking on hallowed baking grounds when you go to Pasticceria Rocco</h2>
 
-<p>Italian immigrant Rocco Generoso, Sr. officially opened <a href='https://pasticceriarocco.com/' style={{color:'blue',fontsize:16}}>  Pasticceria Rocco</a> in 1974, after buying the storefront from the bakery where he had worked the prior 18 years. Today, Pasticceria Rocco maintains one of the most diverse collections of pastries anywhere in the city. Whether you’re in the mood for cheesecake, or layer cake, or cannolis, or tiramisu, or croissants, or fruit pies, or lobster tails, or **bum bum bum** extra-large soft cookies….. Pasticceria Rocco has got you covered. 
+<p>Italian immigrant Rocco Generoso, Sr. officially opened <a href='https://pasticceriarocco.com/' target='blank' style={{color:'blue',fontsize:16}}>  Pasticceria Rocco</a> in 1974, after buying the storefront from the bakery where he had worked the prior 18 years. Today, Pasticceria Rocco maintains one of the most diverse collections of pastries anywhere in the city. Whether you’re in the mood for cheesecake, or layer cake, or cannolis, or tiramisu, or croissants, or fruit pies, or lobster tails, or **bum bum bum** extra-large soft cookies….. Pasticceria Rocco has got you covered. 
 
 </p>
 <p>I took a walk down Bleecker Street to pick up some Saturday night treats from the bakery earlier this evening. Really, I already knew what I was going to get — their M&M cookies are like a big, easy, soft weighted blanket for my stomach. I doubt these cookies were part of Papa Rocco’s original old-world recipe index, but the bakery seems to be aware they’re an attention-getter. The extra-large cookies line the windows of the bakery every morning, stacked up like so many doughy dinner plates, beckoning downtown denizens to break their weekday diets for a taste of sugary Italian heaven. 
@@ -35,7 +35,7 @@ class PasticceriaRoccoPost extends React.Component
 
 </p>
 
-<p>I took the scenic route home through the West Village and was struck by the fresh urban clamor; every single restaurant’s outdoor seating booths were packed to the brim. <a href='https://ny.eater.com/2021/2/5/22268498/cuomo-earlier-return-indoor-dining-nyc' style={{color:'blue', fontsize:16}}>The return of indoor dining</a> — scheduled for Valentine’s Day — could not come soon enough. 
+<p>I took the scenic route home through the West Village and was struck by the fresh urban clamor; every single restaurant’s outdoor seating booths were packed to the brim. <a href='https://ny.eater.com/2021/2/5/22268498/cuomo-earlier-return-indoor-dining-nyc' target='blank' style={{color:'blue', fontsize:16}}>The return of indoor dining</a> — scheduled for Valentine’s Day — could not come soon enough. 
 
 
   </p> 

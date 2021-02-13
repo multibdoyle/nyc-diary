@@ -27,6 +27,46 @@ line-height: 1em;
         }
 
 
+        .zazzyspizza
+        {
+         
+        }
+        @media screen and (max-width: 6000px) {
+          .zazzyspizza{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+
+
+         @media screen and (max-width: 1600px) {
+           .zazzyspizza{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .zazzyspizza{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
+
+
+
+
+
+
+
         .pasticceriarocco
         {
          

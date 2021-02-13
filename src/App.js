@@ -50,6 +50,7 @@ import PopsEatRitePost from './Components/Posts/PopsEatRite'
 import CronutPost from './Components/Posts/Cronut'
 import {useDispatch} from 'react-redux';
 import PasticceriaRoccoPost from './Components/Posts/PasticceriaRocco'
+import ZazzysPost from './Components/Posts/Zazzys'
 //import {getComments} from '.actions/comments'
 
 import {
@@ -137,6 +138,7 @@ export default function App(props) {
 <Route path ='/pops-burger-and-fries-has-got-me-hot-for-vegan-food' component={PopsEatRitePost}/>
 <Route path ='/dominique-ansel-is-still-a-genius-and-the-cronut-is-still-the-best-pastry-in-the-world' component={CronutPost}/>
 <Route path ='/pasticceria-rocco-cookies-and-cheesecake-are-a-deadly-combination' component={PasticceriaRoccoPost}/>
+<Route path ='/zazzys-pizza-and-puppy-dogs-are-a-dangerous-mix' component={ZazzysPost}/>
 
 </Switch>
 <PageFooter></PageFooter>

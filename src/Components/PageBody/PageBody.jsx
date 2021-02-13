@@ -25,6 +25,7 @@ import VillageSquarePizza from '../../VillageSquarePizza.jpeg'
 import PopsBurgerandFries from '../../PopsBurgerandFries.jpeg'
 import split_cronut from '../../split_cronut.jpeg'
 import RoccoCookiesandCheesecake from '../../RoccoCookiesandCheesecake.jpeg'
+import ZazzysPizza from '../../ZazzysPizza.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -39,6 +40,31 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+
+<div>
+    <a><Link to='/zazzys-pizza-and-puppy-dogs-are-a-dangerous-mix'><h3 style={{fontFamily:'Archer', fontSize:25}}>Zazzy's Pizza Brings Some Fresh Mozz and 'Ronis to the Lower East Side</h3></Link></a> 
+   <h5> </h5>
+    <body>
+   
+       <img class='zazzyspizza' id='zazzyspizza'  src={ZazzysPizza} 
+ alt='intro' 
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/zazzys-pizza-and-puppy-dogs-are-a-dangerous-mix'> Doodle puppies under the table had no influence on this review.</Link></div></a>
+  </p> </div>
+
+
+<div></div>
+
+
+
+
+
+
 
 
 <div>

@@ -45,11 +45,11 @@ class PageBody extends React.Component
 
 <div>
     <a><Link to='/zazzys-pizza-and-puppy-dogs-are-a-dangerous-mix'><h3 style={{fontFamily:'Archer', fontSize:25}}>Zazzy's Pizza Brings Some Fresh Mozz and 'Ronis to the Lower East Side</h3></Link></a> 
-   <h5> </h5>
+   <h5>Saturday, February 13th, 2021 </h5>
     <body>
    
        <img class='zazzyspizza' id='zazzyspizza'  src={ZazzysPizza} 
- alt='intro' 
+ alt='intro'   
 /* eslint no-restricted-globals:0 */
       ></img>
    
@@ -69,7 +69,7 @@ class PageBody extends React.Component
 
 <div>
     <a><Link to='/pasticceria-rocco-cookies-and-cheesecake-are-a-deadly-combination'><h3 style={{fontFamily:'Archer', fontSize:25}}>Pasticceria Rocco is an Old School Italian Bakery That's Keeping the West Village Fresh</h3></Link></a> 
-   <h5> </h5>
+ <h5> Saturday, February 6th, 2021</h5>
     <body>
    
        <img class='pasticceriarocco' id='pasticceriarocco'  src={RoccoCookiesandCheesecake} 

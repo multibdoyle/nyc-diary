@@ -27,6 +27,49 @@ line-height: 1em;
         }
 
 
+
+        .sauce
+        {
+         
+        }
+        @media screen and (max-width: 6000px) {
+          .sauce{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+
+
+         @media screen and (max-width: 1600px) {
+           .sauce{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .sauce{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
+
+
+
+
+
+
+
+
+
         .zazzyspizza
         {
          

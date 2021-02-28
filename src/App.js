@@ -52,6 +52,7 @@ import {useDispatch} from 'react-redux';
 import PasticceriaRoccoPost from './Components/Posts/PasticceriaRocco'
 import ZazzysPost from './Components/Posts/Zazzys'
 import SaucePost from './Components/Posts/Sauce'
+import MikeysPost from './Components/Posts/Mikeys'
 //import {getComments} from '.actions/comments'
 
 import {
@@ -141,6 +142,8 @@ export default function App(props) {
 <Route path ='/pasticceria-rocco-cookies-and-cheesecake-are-a-deadly-combination' component={PasticceriaRoccoPost}/>
 <Route path ='/zazzys-pizza-and-puppy-dogs-are-a-dangerous-mix' component={ZazzysPost}/>
 <Route path ='/get-lost-in-the-sauce-on-rivington-street' component={SaucePost}/>
+
+<Route path ='/mikey-likes-it-serves-waffle-ice-cream-sandwiches-with-love' component={MikeysPost}/>
 </Switch>
 <PageFooter></PageFooter>
 </Router>

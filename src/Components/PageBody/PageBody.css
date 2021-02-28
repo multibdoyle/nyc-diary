@@ -26,6 +26,52 @@ line-height: 1em;
         
         }
 
+        .wafflesauce
+        {
+         
+        }
+        @media screen and (max-width: 6000px) {
+          .wafflesauce{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+
+
+         @media screen and (max-width: 1600px) {
+           .wafflesauce{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .wafflesauce{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         .sauce

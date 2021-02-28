@@ -27,6 +27,7 @@ import split_cronut from '../../split_cronut.jpeg'
 import RoccoCookiesandCheesecake from '../../RoccoCookiesandCheesecake.jpeg'
 import ZazzysPizza from '../../ZazzysPizza.jpeg'
 import SaucePizza from '../../SaucePizza.jpeg'
+import MikeyLikesIt from '../../MikeyLikesIt.jpg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -41,6 +42,37 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+
+
+
+
+
+
+
+
+<div>
+    <a><Link to='/mikey-likes-it-serves-waffle-ice-cream-sandwiches-with-love'><h3 style={{fontFamily:'Archer', fontSize:25}}>Mikey Likes It Throws the Mac Down on Avenue A</h3></Link></a> 
+   <h5>Saturday, February 27th, 2021 </h5>
+    <body>
+   
+       <img class='wafflesauce' id='wafflesauce'  src={MikeyLikesIt} 
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/mikey-likes-it-serves-waffle-ice-cream-sandwiches-with-love'> Warning: Schmaltzy post about the power of love ahead.</Link></div></a>
+  </p> </div>
+
+
+<div></div>
+
+
+
+
+
 
 
 
@@ -60,13 +92,6 @@ class PageBody extends React.Component
 
 
 <div></div>
-
-
-
-
-
-
-
 
 
 

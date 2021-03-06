@@ -25,6 +25,37 @@ line-height: 1em;
          /*   width: 150px; /* Set a small width */
         
         }
+        .belgiumfries
+      
+        @media screen and (max-width: 6000px) {
+          .belgiumfries{
+            position: relative;
+            height:21%;
+            width:21% ;
+            border-radius: 5%;
+      
+         }
+       }
+
+
+         @media screen and (max-width: 1600px) {
+           .belgiumfries{
+             position: relative;
+             height:21%;
+             width:21% ;
+             border-radius: 5%;
+       
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .belgiumfries{
+            position: relative;
+            height:90%;
+            width:90% ;
+     
+         }
+        }
+
 
         .wafflesauce
         {

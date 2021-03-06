@@ -53,6 +53,7 @@ import PasticceriaRoccoPost from './Components/Posts/PasticceriaRocco'
 import ZazzysPost from './Components/Posts/Zazzys'
 import SaucePost from './Components/Posts/Sauce'
 import MikeysPost from './Components/Posts/Mikeys'
+import PommesFritesPost from './Components/Posts/PommesFrites'
 //import {getComments} from '.actions/comments'
 
 import {
@@ -144,6 +145,9 @@ export default function App(props) {
 <Route path ='/get-lost-in-the-sauce-on-rivington-street' component={SaucePost}/>
 
 <Route path ='/mikey-likes-it-serves-waffle-ice-cream-sandwiches-with-love' component={MikeysPost}/>
+<Route path ='/pommes-frites-french-fries-bring-belgium-flavor-to-greenwich-village' component={PommesFritesPost}/>
+
+
 </Switch>
 <PageFooter></PageFooter>
 </Router>

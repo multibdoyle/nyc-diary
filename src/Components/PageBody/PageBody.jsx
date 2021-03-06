@@ -28,6 +28,7 @@ import RoccoCookiesandCheesecake from '../../RoccoCookiesandCheesecake.jpeg'
 import ZazzysPizza from '../../ZazzysPizza.jpeg'
 import SaucePizza from '../../SaucePizza.jpeg'
 import MikeyLikesIt from '../../MikeyLikesIt.jpg'
+import PommesFrites from '../../PommesFrites.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -49,6 +50,20 @@ class PageBody extends React.Component
 
 
 
+<div>
+    <a><Link to='/pommes-frites-french-fries-bring-belgium-flavor-to-greenwich-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Pommes Frites Is Pushing My Ketchup-Comfort Zone</h3></Link></a> 
+   <h5>Saturday, February 27th, 2021 </h5>
+    <body>
+   
+       <img class='belgiumfries' id='belgiumfries'  src={PommesFrites} 
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/pommes-frites-french-fries-bring-belgium-flavor-to-greenwich-village'> So many sauce choices, it's giving me anxiety....  </Link></div></a>
+  </p> </div>
+
 
 
 
@@ -66,16 +81,6 @@ class PageBody extends React.Component
     <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/mikey-likes-it-serves-waffle-ice-cream-sandwiches-with-love'> Warning: Schmaltzy post about the power of love ahead.</Link></div></a>
   </p> </div>
 
-
-<div></div>
-
-
-
-
-
-
-
-
 <div>
     <a><Link to='/get-lost-in-the-sauce-on-rivington-street'><h3 style={{fontFamily:'Archer', fontSize:25}}>I Got Lost in the Sauce on Rivington Street</h3></Link></a> 
    <h5>Saturday, February 20th, 2021 </h5>
@@ -90,8 +95,6 @@ class PageBody extends React.Component
     <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/get-lost-in-the-sauce-on-rivington-street'> Sauce Pizzeria is the best .... finally, something Dave Portnoy and I can agree about.</Link></div></a>
   </p> </div>
 
-
-<div></div>
 
 
 

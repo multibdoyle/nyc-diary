@@ -52,7 +52,7 @@ class PageBody extends React.Component
 
 <div>
     <a><Link to='/pommes-frites-french-fries-bring-belgium-flavor-to-greenwich-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Pommes Frites Is Pushing My Ketchup-Comfort Zone</h3></Link></a> 
-   <h5>Saturday, February 27th, 2021 </h5>
+   <h5>Saturday, March 6th, 2021 </h5>
     <body>
    
        <img class='belgiumfries' id='belgiumfries'  src={PommesFrites} 

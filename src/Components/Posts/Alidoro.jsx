@@ -25,7 +25,7 @@ class AlidoroPost extends React.Component
      <h6 style={{fontSize:14}}> Sunday, March 14th, 2021</h6>
    <h2>Every neighborhood needs like a sandwich shop like Alidoro</h2>
 
-   <p><a href='https://www.alidoronyc.com/' style={{color:'blue',fontsize:16}}>Alidoro in Soho</a> serves up the kind of hearty, meaty Italian subs you could mull over for an entire afternoon — or at least through an episode of Rick of Morty, which is what I did with my Pinocchio sandwich yesterday. 
+   <p><a href='https://www.alidoronyc.com/' target='blank' style={{color:'blue',fontsize:16}}>Alidoro in Soho</a> serves up the kind of hearty, meaty Italian subs you could mull over for an entire afternoon — or at least through an episode of Rick of Morty, which is what I did with my Pinocchio sandwich yesterday. 
 
 </p>
 <p>The sandwich came packed heavy with soppressata layers, salty enough to suck your buds dry for the day. I assure you, the flavor is worth the dehydration! A beautiful translucent sliver of prosciutto peaked out below the slightly moist, soft slab of mozzarella, and sweet roasted peppers and olive paste completed the sandwich, which I ordered on sfilatino bread — a slightly softer version of a baguette. 

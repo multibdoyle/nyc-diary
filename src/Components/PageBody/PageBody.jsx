@@ -29,6 +29,7 @@ import ZazzysPizza from '../../ZazzysPizza.jpeg'
 import SaucePizza from '../../SaucePizza.jpeg'
 import MikeyLikesIt from '../../MikeyLikesIt.jpg'
 import PommesFrites from '../../PommesFrites.jpeg'
+import Alidoro_Sandwich from '../../Alidoro_Sandwich.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -45,6 +46,22 @@ class PageBody extends React.Component
 <h1 align='center'></h1>
 
 
+<div>
+    <a><Link to='/alidoro-makes-the-most-savage-sandwiches-in-soho'><h3 style={{fontFamily:'Archer', fontSize:25}}>Alidoro Serves Up the Most Savage Salami Sandwich in Soho</h3></Link></a> 
+   <h5>Sunday, March 14th, 2021 </h5>
+    <body>
+   
+       <img class='alidorosandwich' id='alidorosandwich'  src={Alidoro_Sandwich} 
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/alidoro-makes-the-most-savage-sandwiches-in-soho'> Warning: Salty meats ahead... </Link></div></a>
+  </p> </div>
+
+
+
 
 
 
@@ -52,7 +69,7 @@ class PageBody extends React.Component
 
 <div>
     <a><Link to='/pommes-frites-french-fries-bring-belgium-flavor-to-greenwich-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Pommes Frites Is Pushing My Ketchup-Comfort Zone</h3></Link></a> 
-   <h5>Saturday, March 6th, 2021 </h5>
+   <h5>Saturday, February 27th, 2021 </h5>
     <body>
    
        <img class='belgiumfries' id='belgiumfries'  src={PommesFrites} 
@@ -133,7 +150,7 @@ class PageBody extends React.Component
       ></img>
    
        </body>
-    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/pasticceria-rocco-cookies-and-cheesecake-are-a-deadly-combination'> 47 years in the pastry game, and still going strong... </Link></div></a>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/pasticceria-rocco-and-its-cookies-are-legendary'> 47 years in the pastry game, and still going strong... </Link></div></a>
   </p> </div>
 
 

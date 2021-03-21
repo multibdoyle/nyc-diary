@@ -24,63 +24,47 @@ class ButterfunkPost extends React.Component
      <img  src={BiscuitShortcake}  alt='biscuitshortcake' class='biscuitshortcakey' ></img>
 
      <h6 style={{fontSize:14}}> Sunday, March 21st, 2021</h6>
-   <h2>I don't know if I'll ever trust shortcake on a menu again</h2>
+   <h2>Full disclosure, I just learned what shortcake is</h2>
 
-<p>I have ordered from UberEats every single weekend for the past, hmmm, call it 64 weekends, and had never seen Butterfunk Biscuit Co. — never seen any biscuit-focused restaruant, actually — before yesterday. 
-</p>
-<p>
-But I was familiar with Butterfunk's address: 30 Vandam Street. I ordered a ten-piece of Nashville Hot Wings from the same location, branded as Firebelly Wings, this past December. The wings were decent, as I recall.
-
- </p>
-<p>	 Two ‘restaurants’ (at least) sharing the same kitchen? Methinks a <a href='https://www.multibdoyle.com/ghost-kitchens' target='blank' style={{color:'blue',fontsize:16}}>ghost kitchen</a> has taken root! 
-</p>
-
-<p>Butterfunk's menu was appealingly creative, like a New York deli owner just returned from his COVID retreat in South Carolina and wants to share his abundance of Southern-fried inspiration. A Smoked Salmon Biscuit and Avocado Toast Biscuit were among the top-billed menu items, right next to the Crispy Fried Chicken Biscuit.
-  </p> 
+<p> <a href='https://www.butterfunkbiscuit.com/' target='blank' style={{color:'blue', fontsize:16}}> Butterfunk Biscuit Co. </a>is brainchild of Chef Chris Scott, who uses his family's fourth-generation biscuit recipe across a wide swath of regional touchpoints from New York City and the American South. The Smoked Salmon Biscuit, Avocado Toast Biscuit and Crispy Fried Chicken Biscuit are all top-billers on the menu. </p>
 
     <p>
-    After some deliberation, I went all in on the Chopped Cheese Biscuit. A chopped cheese, for those unaware, is the uptown New York City bodega order <i>du jour</i>*, akin to a bacon-egg-and-cheese in Midtown, or a juice cleanse and gallons of smart water in Tribeca. 
+    After some deliberation, I went all in on the Chopped Cheese Biscuit. A chopped cheese, for those unaware, is the uptown New York City bodega order <i>du jour</i>*, akin to a bacon-egg-and-cheese in Midtown, or a hummus wrap and SmartWater in Tribeca. 
 </p>
 <p>I finished off my order with the "Berry Berry Good Shortcake" — can’t skip dessert! — and hopped on a Zoom catch-up with a friend while I waited. 
 
 </p>
     
-<p>When the food arrived, I plopped my bag of goodies on my bed with my laptop and pulled out the first item at the top of the bag, which turned out to be the shortcake. 
+<p>When the food arrived, I plopped my bag of goodies on my bed and pulled out the first item at the top of the bag, which turned out to be the shortcake. 
 
 </p>
-<p>Right away, I knew something was wrong. My berry-shortcake medley looked more like croutons, crème fraîche, and yellow cherry tomatoes with a sprig of parsley. 
+<p>Right away, I sensed something was wrong. My berry-shortcake medley looked more like croutons, crème fraîche, and yellow cherry tomatoes with a sprig of parsley. 
 
 </p>
 
     
-<p>My friend agreed the whole rigamarole seemed off, as I held up the food to the camera. Audibly crunching into one of the ‘shortcake’ bites confirmed that this dessert was seriously janky. 
+<p>My friend agreed the whole rigamarole seemed off, as I held up the food to the camera. Audibly crunching into one of the ‘shortcake’ bites confirmed that this dessert was a bit janky. 
 
 </p>
 <p>Unsettled, I put the carton down and decided to wait until later to eat the rest. I didn’t want to cry on a Zoom call. 
 
 </p>
-<p>Twenty minutes later, when I got off the Zoom and dug into the Chopped Cheese Biscuit, my worst fears about Butterfunk were slightly quelled — this was a delicious, cheesy, beefy symphony. The onions provided crucial grease and crunch, and the biscuit, though a bit overdone on the exterior eventually softened into a pleasing bready mush. 
+<p>Twenty minutes later, when I got off the Zoom and dug into the Chopped Cheese Biscuit, my worst fears about Butterfunk were slightly quelled — the sandwich was a delicious, cheesy, beefy symphony. The onions provided crucial grease and crunch, and the biscuit, though a smidge overdone on the exterior, eventually softened into a pleasing bready mush. 
 </p>
 <p> <img  src={BiscuitChoppedCheese}  alt='chopcheesebiscuit' class='chopcheesebiscuit' ></img></p>
 
 
-<p>After scooping up the last of the biscuit and beef, I tentatively tucked into the ‘shortcake’; this second go-round proved slightly more — ahem — fruitful. The yellow balls were fresh gooseberries, tart and juicy, and the sliced strawberries and blueberries were also perfectly ripe. Healthy dollops of whipped cream did just enough to moisten the bread bites into a palatable dessert.
+<p>After scooping up the last of the biscuit and beef, I tentatively tucked into the shortcake; this second go-round proved slightly more — ahem — fruitful. The yellow balls turned out to be fresh gooseberries, tart and juicy, and the sliced strawberries and blueberries were also perfectly ripe. Healthy dollops of whipped cream did just enough to moisten the bread bites into a palatable dessert.
 </p>
-<p>If I had read the menu carefully, of course, I would have noticed the shortcake description specifically called out ‘toasted biscuit’ as included in the mix. So, Butterfunk is only half-guilty of false advertising — they admit to not using real shortcake, but like, in the fine print. 
+<p>If I had read the menu carefully, of course, I would have noticed the shortcake description specifically called out ‘toasted biscuits' as part of the mix. At first, I thought labeling toasted biscuits 'shortcake' was false advertising; my girlfriend, however, has made clear that shortcake is always a form of biscuit.
 
 </p>
+<p> I had thought shortcake was basically sponge cake; pardon me for being honest about my ignorance. In either case, Butterfunk's shortcake dessert succumbed to a case of too toasty biscuits; I prefer my cakes to caress, not crunch. I'd give this dish a 3 out of 5.  </p>
 
-<p> I am usually hesitant to give out anything less than a stellar score on this blog, given the absolute maelstrom of a year we’ve had in New York City hospitality. The last thing the city needs is an entitled Manhattanite going full <a href=' https://pixar.fandom.com/wiki/Anton_Ego' target='blank' style={{color:'blue',fontsizse:16}}>Anton Ego</a> on reviewing their cheat meals.
 
+<p>The Chopped Cheese Biscuit gets a 4 out of 5. The ground beef was hearty, the cheese was melty, the biscuit was, um, toasted. Maybe a little too toasted, which keeps the sandwich from a solid 4. Still, I’d absolutely order another Butterfunk biscuit sandwich. 
 </p>
-<p>But because Butterfunk is a ghost kitchen — more comparable to an of-the-moment meme stock then a Berkshire Hathaway — I feel I should be a little more blunt with my assessment. And I’m going to split up the score:
-
-</p>
-<p>A 2.5 out of 5 for the "Berry Berry Good Shortcake [Biscuit?]." On a positive note, the fruit was fresh and the whipped cream was plentiful; I think Butterfunk concocted as good a toasted biscuit dessert as they possibly could. But ultimately, they used freakin’ toasted biscuits and called it shortcake. No bueno, man. 
-</p>
-<p>The Chopped Cheese Biscuit gets a 3.5 out of 5. The ground beef was hearty, the cheese was melty, the biscuit was, um, toasted. Maybe a little too toasted, which keeps the sandwich from a solid 4. Still, I’d absolutely order a biscuit sandwich from Butterfunk again. 
-</p>
-<p>So overall, a 3 out of 5 for Butterfunk Biscuit Co., whose motto seems to be ‘use biscuits in everything.’ Maybe not the worst motto. Just don’t serve me biscuits and call it shortcake, ‘mkay? 
+<p>So overall, a 3.5 out of 5 for Butterfunk Biscuit Co. Perhaps their score was a little handicapped by my lack of knowledge about shortcake, but you know, they've pretty much got the Southern biscuit market cornered in New York; they deserve to be held to a high standard.
 </p>
 <p>Until next time.</p>
 

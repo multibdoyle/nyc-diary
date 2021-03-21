@@ -14,7 +14,7 @@ class IntroPost extends React.Component
 { render() {
     return (
 
-        <ScrollIntoView>
+        <ScrollIntoView>    
     <div style={{
                // margin: 1,
                position: 'relative',

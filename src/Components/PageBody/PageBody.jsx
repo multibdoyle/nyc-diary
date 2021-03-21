@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import CookiesPost from '../Posts/CookiesPost';
-import Main from '../Routing/Routing'
+//import Main from '../Routing/Routing'
 import levain_cookies from '../../assets/levain_cookies.jpg'
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import './PageBody.css'
@@ -30,6 +30,7 @@ import SaucePizza from '../../SaucePizza.jpeg'
 import MikeyLikesIt from '../../MikeyLikesIt.jpg'
 import PommesFrites from '../../PommesFrites.jpeg'
 import Alidoro_Sandwich from '../../Alidoro_Sandwich.jpeg'
+import BiscuitShortcake from '../../BiscuitShortcake.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -44,6 +45,25 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+
+<div>
+    <a><Link to='/butterfunk-biscuits-combines-southern-fried-charm-with-new-york-flavor'><h3 style={{fontFamily:'Archer', fontSize:25}}>Butterfunk Biscuits Has Got Some Explaining to Do</h3></Link></a> 
+   <h5>Sunday, March 21st, 2021 </h5>
+    <body>
+   
+       <img class='butterfunkdessert' id='butterfunkdessert'  src={BiscuitShortcake} 
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/butterfunk-biscuits-combines-southern-fried-charm-with-new-york-flavor'> Toasted biscuits moonlighting as shortcake, smoked salmon and avocado on a biscuit...I'm so confused...</Link></div></a>
+  </p> </div>
+
+
+
 
 
 <div>

@@ -26,16 +26,16 @@ class ButterfunkPost extends React.Component
      <h6 style={{fontSize:14}}> Sunday, March 21st, 2021</h6>
    <h2>I don't know if I'll ever trust shortcake on a menu again</h2>
 
-<p>I have ordered from UberEats every single weekend for the past, hmmm, call it 64 weekends, and had never seen Butterfunk Biscuit Co. — never seen any biscuit-focused restaruant, actually - before yesterday. 
+<p>I have ordered from UberEats every single weekend for the past, hmmm, call it 64 weekends, and had never seen Butterfunk Biscuit Co. — never seen any biscuit-focused restaruant, actually — before yesterday. 
 </p>
 <p>
-But I was familiar with Butterfunk's address: 30 Vandam Street. I ordered a ten-piece of Nashville Hot Wings from the same location — branded as Firebelly Wings — this past December. The wings were decent, as I recall.
+But I was familiar with Butterfunk's address: 30 Vandam Street. I ordered a ten-piece of Nashville Hot Wings from the same location, branded as Firebelly Wings, this past December. The wings were decent, as I recall.
 
  </p>
 <p>	 Two ‘restaurants’ (at least) sharing the same kitchen? Methinks a <a href='https://www.multibdoyle.com/ghost-kitchens' target='blank' style={{color:'blue',fontsize:16}}>ghost kitchen</a> has taken root! 
 </p>
 
-<p>Butterfunk's menu was appealingly creative, like a New York deli owner just returned from his COVID retreat in South Carolina and wants to share his abundance of Southern-fried inspiration. The Smoked Salmon Biscuit and Avocado Toast Biscuit were among the top-billed menu items, right next to the Crispy Fried Chicken Biscuit.
+<p>Butterfunk's menu was appealingly creative, like a New York deli owner just returned from his COVID retreat in South Carolina and wants to share his abundance of Southern-fried inspiration. A Smoked Salmon Biscuit and Avocado Toast Biscuit were among the top-billed menu items, right next to the Crispy Fried Chicken Biscuit.
   </p> 
 
     <p>
@@ -48,23 +48,23 @@ But I was familiar with Butterfunk's address: 30 Vandam Street. I ordered a ten-
 <p>When the food arrived, I plopped my bag of goodies on my bed with my laptop and pulled out the first item at the top of the bag, which turned out to be the shortcake. 
 
 </p>
-<p>Right away, I knew something was wrong. My berry-shortcake medley looked more like creme fraiche, croutons and yellow cherry tomatoes with a sprig of parsley. 
+<p>Right away, I knew something was wrong. My berry-shortcake medley looked more like croutons, crème fraîche, and yellow cherry tomatoes with a sprig of parsley. 
 
 </p>
 
     
-<p>My friend agreed the whole rigamarole seemed off as I held up the food to the camera. Audibly crunching into one of the ‘shortcake’ bites confirmed that this dessert was seriously janky. 
+<p>My friend agreed the whole rigamarole seemed off, as I held up the food to the camera. Audibly crunching into one of the ‘shortcake’ bites confirmed that this dessert was seriously janky. 
 
 </p>
 <p>Unsettled, I put the carton down and decided to wait until later to eat the rest. I didn’t want to cry on a Zoom call. 
 
 </p>
-<p>Twenty minutes later, when I got off the Zoom and dug into the Chopped Cheese Biscuit, my worst fears about Butterfunk were slightly quelled — this was a delicious, cheesy, beefy symphony. The onions provided crucial grease and crunch, and the biscuit, though a bit crunchy on the exterior, eventually softened into a pleasing bready mush. 
+<p>Twenty minutes later, when I got off the Zoom and dug into the Chopped Cheese Biscuit, my worst fears about Butterfunk were slightly quelled — this was a delicious, cheesy, beefy symphony. The onions provided crucial grease and crunch, and the biscuit, though a bit overdone on the exterior eventually softened into a pleasing bready mush. 
 </p>
 <p> <img  src={BiscuitChoppedCheese}  alt='chopcheesebiscuit' class='chopcheesebiscuit' ></img></p>
 
 
-<p>After scooping up the last of the biscuit and beef, I tentatively tucked into the ‘shortcake’; this second go-round proved slightly more — ahem — fruitful. The yellow balls turned out to be fresh gooseberries, tart and juicy, and the sliced strawberries and blueberries were also perfectly ripe. Healthy dollops of whipped cream did just enough to moisten the bread bites into a palatable dessert.
+<p>After scooping up the last of the biscuit and beef, I tentatively tucked into the ‘shortcake’; this second go-round proved slightly more — ahem — fruitful. The yellow balls were fresh gooseberries, tart and juicy, and the sliced strawberries and blueberries were also perfectly ripe. Healthy dollops of whipped cream did just enough to moisten the bread bites into a palatable dessert.
 </p>
 <p>If I had read the menu carefully, of course, I would have noticed the shortcake description specifically called out ‘toasted biscuit’ as included in the mix. So, Butterfunk is only half-guilty of false advertising — they admit to not using real shortcake, but like, in the fine print. 
 
@@ -84,7 +84,7 @@ But I was familiar with Butterfunk's address: 30 Vandam Street. I ordered a ten-
 </p>
 <p>Until next time.</p>
 
-<p style={{fontsize:8}}><i>*For more details on how to make a proper chop cheese — typically packed into a hero roll with ground beef, onions, melted cheese, tomatoes, lettuce and ketchup, fried to order on a bodega grill — please refer to Harlem rapper Jim Jones’ <a href='https://www.youtube.com/watch?v=GheOOc3fmTc' target='blank' style={{color:'blue',fontsize:16}}>five-minute lesson.</a></i>
+<p style={{fontsize:8}}><i>*For more details on how to make a proper chopped cheese — typically packed into a hero roll with ground beef, onions, melted cheese, tomatoes, lettuce and ketchup, fried to order on a bodega grill — please refer to Harlem rapper Jim Jones’ <a href='https://www.youtube.com/watch?v=GheOOc3fmTc' target='blank' style={{color:'blue',fontsize:16}}>five-minute lesson.</a></i>
 </p>
    </body>
 

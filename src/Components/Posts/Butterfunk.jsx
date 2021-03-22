@@ -26,7 +26,7 @@ class ButterfunkPost extends React.Component
      <h6 style={{fontSize:14}}> Sunday, March 21st, 2021</h6>
    <h2>Full disclosure, I just learned what shortcake is</h2>
 
-<p> <a href='https://www.butterfunkbiscuit.com/' target='blank' style={{color:'blue', fontsize:16}}> Butterfunk Biscuit Co. </a>is brainchild of Chef Chris Scott, who uses his family's fourth-generation biscuit recipe across a wide swath of regional touchpoints from New York City and the American South. The Smoked Salmon Biscuit, Avocado Toast Biscuit and Crispy Fried Chicken Biscuit are all top-billers on the menu. </p>
+<p> <a href='https://www.butterfunkbiscuit.com/' target='blank' style={{color:'blue', fontsize:16}}> Butterfunk Biscuit Co. </a>is the brainchild of Chef Chris Scott, who uses his family's fourth-generation biscuit recipe across a wide swath of regional touchpoints from New York City and the American South. The Smoked Salmon Biscuit, Avocado Toast Biscuit and Crispy Fried Chicken Biscuit are all top-billers on the menu. </p>
 
     <p>
     After some deliberation, I went all in on the Chopped Cheese Biscuit. A chopped cheese, for those unaware, is the uptown New York City bodega order <i>du jour</i>*, akin to a bacon-egg-and-cheese in Midtown, or a hummus wrap and SmartWater in Tribeca. 

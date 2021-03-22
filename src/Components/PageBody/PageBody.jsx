@@ -49,7 +49,7 @@ class PageBody extends React.Component
 
 
 <div>
-    <a><Link to='/butterfunk-biscuits-combines-southern-fried-charm-with-new-york-flavor'><h3 style={{fontFamily:'Archer', fontSize:25}}>Butterfunk Biscuits Co. Confuses, then Delights, then Confuses Again</h3></Link></a> 
+    <a><Link to='/butterfunk-biscuits-combines-southern-fried-charm-with-new-york-flavor'><h3 style={{fontFamily:'Archer', fontSize:25}}>Butterfunk Biscuit Co. Confuses, then Delights, then Confuses Again</h3></Link></a> 
    <h5>Sunday, March 21st, 2021 </h5>
     <body>
    

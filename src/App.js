@@ -21,6 +21,7 @@ import AboutMe from './Components/Posts/AboutMe'
 import PageFooter from './Components/Page-Footer/PageFooter'
 import IntroPost from './Components/Posts/IntroPost'
 import ScrollIntoView from './Components/ScrollIntoView/ScrollIntoView'
+import FactoryTamalePost from './Components/Posts/FactoryTamal'
 import { Nav, Navbar, NavItem } from "react-bootstrap"
 import ReactGA from 'react-ga';
 import GA from './GoogleAnalytics'
@@ -150,6 +151,7 @@ export default function App(props) {
 <Route path ='/pommes-frites-french-fries-bring-belgium-flavor-to-greenwich-village' component={PommesFritesPost}/>
 <Route path ='/alidoro-makes-the-most-savage-sandwiches-in-soho' component={AlidoroPost}/>
 <Route path ='/butterfunk-biscuits-combines-southern-fried-charm-with-new-york-flavor' component={ButterfunkPost}/>
+<Route path ='/factory-tamal-takes-tortas-and-tamales-to-the-max-in-east-village' component={FactoryTamalePost}/>
 
 
 </Switch>

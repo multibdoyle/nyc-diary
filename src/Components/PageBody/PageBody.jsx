@@ -31,6 +31,7 @@ import MikeyLikesIt from '../../MikeyLikesIt.jpg'
 import PommesFrites from '../../PommesFrites.jpeg'
 import Alidoro_Sandwich from '../../Alidoro_Sandwich.jpeg'
 import BiscuitShortcake from '../../BiscuitShortcake.jpeg'
+import LonganisaTorta from '../../LonganisaTorta.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -45,6 +46,28 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+
+
+<div>
+    <a><Link to='/factory-tamal-takes-tortas-and-tamales-to-the-max-in-east-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Factory Tamal Takes Tortas to New Territories</h3></Link></a> 
+   <h5>Saturday, March 27th, 2021 </h5>
+    <body>
+   
+       <img class='tamaletorta' id='tamaletorta'  src={LonganisaTorta} 
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/factory-tamal-takes-tortas-and-tamales-to-the-max-in-east-village'> I needed a break from burgers....time for tortas!</Link></div></a>
+  </p> </div>
+
+
+
+
+
 
 
 

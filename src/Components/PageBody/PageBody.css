@@ -19,6 +19,46 @@ line-height: 1em;
    
 
         div.img{
+          border: 1px solid #ddd; /* Gray border */
+          border-radius: 12   px;  /* Rounded border */
+          padding: 1.8    px; /* Some padding */
+       /*   width: 150px; /* Set a small width */
+      
+      }
+
+      .tamaletorta
+    
+      @media screen and (max-width: 6000px) {
+        .tamaletorta{
+          position: relative;
+          height:21%;
+          width:21% ;
+          border-radius: 5%;
+    
+       }
+     }
+
+
+       @media screen and (max-width: 1600px) {
+         .tamaletorta{
+           position: relative;
+           height:21%;
+           width:21% ;
+           border-radius: 5%;
+     
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .tamaletorta{
+          position: relative;
+          height:90%;
+          width:90% ;
+   
+       }
+      }
+
+
+        div.img{
             border: 1px solid #ddd; /* Gray border */
             border-radius: 12   px;  /* Rounded border */
             padding: 1.8    px; /* Some padding */

@@ -26,11 +26,11 @@ class FactoryTamalPost extends React.Component
      <h6 style={{fontSize:14}}> Saturday, March 27th, 2021</h6>
    <h2>Ya ever eaten a sausage sandwich, son?</h2>
 
-   <p>Today was a scintillating, hot mess in the East Village, and I came upon <a href='https://www.factorytamal.com/blank-page' target='blank' style={{color:'blue',fontsize:16}}> Factory Tamal</a> just moments away from hopping on a CitiBike and racing to my apartment to guzzle water.  I initially decided to stop in for a tamale, but was immediately hooked by the torta menu. 
+   <p>Today was a scintillating, hot mess in the East Village, and I came upon <a href='https://www.factorytamal.com/blank-page' target='blank' style={{color:'blue',fontsize:16}}> Factory Tamal</a> just moments away from hopping on a CitiBike and making my dramatic escape back to the west side.  
    </p>
    <p>
-   Conceptually, tortas have everything I want in a cheat meal — fluffy bread, cheese, meat and spice — but rarely do these Mexican specialties make their way into my Saturday rotation.
-Call it a supply problem — tortas are not quite as common as burritos and tacos in downtown Manhattan — or just blame my basic tastes for pizza and burgers. Either way, today was as good a day as any to give tortas their fair shake. 
+  The prospect of tamales pulled me in, but the torta menu kept me engaged. Conceptually, tortas have everything I want in a cheat meal — fluffy bread, cheese, meat and spice — but rarely do these Mexican specialties make their way into my Saturday rotation.
+Call it a supply problem — tortas are not quite as common as burritos and tacos in downtown Manhattan — or just blame my basic tastes for pizza and burgers. Either way, today was as good as any to give tortas their fair shake. 
 
 </p>  
 <p>I ordered the Mr. Longaniza sandwich, which comes with black beans, avocado, lettuce, tomato, mayonnaise, white cheddar cheese and longaniza sausage. My only hesitation was the sausage; I was already thirsty, and fearful that eating a sausage sandwich would be like chewing on a bouillon cube. 

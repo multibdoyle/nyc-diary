@@ -57,6 +57,7 @@ import MikeysPost from './Components/Posts/Mikeys'
 import PommesFritesPost from './Components/Posts/PommesFrites'
 import AlidoroPost from './Components/Posts/Alidoro'
 import ButterfunkPost from './Components/Posts/Butterfunk'
+import LilFrankiesPost from './Components/Posts/LilFrankies'
 //import {getComments} from '.actions/comments'
 
 import {
@@ -152,6 +153,8 @@ export default function App(props) {
 <Route path ='/alidoro-makes-the-most-savage-sandwiches-in-soho' component={AlidoroPost}/>
 <Route path ='/butterfunk-biscuits-combines-southern-fried-charm-with-new-york-flavor' component={ButterfunkPost}/>
 <Route path ='/factory-tamal-takes-tortas-and-tamales-to-the-max-in-east-village' component={FactoryTamalePost}/>
+<Route path ='/lil-frankies-delivers-fast-fresh-neapolitan-pies-in-east-village' component={LilFrankiesPost}/>
+
 
 
 </Switch>

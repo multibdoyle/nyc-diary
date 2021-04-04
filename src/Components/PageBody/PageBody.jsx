@@ -32,6 +32,7 @@ import PommesFrites from '../../PommesFrites.jpeg'
 import Alidoro_Sandwich from '../../Alidoro_Sandwich.jpeg'
 import BiscuitShortcake from '../../BiscuitShortcake.jpeg'
 import LonganisaTorta from '../../LonganisaTorta.jpeg'
+import LilFrankiesPizza from '../../LilFrankiesPizza.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -46,6 +47,21 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/lil-frankies-delivers-fast-fresh-neapolitan-pies-in-east-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Lil' Frankie's is an Easy Choice for Fast, Fresh Neapolitan Pizzas</h3></Link></a> 
+   <h5>Sunday, April 4th, 2021 </h5>
+    <body>
+   
+       <img class='lilfrankiespizza' id='lilfrankiespizza'  src={LilFrankiesPizza}
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/lil-frankies-delivers-fast-fresh-neapolitan-pies-in-east-village'> At long last, I got to try East Village's most versatile restaurant...</Link></div></a>
+  </p> </div>
+
 
 
 

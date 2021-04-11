@@ -27,6 +27,46 @@ line-height: 1em;
       }
 
 
+
+      .fiorespizza
+    
+      @media screen and (max-width: 6000px) {
+        .fiorespizza{
+          position: relative;
+          height:21%;
+          width:21% ;
+          border-radius: 5%;
+    
+       }
+     }
+
+
+       @media screen and (max-width: 1600px) {
+         .fiorespizza{
+           position: relative;
+           height:21%;
+           width:21% ;
+           border-radius: 5%;
+     
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .fiorespizza{
+          position: relative;
+          height:90%;
+          width:90% ;
+   
+       }
+      }
+
+
+
+
+
+
+
+
+
       .lilfrankiespizza
     
       @media screen and (max-width: 6000px) {

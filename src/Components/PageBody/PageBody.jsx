@@ -33,6 +33,7 @@ import Alidoro_Sandwich from '../../Alidoro_Sandwich.jpeg'
 import BiscuitShortcake from '../../BiscuitShortcake.jpeg'
 import LonganisaTorta from '../../LonganisaTorta.jpeg'
 import LilFrankiesPizza from '../../LilFrankiesPizza.jpeg'
+import FioresPizza from '../../FioresPizza.jpeg'
 
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
@@ -47,6 +48,30 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+
+<div>
+    <a><Link to='/fiores-pizza-has-revamped-their-recipe-and-returned-with-some-of-the-best-pizza-in-the-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Fiore's Pizza is Back, Literally, Like They Never Left</h3></Link></a> 
+   <h5>Sunday, April 10th, 2021 </h5>
+    <body>
+   
+       <img class='fiorespizza' id='fiorespizza'  src={FioresPizza}
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/fiores-pizza-has-revamped-their-recipe-and-returned-with-some-of-the-best-pizza-in-the-village'> The most under-rated pizza in Greenwich Village just leveled up. It's gonna be a hot vax summer, ya'all....</Link></div></a>
+  </p> </div>
+
+
+
+
+
+
+
+
 
 <div>
     <a><Link to='/lil-frankies-delivers-fast-fresh-neapolitan-pies-in-east-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Lil' Frankie's is an Easy Choice for Fast, Fresh Neapolitan Pizzas</h3></Link></a> 

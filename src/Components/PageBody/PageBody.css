@@ -28,7 +28,9 @@ line-height: 1em;
 
 
 
-      .fiorespizza
+      .fiorespizza{
+        
+      }
     
       @media screen and (max-width: 6000px) {
         .fiorespizza{
@@ -68,7 +70,9 @@ line-height: 1em;
 
 
       .lilfrankiespizza
-    
+    {
+
+    }
       @media screen and (max-width: 6000px) {
         .lilfrankiespizza{
           position: relative;
@@ -106,6 +110,9 @@ line-height: 1em;
 
 
       .tamaletorta
+      {
+
+      }
     
       @media screen and (max-width: 6000px) {
         .tamaletorta{
@@ -145,7 +152,9 @@ line-height: 1em;
         
         }
 
-        .butterfunkdessert
+        .butterfunkdessert{
+
+        }
       
         @media screen and (max-width: 6000px) {
           .butterfunkdessert{
@@ -179,7 +188,9 @@ line-height: 1em;
 
 
 
-        .alidorosandwich
+        .alidorosandwich{
+
+        }
       
         @media screen and (max-width: 6000px) {
           .alidorosandwich{
@@ -219,6 +230,9 @@ line-height: 1em;
 
 
         .belgiumfries
+        {
+
+        }
       
         @media screen and (max-width: 6000px) {
           .belgiumfries{

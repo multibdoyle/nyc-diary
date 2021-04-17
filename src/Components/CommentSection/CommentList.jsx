@@ -1,60 +1,39 @@
-import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
+
+import React, {useState, useEffect} from "react"
+//import { graphql } from "gatsby"
+//import Layout from "../components/layout"
+import Comments from "./Comments"
+import {firestore} from '../../firebase.js'
 
 
-const Comment = props => (
-    <tr>
-        <td>{props.comment.comment_name}</td>
-        <td>{props.comment.comment_text}</td>
-
-        <td>
-            <Link to={"/edit/"+props.comment._id}>Edit</Link>
-        </td>
-    </tr>
-)
-
-export default class CommentList extends Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {comments: []};
-    }
-
-    componentDidMount() {
-        axios.get('http://localhost:4000/comments/')
-            .then(response => {
-                this.setState({comments: response.data});
-            })
-            .catch(function (error) {
-                console.log(error);
-            })
-    }
-
-    commentList() {
-        return this.state.comments.map(function(currentComment, i) {
-            return <Comment todo={currentComment} key={i} />;
-        });
-    }
-
-    render() {
-        return (
-            <div>
-                <h3>Comments List</h3>
-                <table className="table table-striped" style={{ marginTop: 20 }}>
-                    <thead>
-                        <tr>
-                            <th>Description</th>
-                            <th>Responsible</th>
-                            <th>Priority</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        { this.commentList() }
-                    </tbody>
-                </table>
-            </div>
-        )
-    }
+const CommentList = ({ data }) => {
+    const [comments, setComments] = useState([{name: "Yung Fly Guy", content: "Hello, I also went there.", pId: null, time: null}])
+    const slug =  'intropost'
+  
+  console.log("here is what got logged", slug)
+  
+  useEffect(() => {
+    firestore
+      .collection(`comments`)
+      .onSnapshot(snapshot => {
+     const posts = snapshot.docs
+      .filter(doc => doc.data().slug === slug)
+        .map(doc => {
+         return { id: doc.id, ...doc.data() }
+       })
+      setComments(posts)
+      })
+  }, [slug])
+  return (
+    <div>
+      <div className="container">
+        <Comments comments={comments} slug={slug} />
+       
+      </div>
+     
+    </div>
+    
+  )
 }
+
+export default CommentList;

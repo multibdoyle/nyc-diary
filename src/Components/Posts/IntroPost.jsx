@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import './IntroPost.css'
@@ -8,8 +8,14 @@ import LeaveaComment from './../CommentSection/LeaveaComment'
 import CommentList from '../CommentSection/CommentList'
 import TodosList from './../CommentSection/todos-list.component'
 import CreateTodo from './../CommentSection/create-todo-component'
+import {firestore} from '../../firebase.js'
+//import Comments from './../CommentSection/Comments'
+import CommentForm from './../CommentSection/CommentForm'
+//import CommentList from './../CommentSectino/CommentList'
+//import { graphql } from "gatsby"
 
-
+const slug='intropost'
+{ console.log("here's the slug:",slug)}
 class IntroPost extends React.Component 
 { render() {
     return (
@@ -38,16 +44,23 @@ class IntroPost extends React.Component
      <p>My general hope in this blog is to chronicle this strange, tragic, absurd and beautiful forced transformation of the world's most famous city. </p>
      <p>I'm also going to write a lot about food. Because ... why not.</p>
      <p>Love, B</p>
-     <LeaveaComment></LeaveaComment>
-    
-      </body>
   
+      </body>
  
+      <div>
+<h1>Join the discussion</h1> 
+    <CommentForm></CommentForm>
+ {console.log('Here are more comments', slug)}
+ </div>
+ <CommentList></CommentList>
   
 </div>
+
 </ScrollIntoView>
+  
 )
 }
 }
+
 
 export default IntroPost;

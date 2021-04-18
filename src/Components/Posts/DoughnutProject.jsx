@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import StickyToffee from '../../StickyToffee.jpeg'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 import './DoughnutProject.css'
 
 
@@ -61,7 +63,8 @@ class DoughnutProjectPost extends React.Component
 <p>Until next time. 
 </p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

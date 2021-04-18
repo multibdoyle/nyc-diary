@@ -4,7 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import TwoBootsPizza from '../../TwoBootsPizza.jpeg'
 import './TheDivine.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 
 class TheDivinePost extends React.Component 
@@ -61,7 +62,8 @@ Do you see it, though? The crisp-and-curled capicola ham, delicate petals of red
   <p>Until next time. </p>
   
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

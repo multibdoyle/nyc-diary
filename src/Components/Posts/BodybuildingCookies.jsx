@@ -5,6 +5,9 @@ import levain_cookies from '../../levain_cookies_2.png'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import './BodybuildingCookies.css'
 import InstagramEmbed from 'react-instagram-embed'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
+
 class BodybuildingCookies extends React.Component 
 { render() {
     return (
@@ -71,6 +74,8 @@ Imagine eating that cookie as you walk up Broadway in the Financial District, sn
 </p>
   
    </body>
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 
 </div>
 

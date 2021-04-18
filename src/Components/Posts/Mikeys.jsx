@@ -4,7 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import MikeyLikesIt from '../../MikeyLikesIt.jpg'
 import './Mikeys.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 class MikeysPost extends React.Component 
 { render() {
@@ -65,7 +66,8 @@ class MikeysPost extends React.Component
 <p>Until next time.</p>
 
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

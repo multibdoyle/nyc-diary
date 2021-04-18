@@ -14,13 +14,13 @@ const CommentBox = styled.div`
     font-family: "Hind", sans-serif;
     font-weight: 400;
     padding: 10px 12px 8px;
-    width: 100%;
+    width: 50%;
     font-variant-numeric: lining-nums;
     font-feature-settings: "lnum";
   }
 
   input[type="text"] {
-    width: 50%;
+    width: 25%;
   }
 
   label {
@@ -39,7 +39,7 @@ const CommentForm = ({ parentId, slug }) => {
       name: name,
       content: content,
       pId: parentId || null,
-      slug: 'intropost',
+      slug: window.location.pathname.replace('/',''),
       time: new Date(),
     }
     setName("")
@@ -55,6 +55,8 @@ const CommentForm = ({ parentId, slug }) => {
   }
 
   return (
+      <div>
+          <h2 >Join the discussion</h2> 
     <CommentBox>
       <form onSubmit={e => handleCommentSubmission(e)}>
         <label htmlFor="name">
@@ -84,6 +86,7 @@ const CommentForm = ({ parentId, slug }) => {
         </button>
       </form>
     </CommentBox>
+    </div>
   )
 }
 

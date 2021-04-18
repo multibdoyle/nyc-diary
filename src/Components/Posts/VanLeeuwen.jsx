@@ -4,7 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import VanLeeuwenPint from '../../VanLeeuwenPint.jpeg'
 import './VanLeeuwen.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 class VanLeeuwenPost extends React.Component 
 { render() {
@@ -61,7 +62,8 @@ class VanLeeuwenPost extends React.Component
 </p>
 <p>Until next time. </p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

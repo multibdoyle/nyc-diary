@@ -4,6 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import SaucePizza from '../../SaucePizza.jpeg'
 import './Sauce.css'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 
 class SaucePost extends React.Component 
@@ -57,7 +59,8 @@ class SaucePost extends React.Component
 
 <p>Until next time.</p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

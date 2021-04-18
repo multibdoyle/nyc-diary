@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import './Tattoos.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 class Tattoos extends React.Component 
 { render() {
     return (
@@ -51,7 +52,8 @@ class Tattoos extends React.Component
 </p>
 
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

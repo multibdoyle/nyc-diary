@@ -4,6 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import cronut_and_croissant from '../../cronut_and_croissant.jpeg'
 import split_cronut from '../../split_cronut.jpeg'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from'./../CommentSection/CommentList.jsx'
 import './Cronut.css'
 
 
@@ -73,7 +75,8 @@ The genius of the cronut, I always thought, was in the filling. The flaky croiss
 
   
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

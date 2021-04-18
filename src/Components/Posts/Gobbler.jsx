@@ -4,6 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import Gobbler from '../../Gobbler.jpeg'
 import './Gobbler.css'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 
 class GobblerPost extends React.Component 
@@ -54,7 +56,8 @@ class GobblerPost extends React.Component
 <p>Overall, I’d give the Chicken Gobbler a 3.5 out of 5 - a heavy, messy, flavorful sandwich which definitely tasted like Thanksgiving, and which I’d certainly consider ordering outside of the Fall months. Start offering that thing in ghost kitchens, Blue Ribbon! Oh, and keep serving the smoked mac-and-cheese - I’m not reviewing that, but it was bomb. I gobbled it up  - HAHAHA. Until next time. 
 </p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

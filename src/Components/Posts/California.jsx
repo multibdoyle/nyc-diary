@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import './California.css'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 
 class CaliforniaPost extends React.Component 
@@ -39,7 +41,8 @@ class CaliforniaPost extends React.Component
   Prayers for all my West Coast fam. Stay safe. 
   </p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

@@ -4,7 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import PopsBurgerandFries from '../../PopsBurgerandFries.jpeg'
 import './PopsEatRite.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 class PopsEatRitePost extends React.Component 
 { render() {
@@ -79,7 +80,8 @@ The french fries were perfectly done, crispy shoestring facsimiles of McDonaldâ€
 
 <p>Until next time.</p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

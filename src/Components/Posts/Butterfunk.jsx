@@ -4,6 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import BiscuitShortcake from '../../BiscuitShortcake.jpeg'
 import BiscuitChoppedCheese from '../../BiscuitChoppedCheese.jpeg'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 import './Butterfunk.css'
 
 
@@ -71,7 +73,8 @@ Choosing between different comfort food dishes, for me, is like picking a winner
 <p style={{fontsize:8}}><i>*For more details on how to make a proper chopped cheese — typically packed into a hero roll with ground beef, onions, melted cheese, tomatoes, lettuce and ketchup, fried to order on a bodega grill — please refer to Harlem rapper Jim Jones’ <a href='https://www.youtube.com/watch?v=GheOOc3fmTc' target='blank' style={{color:'blue',fontsize:16}}>five-minute lesson.</a></i>
 </p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

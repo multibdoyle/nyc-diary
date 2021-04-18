@@ -5,6 +5,8 @@ import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import LilFrankiesPizza from '../../LilFrankiesPizza.jpeg'
 import './LilFrankies.css'
 
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 
 class LilFrankiesPost extends React.Component 
@@ -62,7 +64,8 @@ I would give Lil’ Frankie’s a 3.5 out of 5 — solid overall ingredients, a 
 <p>Until next time.</p>
 
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

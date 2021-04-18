@@ -4,6 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import PommesFrites from '../../PommesFrites.jpeg'
 import './PommesFrites.css'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 
 
@@ -65,7 +67,8 @@ Unmixed sauces aside, the fries were crispy, salty and plentiful; my regular-siz
 
 
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

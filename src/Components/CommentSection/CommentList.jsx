@@ -8,7 +8,7 @@ import {firestore} from '../../firebase.js'
 
 const CommentList = ({ data }) => {
     const [comments, setComments] = useState([{name: "Yung Fly Guy", content: "Hello, I also went there.", pId: null, time: null}])
-    const slug =  'intropost'
+    const slug =   window.location.pathname.replace('/','')
   
   console.log("here is what got logged", slug)
   

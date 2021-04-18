@@ -5,7 +5,8 @@ import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import HeadlessWidowOyster from '../../HeadlessWidowOysters.jpeg'
 import HeadlessWidowBurger from '../../HeadlessWidowBurger.jpeg'
 import './HeadlessWidow.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 
 class HeadlessWidowPost extends React.Component 
@@ -73,7 +74,8 @@ Until next time.
    </body>
 
 </div>
-
+<CommentForm></CommentForm>
+<CommentList></CommentList>
 </ScrollIntoView>
 )
 }

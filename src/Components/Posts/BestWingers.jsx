@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import './BestWingers.css'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
+
 
 
 class BestWingersPost extends React.Component 
@@ -52,6 +55,8 @@ class BestWingersPost extends React.Component
 
 
    </body>
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 
 </div>
 

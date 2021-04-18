@@ -35,7 +35,9 @@ const SingleComment = ({ comment }) => (
     <div className="flex-container">
       <div className="flex">
         <img
-          src="https://api.adorable.io/avatars/65/abott@adorable.png"
+          src="https://i.ibb.co/fxmxF3m/anonymous-avatar-thumbnail-2.jpg" 
+          //"https://iptc.org/wp-content/uploads/2018/05/avatar-anonymous-300x300.png"
+        //    width='20%'
           alt="Avatar"
         />
       </div>

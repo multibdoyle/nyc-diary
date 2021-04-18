@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import FioresPizza from '../../FioresPizza.jpeg'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 import './Fiores.css'
 
 
@@ -72,7 +74,8 @@ My personal favorite pie, the pepperoni, looked to be topped with thicker, meati
 </p>
 <p>Until next time.</p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

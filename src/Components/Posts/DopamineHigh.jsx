@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 import './DopamineHigh.css'
 
 
@@ -50,6 +51,8 @@ As with all media, when certain information feeds backfire on society - the way 
   
 
    </body>
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 
 </div>
 

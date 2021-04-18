@@ -4,6 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import levain_cookies from '../../levain_cookies_2.png'
 import ScrollIntoView from './../ScrollIntoView/ScrollIntoView'
 import './MyCouchPost.css'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 class MyCouchPost extends React.Component 
 { render() {
@@ -53,7 +55,8 @@ To be fair, I didn’t always enjoy the commute; I sometimes thought about what 
 
   
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

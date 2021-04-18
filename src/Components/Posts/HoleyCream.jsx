@@ -4,7 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import HoleyCream from '../../HoleyCream.jpeg'
 import './HoleyCream.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 
 class HoleyCreamPost extends React.Component 
@@ -59,7 +60,8 @@ class HoleyCreamPost extends React.Component
 <p>Until next time. </p>
 
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
+
 import ScrollIntoView from './../ScrollIntoView/ScrollIntoView'
 
 import './Phase_4.css'
@@ -47,6 +50,8 @@ class Phase4Post extends React.Component
   
 
    </body>
+<CommentForm></CommentForm>
+<CommentList></CommentList>
 
 </div>
 

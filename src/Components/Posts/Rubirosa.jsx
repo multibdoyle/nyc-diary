@@ -5,7 +5,8 @@ import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import RubirosaPizza from '../../RubirosaPizza.jpeg'
 import './Rubirosa.css'
 
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 class RubirosaPost extends React.Component 
 { render() {
@@ -59,7 +60,8 @@ class RubirosaPost extends React.Component
 <p>Until next time. </p>
 
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

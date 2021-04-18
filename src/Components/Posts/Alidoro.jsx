@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import Alidoro_Sandwich from '../../Alidoro_Sandwich.jpeg'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 import './Alidoro.css'
 
 
@@ -50,6 +52,8 @@ class AlidoroPost extends React.Component
 
 </p>
    </body>
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 
 </div>
 

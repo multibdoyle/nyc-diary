@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from './../ScrollIntoView/ScrollIntoView'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
+
+
+//<CommentForm></CommentForm>
+//<CommentList></CommentList>
 import './GhostKitchens.css'
 
 
@@ -48,10 +54,15 @@ class GhostKitchensPost extends React.Component
 </p>
   
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
+
 </ScrollIntoView>
+
+
+
 )
 }
 }

@@ -9,10 +9,8 @@ import CommentList from '../CommentSection/CommentList'
 import TodosList from './../CommentSection/todos-list.component'
 import CreateTodo from './../CommentSection/create-todo-component'
 import {firestore} from '../../firebase.js'
-//import Comments from './../CommentSection/Comments'
+
 import CommentForm from './../CommentSection/CommentForm'
-//import CommentList from './../CommentSectino/CommentList'
-//import { graphql } from "gatsby"
 
 const slug='intropost'
 { console.log("here's the slug:",slug)}
@@ -47,10 +45,11 @@ class IntroPost extends React.Component
   
       </body>
  
-      <div>
-<h1>Join the discussion</h1> 
+      <div >
+
     <CommentForm></CommentForm>
- {console.log('Here are more comments', slug)}
+    {console.log('Here are more comments', slug)}
+
  </div>
  <CommentList></CommentList>
   

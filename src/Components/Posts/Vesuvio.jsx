@@ -5,7 +5,8 @@ import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import VesuvioBakery from '../../VesuvioBakery.jpeg'
 import './Vesuvio.css'
 
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 class VesuvioPost extends React.Component 
 { render() {
     return (
@@ -61,7 +62,8 @@ class VesuvioPost extends React.Component
 
 <p>Until next time. </p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

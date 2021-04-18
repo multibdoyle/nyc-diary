@@ -4,7 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import levain_cookies from '../../levain_cookies_2.png'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import './Sapiens.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 class Sapiens extends React.Component 
 { render() {
     return (
@@ -83,7 +84,8 @@ class Sapiens extends React.Component
 
   
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import levain_cookies from '../../levain_cookies_2.png'
 import './CookiesPost.css'
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 class CookiesPost extends React.Component 
 { render() {
@@ -44,6 +46,8 @@ Now, technically, Bak’d is in hibernation mode, but they are set to launch nat
 <p> <b>The Woolly</b> - This cookie was hyped up for me by a girl at work; they were indeed soft and delicious and gently salty, much like its close FiDi neighbors Kaffe 1668 and The Black. Do what I did - if you’re truly committed - and hit up all three in one morning. </p>
 </div>
 </div>
+<CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 )
 }

@@ -4,7 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import Heroes_and_Villains1 from '../../Heroes_and_Villains1.jpeg'
 import './HeroesandVillains.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 class HeroesandVillainsPost extends React.Component 
 { render() {
@@ -56,7 +57,8 @@ class HeroesandVillainsPost extends React.Component
 <p>	Heroes & Villains, you’re all heroes to me. Keep the lights on please, ‘cuz I’m comin’ back for a Proud Mary.</p>
   <p>Until next time. </p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

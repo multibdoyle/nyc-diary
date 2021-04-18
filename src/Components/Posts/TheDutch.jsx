@@ -7,7 +7,8 @@ import TheDutchCornbread from '../../TheDutchCornbread.jpeg'
 import TheDutchCake from '../../TheDutchCake.jpeg'
 import TheDutchApplePie from '../../TheDutchApplePie.jpeg'
 import './TheDutch.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 class TheDutchPost extends React.Component 
 { render() {
@@ -83,7 +84,8 @@ But I had a friend I wanted to treat to dinner. I live nearby. I was really hung
 </p>
 <p>Until next time.</p>
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

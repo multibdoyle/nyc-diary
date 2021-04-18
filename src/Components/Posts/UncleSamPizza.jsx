@@ -4,7 +4,8 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import ScrollIntoView from '../ScrollIntoView/ScrollIntoView'
 import UncleSamsSlices from '../../UncleSamsSlices.jpg'
 import './UncleSamPizza.css'
-
+import CommentForm from './../CommentSection/CommentForm.js'
+import CommentList from './../CommentSection/CommentList.jsx'
 
 class UncleSamPizzaPost extends React.Component 
 { render() {
@@ -45,7 +46,8 @@ class UncleSamPizzaPost extends React.Component
 </p>
 
    </body>
-
+   <CommentForm></CommentForm>
+<CommentList></CommentList>
 </div>
 
 </ScrollIntoView>

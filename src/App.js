@@ -59,6 +59,7 @@ import AlidoroPost from './Components/Posts/Alidoro'
 import ButterfunkPost from './Components/Posts/Butterfunk'
 import LilFrankiesPost from './Components/Posts/LilFrankies'
 import FioresPost from './Components/Posts/Fiores'
+import HeadlessWidowPost from './Components/Posts/HeadlessWidow'
 //import {getComments} from '.actions/comments'
 
 import {
@@ -156,6 +157,7 @@ export default function App(props) {
 <Route path ='/factory-tamal-takes-tortas-and-tamales-to-the-max-in-east-village' component={FactoryTamalePost}/>
 <Route path ='/lil-frankies-delivers-fast-fresh-neapolitan-pies-in-east-village' component={LilFrankiesPost}/>
 <Route path ='/fiores-pizza-has-revamped-their-recipe-and-returned-with-some-of-the-best-pizza-in-the-village' component={FioresPost}/>
+<Route path ='/i-lost-my-head-at-the-headless-widow-in-the-east-village' component={HeadlessWidowPost}/>
 
 
 

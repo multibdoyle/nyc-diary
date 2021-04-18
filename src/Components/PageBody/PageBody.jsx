@@ -34,7 +34,8 @@ import BiscuitShortcake from '../../BiscuitShortcake.jpeg'
 import LonganisaTorta from '../../LonganisaTorta.jpeg'
 import LilFrankiesPizza from '../../LilFrankiesPizza.jpeg'
 import FioresPizza from '../../FioresPizza.jpeg'
-
+import HeadlessWidowOysters from '../../HeadlessWidowOysters.jpeg'
+import HeadlessWidowBurger from '../../HeadlessWidowBurger.jpeg'
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
@@ -48,6 +49,26 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+
+<div>
+    <a><Link to='/i-lost-my-head-at-the-headless-widow-in-the-east-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>The Headless Widow Has Ignited My Love for Oysters</h3></Link></a> 
+   <h5>Sunday, April 18th, 2021 </h5>
+    <body>
+   
+       <img class='headlessoysters' id='headlessoysters'  src={HeadlessWidowOysters}
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/i-lost-my-head-at-the-headless-widow-in-the-east-village'> Burgers, beer and bivalves, what more can a man want on a Saturday night?</Link></div></a>
+  </p> </div>
+
+
+
+
 
 
 

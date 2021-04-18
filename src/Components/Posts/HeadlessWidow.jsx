@@ -72,10 +72,10 @@ Until next time.
 </p>
 
    </body>
-
-</div>
-<CommentForm></CommentForm>
+   <CommentForm></CommentForm>
 <CommentList></CommentList>
+</div>
+
 </ScrollIntoView>
 )
 }

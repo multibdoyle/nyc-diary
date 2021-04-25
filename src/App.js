@@ -60,7 +60,7 @@ import ButterfunkPost from './Components/Posts/Butterfunk'
 import LilFrankiesPost from './Components/Posts/LilFrankies'
 import FioresPost from './Components/Posts/Fiores'
 import HeadlessWidowPost from './Components/Posts/HeadlessWidow'
-//import {getComments} from '.actions/comments'
+import BleeckerStreetPizzaPost from './Components/Posts/BleeckerStreetPizza'
 
 import {
   Responsive,
@@ -158,6 +158,9 @@ export default function App(props) {
 <Route path ='/lil-frankies-delivers-fast-fresh-neapolitan-pies-in-east-village' component={LilFrankiesPost}/>
 <Route path ='/fiores-pizza-has-revamped-their-recipe-and-returned-with-some-of-the-best-pizza-in-the-village' component={FioresPost}/>
 <Route path ='/i-lost-my-head-at-the-headless-widow-in-the-east-village' component={HeadlessWidowPost}/>
+<Route path ='/bleecker-street-pizza-serves-up-prime-pizza-in-a-prime-location-in-west-village' component={BleeckerStreetPizzaPost}/>
+
+
 
 
 

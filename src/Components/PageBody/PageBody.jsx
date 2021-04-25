@@ -36,6 +36,7 @@ import LilFrankiesPizza from '../../LilFrankiesPizza.jpeg'
 import FioresPizza from '../../FioresPizza.jpeg'
 import HeadlessWidowOysters from '../../HeadlessWidowOysters.jpeg'
 import HeadlessWidowBurger from '../../HeadlessWidowBurger.jpeg'
+import BleeckerStreetPizza from '../../BleeckerStreetPizza.jpeg'
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
@@ -49,6 +50,29 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+<div>
+    <a><Link to='/bleecker-street-pizza-serves-up-prime-pizza-in-a-prime-location-in-west-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>Bleecker Street Pizza Gets the Job Done in West Village</h3></Link></a> 
+   <h5>Saturday, April 24th, 2021 </h5>
+    <body>
+   
+       <img class='bleeckerpizza' id='bleeckerpizza'  src={BleeckerStreetPizza}
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/bleecker-street-pizza-serves-up-prime-pizza-in-a-prime-location-in-west-village'> I owe this review to Bleecker, they saved me in Winter Storm Viola...</Link></div></a>
+  </p> </div>
+
+
+
+
+
+
+
+
 
 
 

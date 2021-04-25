@@ -1,4 +1,4 @@
-.headlesswidowoysters{
+.bleeckerstreetpizza{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -12,14 +12,14 @@ width:25% ;
 
   
   @media screen and (max-width: 600px) {
-    .headlesswidowoysters{
+    .bleeckerstreetpizza{
       position: relative;
       height:100% ;
       width:100% 
    }
   }
 
-  .headlesswidowburger{
+  .bleeckerstreetpizza{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -32,10 +32,3 @@ width:25% ;
   
   
     
-    @media screen and (max-width: 600px) {
-      .headlesswidowburger{
-        position: relative;
-        height:100% ;
-        width:100% 
-     }
-    }

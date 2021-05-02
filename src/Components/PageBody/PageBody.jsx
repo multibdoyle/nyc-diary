@@ -37,6 +37,7 @@ import FioresPizza from '../../FioresPizza.jpeg'
 import HeadlessWidowOysters from '../../HeadlessWidowOysters.jpeg'
 import HeadlessWidowBurger from '../../HeadlessWidowBurger.jpeg'
 import BleeckerStreetPizza from '../../BleeckerStreetPizza.jpeg'
+import LABurdickCookie from '../../LABurdickCookie.jpeg'
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
@@ -50,6 +51,33 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+
+<div>
+    <a><Link to='/la-burdick-makes-one-of-the-best-cookies-in-the-city'><h3 style={{fontFamily:'Archer', fontSize:25}}>L.A. Burdick Concocts a Chocolate-Chip Cookie Masterpiece </h3></Link></a> 
+   <h5>Saturday, May 1st, 2021</h5>
+    <body>
+   
+       <img class='laburdickcookie' id='laburdick'  src={LABurdickCookie}
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/la-burdick-makes-one-of-the-best-cookies-in-the-city'> I've crossed oceans of time to find you, Burdick Cookie...</Link></div></a>
+  </p> </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div>

@@ -61,6 +61,9 @@ import LilFrankiesPost from './Components/Posts/LilFrankies'
 import FioresPost from './Components/Posts/Fiores'
 import HeadlessWidowPost from './Components/Posts/HeadlessWidow'
 import BleeckerStreetPizzaPost from './Components/Posts/BleeckerStreetPizza'
+import LABurdickPost from './Components/Posts/LABurdick'
+
+
 
 import {
   Responsive,
@@ -160,6 +163,7 @@ export default function App(props) {
 <Route path ='/i-lost-my-head-at-the-headless-widow-in-the-east-village' component={HeadlessWidowPost}/>
 <Route path ='/bleecker-street-pizza-serves-up-prime-pizza-in-a-prime-location-in-west-village' component={BleeckerStreetPizzaPost}/>
 
+<Route path ='/la-burdick-makes-one-of-the-best-cookies-in-the-city' component={LABurdickPost}/>
 
 
 

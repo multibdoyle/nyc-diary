@@ -59,7 +59,7 @@ class PageBody extends React.Component
    <h5>Saturday, May 1st, 2021</h5>
     <body>
    
-       <img class='laburdickcookie' id='laburdick'  src={LABurdickCookie}
+       <img class='burdickcookie' id='laburdick'  src={LABurdickCookie}
  alt='intro'   
 /* eslint no-restricted-globals:0 */
       ></img>

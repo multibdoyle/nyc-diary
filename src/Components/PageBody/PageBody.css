@@ -29,12 +29,12 @@ line-height: 1em;
 
 
 
-      .laburdickcookie{
+      .burdickcookie{
         
       }
     
       @media screen and (max-width: 6000px) {
-        .laburdickcookie{
+        .burdickcookie{
           position: relative;
           height:30%;
           width:30% ;
@@ -45,7 +45,7 @@ line-height: 1em;
 
 
        @media screen and (max-width: 1600px) {
-         .laburdickcookie{
+         .burdickcookie{
            position: relative;
            height:25%;
            width:25% ;
@@ -54,32 +54,13 @@ line-height: 1em;
         }
       }
       @media screen and (max-width: 600px) {
-        .laburdickcookie{
+        .burdickcookie{
           position: relative;
           height:90%;
           width:90% ;
    
        }
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

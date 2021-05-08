@@ -62,6 +62,9 @@ import FioresPost from './Components/Posts/Fiores'
 import HeadlessWidowPost from './Components/Posts/HeadlessWidow'
 import BleeckerStreetPizzaPost from './Components/Posts/BleeckerStreetPizza'
 import LABurdickPost from './Components/Posts/LABurdick'
+import Create from './Components/CMS/Create'
+import PostList from './Components/CMS/PostList'
+import SmashedPost from './Components/Posts/Smashed'
 
 
 
@@ -164,9 +167,11 @@ export default function App(props) {
 <Route path ='/bleecker-street-pizza-serves-up-prime-pizza-in-a-prime-location-in-west-village' component={BleeckerStreetPizzaPost}/>
 
 <Route path ='/la-burdick-makes-one-of-the-best-cookies-in-the-city' component={LABurdickPost}/>
+<Route path ='/create' component={Create}/>
 
+<Route path ='/postlist' component={PostList}/>
 
-
+<Route path ='/smashed-makes-the-best-burgers-i-have-had-all-year-in-les'component={SmashedPost}/>
 
 
 </Switch>

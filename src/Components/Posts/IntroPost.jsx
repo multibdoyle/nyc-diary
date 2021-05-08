@@ -4,10 +4,7 @@ import { Switch, Route, Link,BrowserRouter as Router } from 'react-router-dom'
 import './IntroPost.css'
 import { blue } from '@material-ui/core/colors';
 import ScrollIntoView from './../ScrollIntoView/ScrollIntoView'
-import LeaveaComment from './../CommentSection/LeaveaComment'
 import CommentList from '../CommentSection/CommentList'
-import TodosList from './../CommentSection/todos-list.component'
-import CreateTodo from './../CommentSection/create-todo-component'
 import {firestore} from '../../firebase.js'
 
 import CommentForm from './../CommentSection/CommentForm'

@@ -4,7 +4,7 @@ import styled from "styled-components"
 import CommentForm from "./CommentForm"
 import moment from "moment"
 
-const CommentBox = styled.article`
+const PostBox = styled.article`
   border: 1px solid #ddd;
   margin: 25px 0 0 ${props => (props.child ? "20px" : "0")};
   padding: 35px;
@@ -17,7 +17,7 @@ const CommentBox = styled.article`
       margin-left: 10px;
     }
   }
-  .comment-author {
+  .post-title {
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -30,7 +30,7 @@ const CommentBox = styled.article`
   }
 `
 
-const SingleComment = ({ comment }) => (
+const SinglePost = ({ post }) => (
   <div>
     <div className="flex-container">
       <div className="flex">
@@ -40,53 +40,35 @@ const SingleComment = ({ comment }) => (
         />
       </div>
       <div className="flex">
-        <p className="comment-author">
-          {comment.name} <span>says</span>
+        <p className="post-title">
+          {post.title} 
         </p>
-        {comment.time && (<time>{moment(comment.time.toDate()).calendar()}</time>)}
+        {post.date && (<time>{moment(post.date.toDate()).calendar()}</time>)}
       </div>
     </div>
-    <p>{comment.content}</p>
+    <p>{post.content}</p>
   </div>
 )
 
-const Comment = ({ comment, child, slug }) => {
-  const [showReplyBox, setShowReplyBox] = useState(false)
+const Post = ({ post, child, slug }) => {
+  
   return (
-    <CommentBox>
+    <PostBox>
       <SingleComment comment={comment} />
       {child && (
-        <CommentBox child className="comment-reply">
+        <PostBox child className="comment-reply">
           <SingleComment comment={child} />
-        </CommentBox>
+        </PostBox>
       )}
-      {!child && (
-        <div>
-          {showReplyBox ? (
-            <div>
-              <button
-                className="btn bare"
-                onClick={() => setShowReplyBox(false)}
-              >
-                Cancel Reply
-              </button>
-              <CommentForm parentId={comment.id} slug={slug} />
-            </div>
-          ) : (
-            <button className="btn bare" onClick={() => setShowReplyBox(true)}>
-              Reply
-            </button>
-          )}
-        </div>
-      )}
-    </CommentBox>
+   
+    </PostBox>
   )
 }
 
-Comment.propTypes = {
+Post.propTypes = {
   comment: PropTypes.object.isRequired,
   slug: PropTypes.string,
   child: PropTypes.object
 }
 
-export default Comment
+export default Post

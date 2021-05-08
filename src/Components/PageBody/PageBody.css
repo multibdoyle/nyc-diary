@@ -27,6 +27,46 @@ line-height: 1em;
       }
 
 
+      .burdickcookie{
+        
+      }
+    
+      @media screen and (max-width: 6000px) {
+        .smashedburger{
+          position: relative;
+          height:30%;
+          width:30% ;
+          border-radius: 5%;
+    
+       }
+     }
+
+
+       @media screen and (max-width: 1600px) {
+         .smashedburger{
+           position: relative;
+           height:25%;
+           width:25% ;
+           border-radius: 5%;
+     
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .smashedburger{
+          position: relative;
+          height:90%;
+          width:90% ;
+   
+       }
+      }
+
+
+
+
+
+
+
+
 
 
       .burdickcookie{

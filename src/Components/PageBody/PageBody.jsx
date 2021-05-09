@@ -57,7 +57,7 @@ class PageBody extends React.Component
 
 
 <div>
-    <a><Link to='/smashed-makes-the-best-burgers-i-have-had-all-year-in-les'><h3 style={{fontFamily:'Archer', fontSize:25}}>Smashed Just Upped the Lower East Side's Burger Game </h3></Link></a> 
+    <a><Link to='/smashed-makes-the-best-burgers-i-have-had-all-year-in-les'><h3 style={{fontFamily:'Archer', fontSize:25}}>Smashed Just Upped the Lower East Side Burger Game </h3></Link></a> 
    <h5>Saturday, May 8th, 2021</h5>
     <body>
    

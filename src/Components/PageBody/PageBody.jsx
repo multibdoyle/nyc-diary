@@ -67,7 +67,7 @@ class PageBody extends React.Component
       ></img>
    
        </body>
-    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/la-burdick-makes-one-of-the-best-cookies-in-the-city'> Keep your Big Mac and Shake Shack, I'll take a Big Shmacc...</Link></div></a>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/smashed-makes-the-best-burgers-i-have-had-all-year-in-les'> Keep your Big Mac and Shake Shack, I'll take a Big Shmacc...</Link></div></a>
   </p> </div>
 
 

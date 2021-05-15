@@ -63,8 +63,9 @@ import HeadlessWidowPost from './Components/Posts/HeadlessWidow'
 import BleeckerStreetPizzaPost from './Components/Posts/BleeckerStreetPizza'
 import LABurdickPost from './Components/Posts/LABurdick'
 import Create from './Components/CMS/Create'
-import PostList from './Components/CMS/PostList'
+import ReadBlogPost from './Components/CMS/PostList'
 import SmashedPost from './Components/Posts/Smashed'
+import SweetRehabPost from './Components/Posts/SweetRehab'
 
 
 
@@ -169,10 +170,11 @@ export default function App(props) {
 <Route path ='/la-burdick-makes-one-of-the-best-cookies-in-the-city' component={LABurdickPost}/>
 <Route path ='/create' component={Create}/>
 
-<Route path ='/postlist' component={PostList}/>
+<Route path ='/postlist' component={ReadBlogPost}/>
+<Route path ='/new-post-what-it-do-baby' component={ReadBlogPost}/>
 
 <Route path ='/smashed-makes-the-best-burgers-i-have-had-all-year-in-les'component={SmashedPost}/>
-
+<Route path ='/sweet-rehab-bakery-takes-dessert-to-new-heights-on-sullivan-street' component={SweetRehabPost}/>
 
 </Switch>
 <PageFooter></PageFooter>

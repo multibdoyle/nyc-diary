@@ -39,6 +39,7 @@ import HeadlessWidowBurger from '../../HeadlessWidowBurger.jpeg'
 import BleeckerStreetPizza from '../../BleeckerStreetPizza.jpeg'
 import LABurdickCookie from '../../LABurdickCookie.jpeg'
 import SmashedMac from '../../SmashedMac.jpeg'
+import SweetRehabEclair from '../../SweetRehabEclair.jpeg'
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
@@ -54,6 +55,19 @@ class PageBody extends React.Component
 <h1 align='center'></h1>
 
 
+<div>
+    <a><Link to='/sweet-rehab-bakery-takes-dessert-to-new-heights-on-sullivan-street'><h3 style={{fontFamily:'Archer', fontSize:25}}>Sweet Rehab Turns Dessert into Fine Art in Soho </h3></Link></a> 
+   <h5>Saturday, May 15th, 2021</h5>
+    <body>
+   
+       <img class='rehabeclair' id='rehabeclair'  src={SweetRehabEclair}
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/sweet-rehab-bakery-takes-dessert-to-new-heights-on-sullivan-street'>My friendly neighborhood bakery happens to be the best in the world.</Link></div></a>
+  </p> </div>
 
 
 <div>
@@ -358,7 +372,7 @@ class PageBody extends React.Component
       ></img>
    
        </body>
-    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/pops-burger-and-fries-has-got-me-hot-for-vegan-food'> Dominique Ansel is still a genius and the cronut is still a mind-blowing pastry.  </Link></div></a>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/dominique-ansel-is-still-a-genius-and-the-cronut-is-still-the-best-pastry-in-the-world'> Dominique Ansel is still a genius and the cronut is still a mind-blowing pastry.  </Link></div></a>
   </p> </div>
 
 

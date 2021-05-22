@@ -40,6 +40,7 @@ import BleeckerStreetPizza from '../../BleeckerStreetPizza.jpeg'
 import LABurdickCookie from '../../LABurdickCookie.jpeg'
 import SmashedMac from '../../SmashedMac.jpeg'
 import SweetRehabEclair from '../../SweetRehabEclair.jpeg'
+import BlackStarDonut from '../../BlackStarDonut.jpeg'
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
@@ -53,6 +54,21 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+<div>
+    <a><Link to='/black-star-bakery-has-some-of-the-best-pastries-in-the-city'><h3 style={{fontFamily:'Archer', fontSize:25}}>Black Star Bakery Dishes Out Five Star Pastries in the Upper East Side </h3></Link></a> 
+   <h5>Saturday, May 22nd, 2021</h5>
+    <body>
+   
+       <img class='blackstardonut' id='blackstardonut'  src={BlackStarDonut}
+ alt='intro'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/black-star-bakery-has-some-of-the-best-pastries-in-the-city'>Can't believe I hadn't been here sooner, blame it on lockdown....</Link></div></a>
+  </p> </div>
+
 
 
 <div>

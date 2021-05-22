@@ -63,9 +63,12 @@ import HeadlessWidowPost from './Components/Posts/HeadlessWidow'
 import BleeckerStreetPizzaPost from './Components/Posts/BleeckerStreetPizza'
 import LABurdickPost from './Components/Posts/LABurdick'
 import Create from './Components/CMS/Create'
-import ReadBlogPost from './Components/CMS/PostList'
+//import ReadBlogPost from './Components/CMS/PostList'
+import Home from './Components/CMS/HomePage'
+import TestPosts from './Components/CMS/PostList_v2'
 import SmashedPost from './Components/Posts/Smashed'
 import SweetRehabPost from './Components/Posts/SweetRehab'
+import BlackStarPost from './Components/Posts/BlackStarBakery'
 
 
 
@@ -170,11 +173,11 @@ export default function App(props) {
 <Route path ='/la-burdick-makes-one-of-the-best-cookies-in-the-city' component={LABurdickPost}/>
 <Route path ='/create' component={Create}/>
 
-<Route path ='/postlist' component={ReadBlogPost}/>
-<Route path ='/new-post-what-it-do-baby' component={ReadBlogPost}/>
-
+<Route path ='/postlist' component={Home}/>
+<Route path ='/new-post-what-it-do-baby' component={TestPosts}/>
 <Route path ='/smashed-makes-the-best-burgers-i-have-had-all-year-in-les'component={SmashedPost}/>
 <Route path ='/sweet-rehab-bakery-takes-dessert-to-new-heights-on-sullivan-street' component={SweetRehabPost}/>
+<Route path ='/black-star-bakery-has-some-of-the-best-pastries-in-the-city' component={BlackStarPost}/>
 
 </Switch>
 <PageFooter></PageFooter>

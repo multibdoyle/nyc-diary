@@ -1,0 +1,47 @@
+
+
+.blackstarcookies{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:12px;
+position: relative;
+height:25% ;
+width:25% ;
+
+}    
+
+
+  
+  @media screen and (max-width: 600px) {
+    .blackstarcookies{
+      position: relative;
+      height:100% ;
+      width:100% 
+   }
+  }
+
+
+  .blackstarappledonut{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:12px;
+  position: relative;
+  height:25% ;
+  width:25% ;
+  
+  }    
+  
+  
+    
+    @media screen and (max-width: 600px) {
+      .blackstarappledonut{
+        position: relative;
+        height:100% ;
+        width:100% 
+     }
+    }
+
+  
+    

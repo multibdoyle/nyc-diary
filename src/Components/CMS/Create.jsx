@@ -2,7 +2,8 @@
  
 import React, { useState } from "react";
 
-import { getFirebase } from "../../firebase.js";
+import { firestore} from "../../firebase.js";
+
 
 const generateDate = () => {
     const now = new Date();
@@ -52,9 +53,34 @@ const Create = () => {
   const [content, setContent] = useState("");
   const [postKicker, setpostKicker] = useState("");
   const [postSummary, setpostSummary] = useState("");
-  const createPost = () => {
-    console.log({ title, slug, coverImage, coverImageAlt, content });
+
+  var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+
+
+const createPost = () => {
+    const date = today //generateDate();
+    const newPost = {
+      title,
+      slug,// date.formatted,
+      coverImage,
+      dateFormatted:date,
+      coverImageAlt,
+      postKicker,
+      postSummary,
+      content
+    };
+firestore
+      .collection('posts')
+      .add(newPost)
+      {console.log(newPost)}
+
   };
+  
  
   return (
     <>
@@ -63,6 +89,7 @@ const Create = () => {
         <label style={labelStyles} htmlFor="title-field">
           Title
         </label>
+  
         <input
           style={inputStyles}
           id="title-field"

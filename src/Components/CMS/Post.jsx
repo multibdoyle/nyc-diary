@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import CommentForm from "./CommentForm"
+
 import moment from "moment"
 
 const PostBox = styled.article`
@@ -41,12 +41,12 @@ const SinglePost = ({ post }) => (
       </div>
       <div className="flex">
         <p className="post-title">
-          {post.title} 
+      
         </p>
-        {post.date && (<time>{moment(post.date.toDate()).calendar()}</time>)}
+     
       </div>
     </div>
-    <p>{post.content}</p>
+
   </div>
 )
 
@@ -54,10 +54,10 @@ const Post = ({ post, child, slug }) => {
   
   return (
     <PostBox>
-      <SingleComment comment={comment} />
+      <SinglePost post={post} />
       {child && (
         <PostBox child className="comment-reply">
-          <SingleComment comment={child} />
+          <SinglePost post={post} />
         </PostBox>
       )}
    

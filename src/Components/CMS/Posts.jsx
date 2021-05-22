@@ -17,11 +17,21 @@ const Posts = ({ posts, slug }) => {
    {  console.log('I was triggered during componentDidMount')}
 
       <PostList>
+        {posts.length > 0 &&
+         posts
+            .filter(post=> !post.pId)
+            .map(post=> {
+              let child
+              if (post.id) {
+                child = posts.find(c => post.id === c.pId)
+              }
+              {  console.log('what is the child:', child)}
+              return (
                 <Post
                 
-                  key={post.id}
+                  key={posts.id}
                   child={child}
-                  comment={PostAdd}
+                  comment={post}
                   slug={slug}
                 
                 />
@@ -36,9 +46,9 @@ const Posts = ({ posts, slug }) => {
   )
 }
 
-Comments.propTypes = {
+Posts.propTypes = {
   slug: PropTypes.string.isRequired,
-posts: PropTypes.array.isRequired
+  posts: PropTypes.array.isRequired
 }
 
 export default Posts

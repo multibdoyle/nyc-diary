@@ -15,5 +15,20 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig)
 
 export const firestore = firebase.firestore()
+//let firebaseCache;
+
+//export const getFirebase = () => {
+ // if (firebaseCache) {
+ // return firebaseCache
+ // }
+ // if (!firebase.apps.length) {
+  //  firebase.initializeApp({});
+// }else {
+ //   firebase.app(); // if already initialized, use that one
+// }
+  //firebase.initializeApp(firebaseConfig);
+ // firebaseCache = firebase;
+ // return firebase
+ // };
 
 export default firebase

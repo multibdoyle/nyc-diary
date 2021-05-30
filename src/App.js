@@ -69,6 +69,7 @@ import TestPosts from './Components/CMS/PostList_v2'
 import SmashedPost from './Components/Posts/Smashed'
 import SweetRehabPost from './Components/Posts/SweetRehab'
 import BlackStarPost from './Components/Posts/BlackStarBakery'
+import ArturosPost from './Components/Posts/Arturos'
 
 
 
@@ -178,6 +179,9 @@ export default function App(props) {
 <Route path ='/smashed-makes-the-best-burgers-i-have-had-all-year-in-les'component={SmashedPost}/>
 <Route path ='/sweet-rehab-bakery-takes-dessert-to-new-heights-on-sullivan-street' component={SweetRehabPost}/>
 <Route path ='/black-star-bakery-has-some-of-the-best-pastries-in-the-city' component={BlackStarPost}/>
+
+<Route path ='/arturos-coal-oven-pizza-is-keeping-the-greenwich-village-charm' component={ArturosPost}/>
+
 
 </Switch>
 <PageFooter></PageFooter>

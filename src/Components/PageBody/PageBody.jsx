@@ -41,6 +41,7 @@ import LABurdickCookie from '../../LABurdickCookie.jpeg'
 import SmashedMac from '../../SmashedMac.jpeg'
 import SweetRehabEclair from '../../SweetRehabEclair.jpeg'
 import BlackStarDonut from '../../BlackStarDonut.jpeg'
+import ArturosPizza from '../../ArturosPizza.jpeg'
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
@@ -54,6 +55,34 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+
+<div>
+    <a><Link to='/arturos-coal-oven-pizza-is-keeping-the-greenwich-village-charm'><h3 style={{fontFamily:'Archer', fontSize:25}}>Arturo's Put Me In a Time Portal in Greenwich Village </h3></Link></a> 
+   <h5>Saturday, May 29th, 2021</h5>
+    <body>
+   
+       <img class='arturospie' id='arturospie'  src={ArturosPizza}
+ alt='arturospizza'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/arturos-coal-oven-pizza-is-keeping-the-greenwich-village-charm'>I mean, I ate the pizza at home, but jeez was that a four-piece jazz quartet on stage?</Link></div></a>
+  </p> </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div>
     <a><Link to='/black-star-bakery-has-some-of-the-best-pastries-in-the-city'><h3 style={{fontFamily:'Archer', fontSize:25}}>Black Star Bakery Dishes Out Five Star Pastries in the Upper East Side </h3></Link></a> 

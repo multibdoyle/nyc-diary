@@ -25,6 +25,54 @@ line-height: 1em;
        /*   width: 150px; /* Set a small width */
       
       }
+
+      .arturospie{
+        
+      }
+    
+      @media screen and (max-width: 6000px) {
+        .arturospie{
+          position: relative;
+          height:30%;
+          width:30% ;
+          border-radius: 5%;
+    
+       }
+     }
+
+
+       @media screen and (max-width: 1600px) {
+         .arturospie{
+           position: relative;
+           height:25%;
+           width:25% ;
+           border-radius: 5%;
+     
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .arturospie{
+          position: relative;
+          height:90%;
+          width:90% ;
+   
+       }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .blackstardonut{
         
       }

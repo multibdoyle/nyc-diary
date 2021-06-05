@@ -70,6 +70,7 @@ import SmashedPost from './Components/Posts/Smashed'
 import SweetRehabPost from './Components/Posts/SweetRehab'
 import BlackStarPost from './Components/Posts/BlackStarBakery'
 import ArturosPost from './Components/Posts/Arturos'
+import MollysPost from './Components/Posts/MollysCupcakes'
 
 
 
@@ -181,6 +182,9 @@ export default function App(props) {
 <Route path ='/black-star-bakery-has-some-of-the-best-pastries-in-the-city' component={BlackStarPost}/>
 
 <Route path ='/arturos-coal-oven-pizza-is-keeping-the-greenwich-village-charm' component={ArturosPost}/>
+<Route path ='/mollys-cupcakes-takes-me-back-to-childhood-in-greenwich-village' component={MollysPost}/>
+
+
 
 
 </Switch>

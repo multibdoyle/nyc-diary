@@ -42,6 +42,7 @@ import SmashedMac from '../../SmashedMac.jpeg'
 import SweetRehabEclair from '../../SweetRehabEclair.jpeg'
 import BlackStarDonut from '../../BlackStarDonut.jpeg'
 import ArturosPizza from '../../ArturosPizza.jpeg'
+import MollysCupcakes from '../../MollysCupcakes.jpeg'
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
@@ -56,6 +57,20 @@ class PageBody extends React.Component
 
 <h1 align='center'></h1>
 
+
+<div>
+    <a><Link to='/mollys-cupcakes-takes-me-back-to-childhood-in-greenwich-village'><h3 style={{fontFamily:'Archer', fontSize:25}}>At Molly's Cupcakes, Nostalgia Comes Heavy with the Buttercream </h3></Link></a> 
+   <h5>Saturday, June 5th, 2021</h5>
+    <body>
+   
+       <img class='mollyscupcakesandcookie' id='mollyscupcakesandcookie'  src={MollysCupcakes}
+ alt='mollyscupcakesandcookie'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/mollys-cupcakes-takes-me-back-to-childhood-in-greenwich-village'>Nothing like eating too many pastries to make me feel like a kid again.</Link></div></a>
+  </p> </div>
 
 
 <div>

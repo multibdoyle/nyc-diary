@@ -43,6 +43,7 @@ import SweetRehabEclair from '../../SweetRehabEclair.jpeg'
 import BlackStarDonut from '../../BlackStarDonut.jpeg'
 import ArturosPizza from '../../ArturosPizza.jpeg'
 import MollysCupcakes from '../../MollysCupcakes.jpeg'
+import DanandJohnsWings from '../../DanandJohnsWings.jpeg'
 
 //import {Mobile, Desktop,Tablet} from '../BreakpointProvider/MediaBreakpoints'
 
@@ -56,6 +57,23 @@ class PageBody extends React.Component
 
 
 <h1 align='center'></h1>
+
+
+
+<div>
+    <a><Link to='/dan-and-johns-wings-sauced-me-up-and-knocked-me-out'><h3 style={{fontFamily:'Archer', fontSize:25}}>Dan and John's Wings Sauced Me Up and Knocked Me Out </h3></Link></a> 
+   <h5>Saturday, June 12th, 2021</h5>
+    <body>
+   
+       <img class='garlicparmesanwings' id='garlicparmesanwings'  src={DanandJohnsWings}
+ alt='danandjohns'   
+/* eslint no-restricted-globals:0 */
+      ></img>
+   
+       </body>
+    <p> <a> <div style={{fontFamily:'Archer',fontSize: 25, position:'relative',top:-10}}><Link to='/dan-and-johns-wings-sauced-me-up-and-knocked-me-out'>Ohhh, loneliness and garlic parmesan wings are a dangerous mix....</Link></div></a>
+  </p> </div>
+
 
 
 <div>
